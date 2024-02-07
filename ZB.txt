@@ -5211,7 +5211,7 @@ ICS,http://116.237.248.97:7777/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&aut
 龙岩综合,http://117.27.190.42:9901/tsfile/live/23297_1.m3u8?key=txiptv&playlive=1&authid=0
 龙祥电影,http://113.86.206.78:9999/tsfile/live/1057_1.m3u8?key=txiptv&playlive=1&authid=0
 
-IPV6, #genre#
+V666,#genre#
 CCTV-1 综合,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001331/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 CCTV-2 财经,http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001332/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 CCTV-3 综艺,http://[2409:8087:2001:20:2800:0:df6e:eb22]/ott.mobaibox.com/PLTV/4/224/3221228392/index.m3u8
