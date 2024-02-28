@@ -8168,6 +8168,10 @@ GGTN 高清,http://110.72.57.19:8181/tsfile/live/1067_1.m3u8?key=txiptv&playlive
 024,http://110.72.57.19:8181/tsfile/live/1078_1.m3u8?key=txiptv&playlive=1&authid=0
 025,http://110.72.57.19:8181/tsfile/live/1079_1.m3u8?key=txiptv&playlive=1&authid=0
 026,http://110.72.57.19:8181/tsfile/live/1082_1.m3u8?key=txiptv&playlive=1&authid=0
+027,http://110.72.57.19:8181/tsfile/live/1083_1.m3u8?key=txiptv&playlive=1&authid=0
+028,http://110.72.57.19:8181/tsfile/live/1084_1.m3u8?key=txiptv&playlive=1&authid=0
+029,http://110.72.57.19:8181/tsfile/live/1085_1.m3u8?key=txiptv&playlive=1&authid=0
+030,http://110.72.57.19:8181/tsfile/live/1086_1.m3u8?key=txiptv&playlive=1&authid=0
 西藏卫视,http://110.72.57.19:8181/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0
 甘肃卫视,http://110.72.57.19:8181/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0
 内蒙古卫视,http://110.72.57.19:8181/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
