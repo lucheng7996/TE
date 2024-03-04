@@ -8138,6 +8138,25 @@ TVB3明珠,udp://239.3.3.26:10001
 东森洋片台,udp://239.3.3.33:10001
 东森洋片台,http://120.84.121.2:808/hls/33/index.m3u8
 
+央视频,#genre#
+CCTV1-综合,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv1.m3u8
+CCTV2-财经,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv2.m3u8
+CCTV3-综艺,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv3.m3u8
+CCTV4-国际,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv4.m3u8
+CCTV5-体育,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv5.m3u8
+CCTV6-电影,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv6.m3u8
+CCTV7-军农,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv7.m3u8
+CCTV8-电视剧,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv8.m3u8
+CCTV9-纪录,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv9.m3u8
+CCTV10-科教,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv10.m3u8
+CCTV11-戏曲,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv11.m3u8
+CCTV12-社会与法,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv12.m3u8
+CCTV13-新闻,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv13.m3u8
+CCTV14-少儿,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv14.m3u8
+CCTV15-音乐,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv15.m3u8
+CCTV16-4K,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv16-4k.m3u8
+CCTV17-农业农村,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv17.m3u8
+CCTV-5+体育赛事http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv5p.m3u8
 
 BST,#genre#
 CCTV-1HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv1hd8m/8000000/mnf.m3u8
