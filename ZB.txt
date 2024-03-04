@@ -8156,7 +8156,9 @@ CCTV14-少儿,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv14.m3u8
 CCTV15-音乐,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv15.m3u8
 CCTV16-4K,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv16-4k.m3u8
 CCTV17-农业农村,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv17.m3u8
-CCTV-5+体育赛事http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv5p.m3u8
+CCTV-5+体育赛事,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv5p.m3u8
+CCTV-4K,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv4k.m3u8
+
 
 BST,#genre#
 CCTV-1HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv1hd8m/8000000/mnf.m3u8
