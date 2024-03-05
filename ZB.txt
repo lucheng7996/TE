@@ -2572,7 +2572,6 @@ TTV3,http://nas.tuyuannet.cn:8800/udp/239.37.0.134:5540
 新闻综合,http://nas.tuyuannet.cn:8800/udp/239.37.0.135:5540
 白山公告2,http://nas.tuyuannet.cn:8800/udp/239.37.0.138:5540
 新闻综合1,http://nas.tuyuannet.cn:8800/udp/239.37.0.137:5540
-聚沙环球精选,http://nas.tuyuannet.cn:8800/udp/239.37.0.139:5540
 集安综合,http://nas.tuyuannet.cn:8800/udp/239.37.0.145:5540
 9屏,http://nas.tuyuannet.cn:8800/udp/239.37.0.149:5540
 磐石,http://nas.tuyuannet.cn:8800/udp/239.37.0.164:5540
