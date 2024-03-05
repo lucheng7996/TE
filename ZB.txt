@@ -7947,10 +7947,17 @@ CCTV12-社会与法,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv12.m3u8
 CCTV13-新闻,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv13.m3u8
 CCTV14-少儿,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv14.m3u8
 CCTV15-音乐,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv15.m3u8
+CCTV16,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv16.m3u8
 CCTV16-4K,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv16-4k.m3u8
 CCTV17-农业农村,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv17.m3u8
 CCTV-5+体育赛事,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv5p.m3u8
 CCTV-4K,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv4k.m3u8
+CGTN,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cgtnen.m3u8
+CGTN纪录,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cgtndoc.m3u8
+CGTN西语,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cgtnsp.m3u8
+CGTN法语,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cgtnfr.m3u8
+CGTN阿语,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cgtnar.m3u8
+CGTN俄语,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cgtnru.m3u8
 
 
 BST,#genre#
