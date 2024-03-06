@@ -1116,150 +1116,150 @@ CCTV4K超高清,http://112.17.52.68/PLTV/88888888/224/3221233679/index.m3u8
 未知,http://112.17.52.68/PLTV/88888888/224/3221233688/index.m3u8
 
 北京联通,#genre#
-CCTV-1 HD,http://124.64.236.52:8012/rtp/239.3.1.129:8008
-CCTV-2 HD,http://124.64.236.52:8012/rtp/239.3.1.60:8084
-CCTV-3 HD,http://124.64.236.52:8012/rtp/239.3.1.172:8001
-CCTV-4 HD,http://124.64.236.52:8012/rtp/239.3.1.105:8092
-CCTV-5 HD,http://124.64.236.52:8012/rtp/239.3.1.173:8001
-CCTV-5+ HD,http://124.64.236.52:8012/rtp/239.3.1.130:8004
-CCTV-6 HD,http://124.64.236.52:8012/rtp/239.3.1.174:8001
-CCTV-7 HD,http://124.64.236.52:8012/rtp/239.3.1.61:8104
-CCTV-8 HD,http://124.64.236.52:8012/rtp/239.3.1.175:8001
-CCTV-9 HD,http://124.64.236.52:8012/rtp/239.3.1.62:8112
-CCTV-10 HD,http://124.64.236.52:8012/rtp/239.3.1.63:8116
-CCTV-11 HD,http://124.64.236.52:8012/rtp/239.3.1.152:8120
-CCTV-12 HD,http://124.64.236.52:8012/rtp/239.3.1.64:8124
-CCTV-13 HD,http://124.64.236.52:8012/rtp/239.3.1.124:8128
-CCTV-14 HD,http://124.64.236.52:8012/rtp/239.3.1.65:8132
-CCTV-15 HD,http://124.64.236.52:8012/rtp/239.3.1.153:8136
-CCTV-16 奥林匹克[HDR],http://124.64.236.52:8012/rtp/239.3.1.183:8001
-CCTV-16 奥林匹克HD,http://124.64.236.52:8012/rtp/239.3.1.184:8001
-CCTV-17 HD,http://124.64.236.52:8012/rtp/239.3.1.151:8144
-BRTV北京卫视HD,http://124.64.236.52:8012/rtp/239.3.1.241:8000
-BRTV新闻HD,http://124.64.236.52:8012/rtp/239.3.1.159:8000
-BRTV影视HD,http://124.64.236.52:8012/rtp/239.3.1.158:8000
-BRTV文艺HD,http://124.64.236.52:8012/rtp/239.3.1.242:8000
-BRTV财经HD,http://124.64.236.52:8012/rtp/239.3.1.116:8000
-BRTV生活HD,http://124.64.236.52:8012/rtp/239.3.1.117:8000
-BRTV青年HD,http://124.64.236.52:8012/# rtp/239.3.1.118:8000
-BRTV纪实科教HD,http://124.64.236.52:8012/rtp/239.3.1.115:8000
-BRTV卡酷少儿HD,http://124.64.236.52:8012/rtp/239.3.1.189:8000
-BRTV冬奥纪实HD,http://124.64.236.52:8012/# rtp/239.3.1.243:8000
-BRTV冬奥纪实[HDR],http://124.64.236.52:8012/# rtp/239.3.1.120:8000
-BRTV冬奥纪实[超清],http://124.64.236.52:8012/# rtp/239.3.1.121:8000
-BRTV体育休闲[超清],http://124.64.236.52:8012/rtp/239.3.1.243:8000
-BTV国际频道,http://124.64.236.52:8012/rtp/239.3.1.235:8000
-爱上4K[超清],http://124.64.236.52:8012/rtp/239.3.1.236:2000
-4K超清[超清],http://124.64.236.52:8012/rtp/239.3.1.249:8001
-淘电影HD,http://124.64.236.52:8012/rtp/239.3.1.250:8001
-每日影院HD,http://124.64.236.52:8012/# rtp/239.3.1.111:8001
-星影,http://124.64.236.52:8012/rtp/239.3.1.94:4120
-动作影院,http://124.64.236.52:8012/rtp/239.3.1.92:4120
-光影,http://124.64.236.52:8012/rtp/239.3.1.84:4120
-喜剧影院,http://124.64.236.52:8012/rtp/239.3.1.91:4120
-家庭影院,http://124.64.236.52:8012/rtp/239.3.1.93:4120
-精选,http://124.64.236.52:8012/rtp/239.3.1.74:4120
-经典电影,http://124.64.236.52:8012/rtp/239.3.1.195:9024
-纪实人文HD,http://124.64.236.52:8012/rtp/239.3.1.212:8060
-金鹰纪实HD,http://124.64.236.52:8012/rtp/239.3.1.58:8156
-风尚生活HD,http://124.64.236.52:8012/# rtp/239.3.1.114:8001
-地理,http://124.64.236.52:8012/rtp/239.3.1.71:4120
-淘剧场HD,http://124.64.236.52:8012/rtp/239.3.1.95:8001
-幸福剧场HD,http://124.64.236.52:8012/# rtp/239.3.1.112:8001
-淘娱乐HD,http://124.64.236.52:8012/rtp/239.3.1.100:8001
-幸福娱乐HD,http://124.64.236.52:8012/# rtp/239.3.1.113:8001
-淘BabyHD,http://124.64.236.52:8012/rtp/239.3.1.238:8001
-萌宠TVHD,http://124.64.236.52:8012/rtp/239.3.1.102:8001
-湖南卫视HD,http://124.64.236.52:8012/rtp/239.3.1.132:8012
-东方卫视HD,http://124.64.236.52:8012/rtp/239.3.1.136:8032
-浙江卫视HD,http://124.64.236.52:8012/rtp/239.3.1.137:8036
-江苏卫视HD,http://124.64.236.52:8012/rtp/239.3.1.135:8028
-深圳卫视HD,http://124.64.236.52:8012/rtp/239.3.1.134:8020
-广东卫视HD,http://124.64.236.52:8012/rtp/239.3.1.142:8048
-安徽卫视HD,http://124.64.236.52:8012/rtp/239.3.1.211:8064
-天津卫视HD,http://124.64.236.52:8012/rtp/239.3.1.141:1234
-重庆卫视HD,http://124.64.236.52:8012/rtp/239.3.1.122:8160
-山东卫视HD,http://124.64.236.52:8012/rtp/239.3.1.209:8052
-黑龙江卫视HD,http://124.64.236.52:8012/rtp/239.3.1.133:8016
-河北卫视HD,http://124.64.236.52:8012/rtp/239.3.1.148:8072
-辽宁卫视HD,http://124.64.236.52:8012/rtp/239.3.1.210:8056
-湖北卫视HD,http://124.64.236.52:8012/rtp/239.3.1.138:8044
-吉林卫视HD,http://124.64.236.52:8012/rtp/239.3.1.240:8172
-贵州卫视HD,http://124.64.236.52:8012/rtp/239.3.1.149:8076
-东南卫视HD,http://124.64.236.52:8012/rtp/239.3.1.156:8148
-江西卫视HD,http://124.64.236.52:8012/rtp/239.3.1.123:8164
-海南卫视,http://124.64.236.52:8012/rtp/239.3.1.45:8304
-云南卫视,http://124.64.236.52:8012/rtp/239.3.1.26:8108
-兵团卫视,http://124.64.236.52:8012/rtp/239.3.1.144:4120
-厦门卫视,http://124.64.236.52:8012/rtp/239.3.1.143:4120
-四川卫视,http://124.64.236.52:8012/rtp/239.3.1.29:8288
-南方卫视,http://124.64.236.52:8012/rtp/239.3.1.161:8001
-宁夏卫视,http://124.64.236.52:8012/rtp/239.3.1.46:8124
-山西卫视,http://124.64.236.52:8012/rtp/239.3.1.42:8172
-广西卫视,http://124.64.236.52:8012/rtp/239.3.1.39:8300
-新疆卫视,http://124.64.236.52:8012/rtp/239.3.1.48:8160
-河南卫视,http://124.64.236.52:8012/rtp/239.3.1.27:8128
-甘肃卫视,http://124.64.236.52:8012/rtp/239.3.1.49:8188
-西藏卫视,http://124.64.236.52:8012/rtp/239.3.1.47:8164
-三沙卫视,http://124.64.236.52:8012/rtp/239.3.1.155:4120
-陕西卫视,http://124.64.236.52:8012/rtp/239.3.1.41:8140
-青海卫视,http://124.64.236.52:8012/rtp/239.3.1.44:8184
-内蒙古卫视,http://124.64.236.52:8012/rtp/239.3.1.43:8176
-中国交通HD,http://124.64.236.52:8012/rtp/239.3.1.188:8001
-朝阳融媒HD,http://124.64.236.52:8012/rtp/239.3.1.163:8001
-通州融媒HD,http://124.64.236.52:8012/rtp/239.3.1.221:8001
-密云电视台HD,http://124.64.236.52:8012/rtp/239.3.1.154:8001
-延庆电视台,http://124.64.236.52:8012/rtp/239.3.1.187:8001
-房山电视台,http://124.64.236.52:8012/rtp/239.3.1.96:8001
-CCTV-4 中文国际 欧洲HD,http://124.64.236.52:8012/rtp/239.3.1.213:4220
-CCTV-4 中文国际 美洲HD,http://124.64.236.52:8012/rtp/239.3.1.214:4220
-CGTN 新闻HD,http://124.64.236.52:8012/rtp/239.3.1.215:4220
-CGTN 记录HD,http://124.64.236.52:8012/rtp/239.3.1.216:4220
-CGTN 西班牙语HD,http://124.64.236.52:8012/rtp/239.3.1.217:4220
-CGTN 法语HD,http://124.64.236.52:8012/rtp/239.3.1.218:4220
-CGTN 阿拉伯语HD,http://124.64.236.52:8012/rtp/239.3.1.219:4220
-CGTN 俄语HD,http://124.64.236.52:8012/rtp/239.3.1.220:4220
-睛彩竞技HD,http://124.64.236.52:8012/rtp/239.3.1.125:8001
-睛彩篮球HD,http://124.64.236.52:8012/rtp/239.3.1.126:8001
-睛彩羽毛球HD,http://124.64.236.52:8012/rtp/239.3.1.127:8001
-睛彩广场舞HD,http://124.64.236.52:8012/rtp/239.3.1.128:8001
-茶频道HD,http://124.64.236.52:8012/rtp/239.3.1.165:8001
-体育赛事HD,http://124.64.236.52:8012/rtp/239.3.1.157:8176
-淘精彩HD,http://124.64.236.52:8012/rtp/239.3.1.178:8001
-快乐垂钓HD,http://124.64.236.52:8012/rtp/239.3.1.164:8001
-大健康HD,http://124.64.236.52:8012/rtp/239.3.1.251:8001
-CETV1HD,http://124.64.236.52:8012/rtp/239.3.1.57:8152
-CETV2,http://124.64.236.52:8012/rtp/239.3.1.54:4120
-CETV3,http://124.64.236.52:8012/rtp/239.3.1.55:4120
-CETV4,http://124.64.236.52:8012/rtp/239.3.1.56:4120
-少儿动画,http://124.64.236.52:8012/rtp/239.3.1.199:9000
-热播剧场,http://124.64.236.52:8012/rtp/239.3.1.194:9020
-解密,http://124.64.236.52:8012/rtp/239.3.1.75:4120
-军事,http://124.64.236.52:8012/rtp/239.3.1.76:4120
-军旅剧场,http://124.64.236.52:8012/rtp/239.3.1.68:4120
-动画,http://124.64.236.52:8012/rtp/239.3.1.80:4120
-古装剧场,http://124.64.236.52:8012/rtp/239.3.1.69:4120
-台球,http://124.64.236.52:8012/rtp/239.3.1.85:4120
-嘉佳卡通,http://124.64.236.52:8012/rtp/239.3.1.147:9268
-国学,http://124.64.236.52:8012/rtp/239.3.1.77:4120
-城市剧场,http://124.64.236.52:8012/rtp/239.3.1.67:4120
-墨宝,http://124.64.236.52:8012/rtp/239.3.1.83:4120
-好学生,http://124.64.236.52:8012/rtp/239.3.1.81:4120
-山东教育,http://124.64.236.52:8012/rtp/239.3.1.52:4120
-戏曲,http://124.64.236.52:8012/rtp/239.3.1.78:4120
-早教,http://124.64.236.52:8012/rtp/239.3.1.79:4120
-武侠剧场,http://124.64.236.52:8012/rtp/239.3.1.90:4120
-武术,http://124.64.236.52:8012/rtp/239.3.1.87:4120
-爱生活,http://124.64.236.52:8012/rtp/239.3.1.86:4120
-美人,http://124.64.236.52:8012/rtp/239.3.1.73:4120
-美妆,http://124.64.236.52:8012/rtp/239.3.1.72:4120
-财富天下,http://124.64.236.52:8012/rtp/239.3.1.53:9136
-足球,http://124.64.236.52:8012/rtp/239.3.1.89:4120
-金鹰卡通,http://124.64.236.52:8012/rtp/239.3.1.51:9252
-鉴赏,http://124.64.236.52:8012/rtp/239.3.1.82:4120
-音乐现场,http://124.64.236.52:8012/rtp/239.3.1.70:4120
-高网,http://124.64.236.52:8012/rtp/239.3.1.88:4120
-魅力时尚,http://124.64.236.52:8012/rtp/239.3.1.196:9012
+CCTV-1 HD,http://123.113.248.110:8888/rtp/239.3.1.129:8008
+CCTV-2 HD,http://123.113.248.110:8888/rtp/239.3.1.60:8084
+CCTV-3 HD,http://123.113.248.110:8888/rtp/239.3.1.172:8001
+CCTV-4 HD,http://123.113.248.110:8888/rtp/239.3.1.105:8092
+CCTV-5 HD,http://123.113.248.110:8888/rtp/239.3.1.173:8001
+CCTV-5+ HD,http://123.113.248.110:8888/rtp/239.3.1.130:8004
+CCTV-6 HD,http://123.113.248.110:8888/rtp/239.3.1.174:8001
+CCTV-7 HD,http://123.113.248.110:8888/rtp/239.3.1.61:8104
+CCTV-8 HD,http://123.113.248.110:8888/rtp/239.3.1.175:8001
+CCTV-9 HD,http://123.113.248.110:8888/rtp/239.3.1.62:8112
+CCTV-10 HD,http://123.113.248.110:8888/rtp/239.3.1.63:8116
+CCTV-11 HD,http://123.113.248.110:8888/rtp/239.3.1.152:8120
+CCTV-12 HD,http://123.113.248.110:8888/rtp/239.3.1.64:8124
+CCTV-13 HD,http://123.113.248.110:8888/rtp/239.3.1.124:8128
+CCTV-14 HD,http://123.113.248.110:8888/rtp/239.3.1.65:8132
+CCTV-15 HD,http://123.113.248.110:8888/rtp/239.3.1.153:8136
+CCTV-16 奥林匹克[HDR],http://123.113.248.110:8888/rtp/239.3.1.183:8001
+CCTV-16 奥林匹克HD,http://123.113.248.110:8888/rtp/239.3.1.184:8001
+CCTV-17 HD,http://123.113.248.110:8888/rtp/239.3.1.151:8144
+BRTV北京卫视HD,http://123.113.248.110:8888/rtp/239.3.1.241:8000
+BRTV新闻HD,http://123.113.248.110:8888/rtp/239.3.1.159:8000
+BRTV影视HD,http://123.113.248.110:8888/rtp/239.3.1.158:8000
+BRTV文艺HD,http://123.113.248.110:8888/rtp/239.3.1.242:8000
+BRTV财经HD,http://123.113.248.110:8888/rtp/239.3.1.116:8000
+BRTV生活HD,http://123.113.248.110:8888/rtp/239.3.1.117:8000
+BRTV青年HD,http://123.113.248.110:8888/# rtp/239.3.1.118:8000
+BRTV纪实科教HD,http://123.113.248.110:8888/rtp/239.3.1.115:8000
+BRTV卡酷少儿HD,http://123.113.248.110:8888/rtp/239.3.1.189:8000
+BRTV冬奥纪实HD,http://123.113.248.110:8888/# rtp/239.3.1.243:8000
+BRTV冬奥纪实[HDR],http://123.113.248.110:8888/# rtp/239.3.1.120:8000
+BRTV冬奥纪实[超清],http://123.113.248.110:8888/# rtp/239.3.1.121:8000
+BRTV体育休闲[超清],http://123.113.248.110:8888/rtp/239.3.1.243:8000
+BTV国际频道,http://123.113.248.110:8888/rtp/239.3.1.235:8000
+爱上4K[超清],http://123.113.248.110:8888/rtp/239.3.1.236:2000
+4K超清[超清],http://123.113.248.110:8888/rtp/239.3.1.249:8001
+淘电影HD,http://123.113.248.110:8888/rtp/239.3.1.250:8001
+每日影院HD,http://123.113.248.110:8888/# rtp/239.3.1.111:8001
+星影,http://123.113.248.110:8888/rtp/239.3.1.94:4120
+动作影院,http://123.113.248.110:8888/rtp/239.3.1.92:4120
+光影,http://123.113.248.110:8888/rtp/239.3.1.84:4120
+喜剧影院,http://123.113.248.110:8888/rtp/239.3.1.91:4120
+家庭影院,http://123.113.248.110:8888/rtp/239.3.1.93:4120
+精选,http://123.113.248.110:8888/rtp/239.3.1.74:4120
+经典电影,http://123.113.248.110:8888/rtp/239.3.1.195:9024
+纪实人文HD,http://123.113.248.110:8888/rtp/239.3.1.212:8060
+金鹰纪实HD,http://123.113.248.110:8888/rtp/239.3.1.58:8156
+风尚生活HD,http://123.113.248.110:8888/# rtp/239.3.1.114:8001
+地理,http://123.113.248.110:8888/rtp/239.3.1.71:4120
+淘剧场HD,http://123.113.248.110:8888/rtp/239.3.1.95:8001
+幸福剧场HD,http://123.113.248.110:8888/# rtp/239.3.1.112:8001
+淘娱乐HD,http://123.113.248.110:8888/rtp/239.3.1.100:8001
+幸福娱乐HD,http://123.113.248.110:8888/# rtp/239.3.1.113:8001
+淘BabyHD,http://123.113.248.110:8888/rtp/239.3.1.238:8001
+萌宠TVHD,http://123.113.248.110:8888/rtp/239.3.1.102:8001
+湖南卫视HD,http://123.113.248.110:8888/rtp/239.3.1.132:8012
+东方卫视HD,http://123.113.248.110:8888/rtp/239.3.1.136:8032
+浙江卫视HD,http://123.113.248.110:8888/rtp/239.3.1.137:8036
+江苏卫视HD,http://123.113.248.110:8888/rtp/239.3.1.135:8028
+深圳卫视HD,http://123.113.248.110:8888/rtp/239.3.1.134:8020
+广东卫视HD,http://123.113.248.110:8888/rtp/239.3.1.142:8048
+安徽卫视HD,http://123.113.248.110:8888/rtp/239.3.1.211:8064
+天津卫视HD,http://123.113.248.110:8888/rtp/239.3.1.141:1234
+重庆卫视HD,http://123.113.248.110:8888/rtp/239.3.1.122:8160
+山东卫视HD,http://123.113.248.110:8888/rtp/239.3.1.209:8052
+黑龙江卫视HD,http://123.113.248.110:8888/rtp/239.3.1.133:8016
+河北卫视HD,http://123.113.248.110:8888/rtp/239.3.1.148:8072
+辽宁卫视HD,http://123.113.248.110:8888/rtp/239.3.1.210:8056
+湖北卫视HD,http://123.113.248.110:8888/rtp/239.3.1.138:8044
+吉林卫视HD,http://123.113.248.110:8888/rtp/239.3.1.240:8172
+贵州卫视HD,http://123.113.248.110:8888/rtp/239.3.1.149:8076
+东南卫视HD,http://123.113.248.110:8888/rtp/239.3.1.156:8148
+江西卫视HD,http://123.113.248.110:8888/rtp/239.3.1.123:8164
+海南卫视,http://123.113.248.110:8888/rtp/239.3.1.45:8304
+云南卫视,http://123.113.248.110:8888/rtp/239.3.1.26:8108
+兵团卫视,http://123.113.248.110:8888/rtp/239.3.1.144:4120
+厦门卫视,http://123.113.248.110:8888/rtp/239.3.1.143:4120
+四川卫视,http://123.113.248.110:8888/rtp/239.3.1.29:8288
+南方卫视,http://123.113.248.110:8888/rtp/239.3.1.161:8001
+宁夏卫视,http://123.113.248.110:8888/rtp/239.3.1.46:8124
+山西卫视,http://123.113.248.110:8888/rtp/239.3.1.42:8172
+广西卫视,http://123.113.248.110:8888/rtp/239.3.1.39:8300
+新疆卫视,http://123.113.248.110:8888/rtp/239.3.1.48:8160
+河南卫视,http://123.113.248.110:8888/rtp/239.3.1.27:8128
+甘肃卫视,http://123.113.248.110:8888/rtp/239.3.1.49:8188
+西藏卫视,http://123.113.248.110:8888/rtp/239.3.1.47:8164
+三沙卫视,http://123.113.248.110:8888/rtp/239.3.1.155:4120
+陕西卫视,http://123.113.248.110:8888/rtp/239.3.1.41:8140
+青海卫视,http://123.113.248.110:8888/rtp/239.3.1.44:8184
+内蒙古卫视,http://123.113.248.110:8888/rtp/239.3.1.43:8176
+中国交通HD,http://123.113.248.110:8888/rtp/239.3.1.188:8001
+朝阳融媒HD,http://123.113.248.110:8888/rtp/239.3.1.163:8001
+通州融媒HD,http://123.113.248.110:8888/rtp/239.3.1.221:8001
+密云电视台HD,http://123.113.248.110:8888/rtp/239.3.1.154:8001
+延庆电视台,http://123.113.248.110:8888/rtp/239.3.1.187:8001
+房山电视台,http://123.113.248.110:8888/rtp/239.3.1.96:8001
+CCTV-4 中文国际 欧洲HD,http://123.113.248.110:8888/rtp/239.3.1.213:4220
+CCTV-4 中文国际 美洲HD,http://123.113.248.110:8888/rtp/239.3.1.214:4220
+CGTN 新闻HD,http://123.113.248.110:8888/rtp/239.3.1.215:4220
+CGTN 记录HD,http://123.113.248.110:8888/rtp/239.3.1.216:4220
+CGTN 西班牙语HD,http://123.113.248.110:8888/rtp/239.3.1.217:4220
+CGTN 法语HD,http://123.113.248.110:8888/rtp/239.3.1.218:4220
+CGTN 阿拉伯语HD,http://123.113.248.110:8888/rtp/239.3.1.219:4220
+CGTN 俄语HD,http://123.113.248.110:8888/rtp/239.3.1.220:4220
+睛彩竞技HD,http://123.113.248.110:8888/rtp/239.3.1.125:8001
+睛彩篮球HD,http://123.113.248.110:8888/rtp/239.3.1.126:8001
+睛彩羽毛球HD,http://123.113.248.110:8888/rtp/239.3.1.127:8001
+睛彩广场舞HD,http://123.113.248.110:8888/rtp/239.3.1.128:8001
+茶频道HD,http://123.113.248.110:8888/rtp/239.3.1.165:8001
+体育赛事HD,http://123.113.248.110:8888/rtp/239.3.1.157:8176
+淘精彩HD,http://123.113.248.110:8888/rtp/239.3.1.178:8001
+快乐垂钓HD,http://123.113.248.110:8888/rtp/239.3.1.164:8001
+大健康HD,http://123.113.248.110:8888/rtp/239.3.1.251:8001
+CETV1HD,http://123.113.248.110:8888/rtp/239.3.1.57:8152
+CETV2,http://123.113.248.110:8888/rtp/239.3.1.54:4120
+CETV3,http://123.113.248.110:8888/rtp/239.3.1.55:4120
+CETV4,http://123.113.248.110:8888/rtp/239.3.1.56:4120
+少儿动画,http://123.113.248.110:8888/rtp/239.3.1.199:9000
+热播剧场,http://123.113.248.110:8888/rtp/239.3.1.194:9020
+解密,http://123.113.248.110:8888/rtp/239.3.1.75:4120
+军事,http://123.113.248.110:8888/rtp/239.3.1.76:4120
+军旅剧场,http://123.113.248.110:8888/rtp/239.3.1.68:4120
+动画,http://123.113.248.110:8888/rtp/239.3.1.80:4120
+古装剧场,http://123.113.248.110:8888/rtp/239.3.1.69:4120
+台球,http://123.113.248.110:8888/rtp/239.3.1.85:4120
+嘉佳卡通,http://123.113.248.110:8888/rtp/239.3.1.147:9268
+国学,http://123.113.248.110:8888/rtp/239.3.1.77:4120
+城市剧场,http://123.113.248.110:8888/rtp/239.3.1.67:4120
+墨宝,http://123.113.248.110:8888/rtp/239.3.1.83:4120
+好学生,http://123.113.248.110:8888/rtp/239.3.1.81:4120
+山东教育,http://123.113.248.110:8888/rtp/239.3.1.52:4120
+戏曲,http://123.113.248.110:8888/rtp/239.3.1.78:4120
+早教,http://123.113.248.110:8888/rtp/239.3.1.79:4120
+武侠剧场,http://123.113.248.110:8888/rtp/239.3.1.90:4120
+武术,http://123.113.248.110:8888/rtp/239.3.1.87:4120
+爱生活,http://123.113.248.110:8888/rtp/239.3.1.86:4120
+美人,http://123.113.248.110:8888/rtp/239.3.1.73:4120
+美妆,http://123.113.248.110:8888/rtp/239.3.1.72:4120
+财富天下,http://123.113.248.110:8888/rtp/239.3.1.53:9136
+足球,http://123.113.248.110:8888/rtp/239.3.1.89:4120
+金鹰卡通,http://123.113.248.110:8888/rtp/239.3.1.51:9252
+鉴赏,http://123.113.248.110:8888/rtp/239.3.1.82:4120
+音乐现场,http://123.113.248.110:8888/rtp/239.3.1.70:4120
+高网,http://123.113.248.110:8888/rtp/239.3.1.88:4120
+魅力时尚,http://123.113.248.110:8888/rtp/239.3.1.196:9012
 
 CCTV-1 HD,http://114.253.247.196:14000/rtp/239.3.1.129:8008
 CCTV-2 HD,http://114.253.247.196:14000/rtp/239.3.1.60:8084
@@ -4933,67 +4933,6 @@ MAX极速汽车,http://58.39.14.86:8888/udp/239.45.3.49:5140
 北京冬奥纪实,http://58.39.14.86:8888/udp/239.45.1.14:5140
 中国天气,http://58.39.14.86:8888/udp/239.45.1.47:5140
 
-GITV,#genre#
-CCTV-1HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-1-HQ/G_CCTV-1-HQ.m3u8
-CCTV-1HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-1-HQ/G_CCTV-1-HQ.m3u8
-CCTV-2HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-2-HQ/G_CCTV-2-HQ.m3u8
-CCTV-2HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-2-HQ/G_CCTV-2-HQ.m3u8
-CCTV-3HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-3-HQ/G_CCTV-3-HQ.m3u8
-CCTV-3HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-3-HQ/G_CCTV-3-HQ.m3u8
-CCTV-4HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-4-HQ/G_CCTV-4-HQ.m3u8
-CCTV-4HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-4-HQ/G_CCTV-4-HQ.m3u8
-CCTV-5HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-5-HQ/G_CCTV-5-HQ.m3u8
-CCTV-5HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-5-HQ/G_CCTV-5-HQ.m3u8
-CCTV-5+HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-5PLUS-HQ/G_CCTV-5PLUS-HQ.m3u8
-CCTV-5+HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-5PLUS-HQ/G_CCTV-5PLUS-HQ.m3u8
-CCTV-6HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-6-HQ/G_CCTV-6-HQ.m3u8
-CCTV-6HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-6-HQ/G_CCTV-6-HQ.m3u8
-CCTV-7HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-7-HQ/G_CCTV-7-HQ.m3u8
-CCTV-7HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-7-HQ/G_CCTV-7-HQ.m3u8
-CCTV-8HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-8-HQ/G_CCTV-8-HQ.m3u8
-CCTV-8HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-8-HQ/G_CCTV-8-HQ.m3u8
-CCTV-9HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-9-HQ/G_CCTV-9-HQ.m3u8
-CCTV-9HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-9-HQ/G_CCTV-9-HQ.m3u8
-CCTV-10HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-10-HQ/G_CCTV-10-HQ.m3u8
-CCTV-10HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-10-HQ/G_CCTV-10-HQ.m3u8
-CCTV-11HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-11-HQ/G_CCTV-11-HQ.m3u8
-CCTV-11HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-11-HQ/G_CCTV-11-HQ.m3u8
-CCTV-12HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-12-HQ/G_CCTV-12-HQ.m3u8
-CCTV-12HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-12-HQ/G_CCTV-12-HQ.m3u8
-CCTV-13HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-13-HQ/G_CCTV-13-HQ.m3u8
-CCTV-13HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-13-HQ/G_CCTV-13-HQ.m3u8
-CCTV-14HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-14-HQ/G_CCTV-14-HQ.m3u8
-CCTV-14HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-14-HQ/G_CCTV-14-HQ.m3u8
-CCTV-15HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-15-HQ/G_CCTV-15-HQ.m3u8
-CCTV-15HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-15-HQ/G_CCTV-15-HQ.m3u8
-CCTV-16HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-16-HQ/G_CCTV-16-HQ.m3u8
-CCTV-16HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-16-HQ/G_CCTV-16-HQ.m3u8
-CCTV-17HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CCTV-17-HQ/G_CCTV-17-HQ.m3u8
-CCTV-17HD,http://escape.hw-cdn.gitv.tv/gitv_live/G_CCTV-17-HQ/G_CCTV-17-HQ.m3u8
-
-湖南卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_HUNAN-HQ/G_HUNAN-HQ.m3u8
-河南卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_HENAN-HQ/G_HENAN-HQ.m3u8
-江苏卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_JIANGSU-HQ/G_JIANGSU-HQ.m3u8
-北京卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_BEIJING-HQ/G_BEIJING-HQ.m3u8
-天津卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_TIANJIN-HQ/G_TIANJIN-HQ.m3u8
-浙江卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_ZHEJIANG-HQ/G_ZHEJIANG-HQ.m3u8
-东方卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_DONGFANG-HQ/G_DONGFANG-HQ.m3u8
-深圳卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_SHENZHEN-HQ/G_SHENZHEN-HQ.m3u8
-东南卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_DONGNAN-HQ/G_DONGNAN-HQ.m3u8
-安徽卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_ANHUI-HQ/G_ANHUI-HQ.m3u8
-山东卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_SHANDONG-HQ/G_SHANDONG-HQ.m3u8
-广东卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_GUANGDONG-HQ/G_GUANGDONG-HQ.m3u8
-河北卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_HEBEI-HQ/G_HEBEI-HQ.m3u8
-江西卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_JIANGXI-HQ/G_JIANGXI-HQ.m3u8
-湖北卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_HUBEI-HQ/G_HUBEI-HQ.m3u8
-重庆卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_CHONGQING-HQ/G_CHONGQING-HQ.m3u8
-辽宁卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_LIAONING-MD/G_LIAONING-MD.m3u8
-黑龙江卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_HEILONGJIANG-HQ/G_HEILONGJIANG-HQ.m3u8
-四川卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_SICHUAN-HQ/G_SICHUAN-HQ.m3u8
-云南卫视HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_YUNNAN-HQ/G_YUNNAN-HQ.m3u8
-北京冬奥纪实HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_BEIJINGJS-HQ/G_BEIJINGJS-HQ.m3u8
-上视纪实人文HD,http://escape.ali-cdn.gitv.tv/gitv_live/G_SHANGHAIJS-HQ/G_SHANGHAIJS-HQ.m3u8
-
 
 
 V666,#genre#
@@ -7959,94 +7898,6 @@ CGTN法语,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cgtnfr.m3u8
 CGTN阿语,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cgtnar.m3u8
 CGTN俄语,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cgtnru.m3u8
 
-
-BST,#genre#
-CCTV-1HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv1hd8m/8000000/mnf.m3u8
-CCTV-2HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv2hd8m/8000000/mnf.m3u8
-CCTV-3HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv38m/8000000/mnf.m3u8
-CCTV-4HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv4hd8m/8000000/mnf.m3u8
-CCTV-5HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv58m/8000000/mnf.m3u8
-CCTV-5+HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv5phd8m/8000000/mnf.m3u8
-CCTV-6HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv6hd8m/8000000/mnf.m3u8
-CCTV-7HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv7hd8m/8000000/mnf.m3u8
-CCTV-8HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv8hd8m/8000000/mnf.m3u8
-CCTV-9HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv9hd8m/8000000/mnf.m3u8
-CCTV-10HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv10hd8m/8000000/mnf.m3u8
-CCTV-11HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv11hd8m/8000000/mnf.m3u8
-CCTV-12HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv12hd8m/8000000/mnf.m3u8
-CCTV-13HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv13xwhd8m/8000000/mnf.m3u8
-CCTV-14HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctvsehd8m/8000000/mnf.m3u8
-CCTV-15HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv15hd8m/8000000/mnf.m3u8
-CCTV-16HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv16hd8m/8000000/mnf.m3u8
-CCTV-17HD,http://zjbuv52.live.bestvcdn.com.cn/live/cctv17hd8m/8000000/mnf.m3u8
-CCTV16-4K,http://zjbuv52.live.bestvcdn.com.cn/live/cctv16hd4k/15000000/mnf.m3u8
-CCTV-4K,http://zjbuv52.live.bestvcdn.com.cn/live/cctv4k/15000000/mnf.m3u8
-湖北卫视,http://zjbuv52.live.bestvcdn.com.cn/live/hubeiws8m/8000000/mnf.m3u8
-安徽卫视,http://zjbuv52.live.bestvcdn.com.cn/live/ahwshd8m/8000000/mnf.m3u8
-广东卫视,http://zjbuv52.live.bestvcdn.com.cn/live/gdwshd8m/8000000/mnf.m3u8
-江苏卫视,http://zjbuv52.live.bestvcdn.com.cn/live/jswshd8m/8000000/mnf.m3u8
-深圳卫视,http://zjbuv52.live.bestvcdn.com.cn/live/szwshd8m/8000000/mnf.m3u8
-广西卫视,http://zjbuv52.live.bestvcdn.com.cn/live/gxwshd8m/8000000/mnf.m3u8
-四川卫视,http://zjbuv52.live.bestvcdn.com.cn/live/scwshd/8000000/mnf.m3u8
-湖南卫视,http://zjbuv52.live.bestvcdn.com.cn/live/hunanwshd8m/8000000/mnf.m3u8
-浙江卫视,http://zjbuv52.live.bestvcdn.com.cn/live/zjwshd8m/8000000/mnf.m3u8
-东方卫视,http://zjbuv52.live.bestvcdn.com.cn/live/dfwshd8m/8000000/mnf.m3u8
-北京卫视,http://zjbuv52.live.bestvcdn.com.cn/live/bjwshd8m/8000000/mnf.m3u8
-天津卫视,http://zjbuv52.live.bestvcdn.com.cn/live/tjwshd8m/8000000/mnf.m3u8
-辽宁卫视,http://zjbuv52.live.bestvcdn.com.cn/live/lnwshd8m/8000000/mnf.m3u8
-黑龙江卫视,http://zjbuv52.live.bestvcdn.com.cn/live/hljwshd8m/8000000/mnf.m3u8
-吉林卫视,http://zjbuv52.live.bestvcdn.com.cn/live/jlwshd8m/8000000/mnf.m3u8
-山东卫视,http://zjbuv52.live.bestvcdn.com.cn/live/sdws8m/8000000/mnf.m3u8
-江西卫视,http://zjbuv52.live.bestvcdn.com.cn/live/jxws8m/8000000/mnf.m3u8
-河南卫视,http://zjbuv52.live.bestvcdn.com.cn/live/hnwshd8m/8000000/mnf.m3u8
-河北卫视,http://zjbuv52.live.bestvcdn.com.cn/live/hbwshd8m/8000000/mnf.m3u8
-甘肃卫视,http://zjbuv52.live.bestvcdn.com.cn/live/gswshd8m/8000000/mnf.m3u8
-重庆卫视,http://zjbuv52.live.bestvcdn.com.cn/live/cqws8m/8000000/mnf.m3u8
-东南卫视,http://zjbuv52.live.bestvcdn.com.cn/live/dnwshd8m/8000000/mnf.m3u8
-云南卫视,http://zjbuv52.live.bestvcdn.com.cn/live/ynwshd8m/8000000/mnf.m3u8
-贵州卫视,http://zjbuv52.live.bestvcdn.com.cn/live/gzwshd8m/8000000/mnf.m3u8
-海南卫视,http://zjbuv52.live.bestvcdn.com.cn/live/hainanwshd8m/8000000/mnf.m3u8
-欢笑剧场,http://zjbuv52.live.bestvcdn.com.cn/live/hxjc8m/8000000/mnf.m3u8
-劲爆体育,http://zjbuv52.live.bestvcdn.com.cn/live/jbtyhd8m/8000000/mnf.m3u8
-快乐垂钓,http://zjbuv52.live.bestvcdn.com.cn/live/klcd8m/8000000/mnf.m3u8
-金鹰纪实,http://zjbuv52.live.bestvcdn.com.cn/live/jyjs8m/8000000/mnf.m3u8
-戏曲精选,http://zjbuv52.live.bestvcdn.com.cn/live/xqjx8m/8000000/mnf.m3u8
-上海第一财经,http://zjbuv52.live.bestvcdn.com.cn/live/dycjhd8m/8000000/mnf.m3u8
-上视新闻,http://zjbuv52.live.bestvcdn.com.cn/live/xwzhhd8m/8000000/mnf.m3u8
-上海都市,http://zjbuv52.live.bestvcdn.com.cn/live/dshd8m/8000000/mnf.m3u8
-上海纪实,http://zjbuv52.live.bestvcdn.com.cn/live/jspdhd/4000000/mnf.m3u8
-东方影视,http://zjbuv52.live.bestvcdn.com.cn/live/dfyshd8m/8000000/mnf.m3u8
-五星体育,http://zjbuv52.live.bestvcdn.com.cn/live/wxtyhd8m/8000000/mnf.m3u8
-七彩戏剧,http://zjbuv52.live.bestvcdn.com.cn/live/qcxjhd8m/8000000/mnf.m3u8
-上海教育,http://zjbuv52.live.bestvcdn.com.cn/live/setvhd/8000000/mnf.m3u8
-全纪实,http://zjbuv52.live.bestvcdn.com.cn/live/qjshd8m/8000000/mnf.m3u8
-生活时尚,http://zjbuv52.live.bestvcdn.com.cn/live/shss8m/8000000/mnf.m3u8
-新视觉,http://zjbuv52.live.bestvcdn.com.cn/live/xsjhd8m/8000000/mnf.m3u8
-游戏风云,http://zjbuv52.live.bestvcdn.com.cn/live/yxfy8m/8000000/mnf.m3u8
-热门综艺,http://zjbuv52.live.bestvcdn.com.cn/live/rmzy8m/8000000/mnf.m3u8
-健康养生,http://zjbuv52.live.bestvcdn.com.cn/live/jkys8m/8000000/mnf.m3u8
-百变课堂,http://zjbuv52.live.bestvcdn.com.cn/live/bbkt8m/8000000/mnf.m3u8
-看天下精选,http://zjbuv52.live.bestvcdn.com.cn/live/ktxjx8m/8000000/mnf.m3u8
-华语影院,http://zjbuv52.live.bestvcdn.com.cn/live/hyyy8m/8000000/mnf.m3u8
-电竞天堂,http://zjbuv52.live.bestvcdn.com.cn/live/djtt8m/8000000/mnf.m3u8
-青春动漫,http://zjbuv52.live.bestvcdn.com.cn/live/qcdm8m/8000000/mnf.m3u8
-宝宝动画,http://zjbuv52.live.bestvcdn.com.cn/live/bbdh8m/8000000/mnf.m3u8
-星光影院,http://zjbuv52.live.bestvcdn.com.cn/live/xgyy8m/8000000/mnf.m3u8
-谍战剧场,http://zjbuv52.live.bestvcdn.com.cn/live/dzjc8m/8000000/mnf.m3u8
-全球大片,http://zjbuv52.live.bestvcdn.com.cn/live/qqdp8m/8000000/mnf.m3u8
-热门剧场,http://zjbuv52.live.bestvcdn.com.cn/live/rmjc8m/8000000/mnf.m3u8
-中国教育-1,http://zjbuv52.live.bestvcdn.com.cn/live/zgjy1t8m/8000000/mnf.m3u8
-中国教育-4,http://zjbuv52.live.bestvcdn.com.cn/live/zgjy4hd8m/8000000/mnf.m3u8
-卡酷少儿,http://zjbuv52.live.bestvcdn.com.cn/live/kkse8m/8000000/mnf.m3u8
-纪实科教,http://zjbuv52.live.bestvcdn.com.cn/live/dajs8m/8000000/mnf.m3u8
-茶频道,http://zjbuv52.live.bestvcdn.com.cn/live/cpdhdavs8m/8000000/mnf.m3u8
-炫动卡通,http://zjbuv52.live.bestvcdn.com.cn/live/hhxd8m/8000000/mnf.m3u8
-东方财经,http://zjbuv52.live.bestvcdn.com.cn/live/dfcjhd8m/8000000/mnf.m3u8
-都市剧场,http://zjbuv52.live.bestvcdn.com.cn/live/dsjc8m/8000000/mnf.m3u8
-动漫秀场,http://zjbuv52.live.bestvcdn.com.cn/live/dmxc8m/8000000/mnf.m3u8
-法治天地,http://zjbuv52.live.bestvcdn.com.cn/live/fztd8m/8000000/mnf.m3u8
-金色学堂,http://zjbuv52.live.bestvcdn.com.cn/live/jingsepd8m/8000000/mnf.m3u8
-魅力足球,http://zjbuv52.live.bestvcdn.com.cn/live/mlyyhd8m/8000000/mnf.m3u8
 
 
 自定义1,#genre#
