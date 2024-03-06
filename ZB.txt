@@ -7824,6 +7824,17 @@ CCTV15-音乐,http://175.0.50.196:8899/tsfile/live/0015_1.m3u8?key=txiptv&playli
 海峡卫视,http://110.72.87.127:808/hls/72/index.m3u8
 凤凰资讯HD,http://110.72.87.127:808/hls/1/index.m3u8
 
+天映经典 高清,http://171.109.224.82:8181/tsfile/live/1063_1.m3u8
+音乐荟萃,http://171.109.224.82:8181/tsfile/live/1065_1.m3u8
+凤凰资讯 高清,http://171.109.224.82:8181/tsfile/live/1001_1.m3u8
+凤凰卫视 高清,http://171.109.224.82:8181/tsfile/live/1009_1.m3u8
+凤凰香港 高清,http://171.109.224.82:8181/tsfile/live/1005_1.m3u8
+星空卫视,http://171.109.224.82:8181/tsfile/live/1006_1.m3u8
+中国音乐,http://171.109.224.82:8181/tsfile/live/1007_1.m3u8
+经典电影,http://171.109.224.82:8181/tsfile/live/1012_1.m3u8
+热播剧场,http://171.109.224.82:8181/tsfile/live/1037_1.m3u8
+中国电影,http://171.109.224.82:8181/tsfile/live/1069_1.m3u8
+
 央视频,#genre#
 CCTV1-综合,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv1.m3u8
 CCTV2-财经,http://118.253.172.203/liveali-tpgq.cctv.cn/live/cctv2.m3u8
