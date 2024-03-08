@@ -848,7 +848,6 @@ IPTV家庭剧场,http://home.oneself.tech:3000/rtp/239.76.252.220:9000
 IPTV5HD,http://home.oneself.tech:3000/rtp/239.76.252.222:9000
 湖南教育HD,http://home.oneself.tech:3000/rtp/239.76.252.233:9000
 
-
 福建电信,#genre#
 凤凰卫视资讯台,http://222.76.2.75:4022/rtp/239.61.2.183:9086
 凤凰卫视中文台,http://222.76.2.75:4022/rtp/239.61.2.184:9092
