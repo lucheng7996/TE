@@ -3924,6 +3924,7 @@ CGTN 俄语,http://home.fusen.work:8888/rtp/239.253.93.199:6377
 
 
 河北电信,#genre#
+
 凤凰卫视电影台,http://myxq.leeleelee.press:4022/rtp/239.254.201.1:5214
 凤凰卫视中文台,http://myxq.leeleelee.press:4022/rtp/239.254.201.2:5226
 凤凰卫视资讯台,http://myxq.leeleelee.press:4022/rtp/239.254.201.3:5227
