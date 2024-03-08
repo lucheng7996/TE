@@ -5963,9 +5963,12 @@ CCTV世界地理,http://vault.52mm.top:28888/rtp/238.255.2.26:5999
 CCTV天下足球,http://vault.52mm.top:28888/rtp/238.255.2.134:5999
 CCTV央视台球,http://vault.52mm.top:28888/rtp/238.255.2.224:5999
 CCTV中视文化精品,http://vault.52mm.top:28888/rtp/238.255.2.32:5999
+CCTV4K超高清频道,http://vault.52mm.top:28888/rtp/238.255.2.139:5999
+CCTV4K超高清频道,http://vault.52mm.top:28888/rtp/238.255.3.105:5999
 CETV1,http://vault.52mm.top:28888/rtp/238.255.2.105:5999
 CETV2,http://vault.52mm.top:28888/rtp/238.255.2.221:5999
 CETV4,http://vault.52mm.top:28888/rtp/238.255.2.222:5999
+CETV早期教育频道,http://vault.52mm.top:28888/rtp/239.254.16.96:6000
 CGTN,http://vault.52mm.top:28888/rtp/238.255.2.178:5999
 CGTN,http://vault.52mm.top:28888/rtp/238.255.2.207:5999
 CGTN阿拉伯语频道,http://vault.52mm.top:28888/rtp/238.255.2.211:5999
