@@ -1689,6 +1689,7 @@ CETV4,http://www.yueyaoxian.top:8686/rtp/239.3.1.56:4120
 高网,http://www.yueyaoxian.top:8686/rtp/239.3.1.88:4120
 魅力时尚,http://www.yueyaoxian.top:8686/rtp/239.3.1.196:9012
 
+
 重庆电信,#genre#
 重庆卫视,http://dyzy.pub:8001/rtp/235.254.196.249:1268
 CQTV影视,http://dyzy.pub:8001/rtp/235.254.198.180:7980
