@@ -6276,7 +6276,6 @@ CETV早期教育,http://39.136.18.184/cdnrrs.gz.chinamobile.com/PLTV/88888888/22
 贵阳4,http://39.136.18.184/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225705/1/index.m3u8?fmt=ts2hls
 贵阳5,http://39.136.18.184/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225715/1/index.m3u8?fmt=ts2hls
 贵安电视台,http://39.136.18.184/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225683/1/index.m3u8?fmt=ts2hls
-家有购物HD,http://39.136.18.184/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225742/1/index.m3u8?fmt=ts2hls
 遵义综合,http://39.136.18.184/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226026/1/index.m3u8?fmt=ts2hls
 遵义公共,http://39.136.18.184/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226028/1/index.m3u8?fmt=ts2hls
 遵义都市,http://39.136.18.184/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226051/1/index.m3u8?fmt=ts2hls
@@ -12012,53 +12011,6 @@ CCTV15高清,http://118.249.60.99:9901/tsfile/live/0016_1.m3u8?key=txiptv&playli
 浙江卫视高清,http://118.249.60.99:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
 重庆卫视高清,http://118.249.60.99:9901/tsfile/live/0016_2.m3u8?key=txiptv&playlive=1&authid=0
 
-CCTV1-综合,http://116.128.243.121:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV2-财经,http://116.128.243.121:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV3-综艺,http://116.128.243.121:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV4-国际,http://116.128.243.121:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV5-体育,http://116.128.243.121:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV6-电影,http://116.128.243.121:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV7-军事,http://116.128.243.121:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV8-电视剧,http://116.128.243.121:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV9-纪录,http://116.128.243.121:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV10-科教,http://116.128.243.121:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV11-戏曲,http://116.128.243.121:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV12-社会与法,http://116.128.243.121:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV13-新闻,http://116.128.243.121:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV14-少儿,http://116.128.243.121:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV15-音乐,http://116.128.243.121:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV5+体育赛事,http://116.128.243.121:9901/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南卫视,http://116.128.243.121:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
-浙江卫视,http://116.128.243.121:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
-江苏卫视,http://116.128.243.121:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
-北京卫视,http://116.128.243.121:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳卫视,http://116.128.243.121:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-广东卫视,http://116.128.243.121:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-上海卫视,http://116.128.243.121:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-湖北卫视,http://116.128.243.121:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
-安徽卫视,http://116.128.243.121:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
-辽宁卫视,http://116.128.243.121:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-山东卫视,http://116.128.243.121:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
-黑龙江卫视,http://116.128.243.121:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
-天津卫视,http://116.128.243.121:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-重庆卫视,http://116.128.243.121:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
-四川卫视,http://116.128.243.121:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
-东南卫视,http://116.128.243.121:9901/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-江西卫视,http://116.128.243.121:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-河北卫视,http://116.128.243.121:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
-河南卫视,http://116.128.243.121:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
-旅游卫视,http://116.128.243.121:9901/tsfile/live/0114_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南经视,http://116.128.243.121:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南都市,http://116.128.243.121:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南娱乐,http://116.128.243.121:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南电影,http://116.128.243.121:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南电视剧,http://116.128.243.121:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南公共,http://116.128.243.121:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-金鹰纪实,http://116.128.243.121:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-金鹰卡通,http://116.128.243.121:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-卡酷少儿,http://116.128.243.121:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南教育,http://116.128.243.121:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
-
 湖南卫视,http://175.0.50.196:8899/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南经视,http://175.0.50.196:8899/tsfile/live/1042_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南电视剧,http://175.0.50.196:8899/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -12111,86 +12063,135 @@ CCTV15-音乐,http://175.0.50.196:8899/tsfile/live/0015_1.m3u8?key=txiptv&playli
 兵团卫视,http://175.0.50.196:8899/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
 
 广东酒店,#genre#
-CCTV-1,http://113.109.117.242:8081/hls/1/index.m3u8
-CCTV-2,http://113.109.117.242:8081/hls/2/index.m3u8
-CCTV-3,http://113.109.117.242:8081/hls/3/index.m3u8
-CCTV-4,http://113.109.117.242:8081/hls/4/index.m3u8
-CCTV-5,http://113.109.117.242:8081/hls/5/index.m3u8
-CCTV-6,http://113.109.117.242:8081/hls/6/index.m3u8
-CCTV-7,http://113.109.117.242:8081/hls/7/index.m3u8
-CCTV-8,http://113.109.117.242:8081/hls/8/index.m3u8
-CCTV-9+,http://113.109.117.242:8081/hls/9/index.m3u8
-CCTV-10,http://113.109.117.242:8081/hls/10/index.m3u8
-CCTV-11,http://113.109.117.242:8081/hls/11/index.m3u8
-CCTV-12,http://113.109.117.242:8081/hls/12/index.m3u8
-CCTV-13,http://113.109.117.242:8081/hls/13/index.m3u8
-CCTV-14,http://113.109.117.242:8081/hls/14/index.m3u8
-CCTV-15,http://113.109.117.242:8081/hls/15/index.m3u8
-CCTV-5+,http://113.109.117.242:8081/hls/16/index.m3u8
-CCTV-17,http://113.109.117.242:8081/hls/17/index.m3u8
-星空卫视,http://113.109.117.242:8081/hls/18/index.m3u8
-凤凰中文台,http://113.109.117.242:8081/hls/19/index.m3u8
-香港翡翠,http://113.109.117.242:8081/hls/20/index.m3u8
-香港明珠,http://113.109.117.242:8081/hls/21/index.m3u8
-澳亚卫视,http://113.109.117.242:8081/hls/22/index.m3u8
-广东南方卫视,http://113.109.117.242:8081/hls/23/index.m3u8
-广州台,http://113.109.117.242:8081/hls/24/index.m3u8
-广东珠江,http://113.109.117.242:8081/hls/25/index.m3u8
-广东公共,http://113.109.117.242:8081/hls/26/index.m3u8
-广东新闻,http://113.109.117.242:8081/hls/27/index.m3u8
-广东嘉佳卡通,http://113.109.117.242:8081/hls/28/index.m3u8
-珠江电影频道,http://113.109.117.242:8081/hls/29/index.m3u8
-广东经济科教,http://113.109.117.242:8081/hls/30/index.m3u8
-广东影视,http://113.109.117.242:8081/hls/31/index.m3u8
-广东少儿,http://113.109.117.242:8081/hls/32/index.m3u8
-广州综合,http://113.109.117.242:8081/hls/33/index.m3u8
-广州新闻,http://113.109.117.242:8081/hls/34/index.m3u8
-广州竞赛,http://113.109.117.242:8081/hls/35/index.m3u8
-广州影视,http://113.109.117.242:8081/hls/36/index.m3u8
-广州经济,http://113.109.117.242:8081/hls/37/index.m3u8
-广州生活,http://113.109.117.242:8081/hls/38/index.m3u8
-广州新闻,http://113.109.117.242:8081/hls/39/index.m3u8
-广东经济科教,http://113.109.117.242:8081/hls/40/index.m3u8
-广东体育,http://113.109.117.242:8081/hls/41/index.m3u8
-广东卫视,http://113.109.117.242:8081/hls/42/index.m3u8
-深圳卫视,http://113.109.117.242:8081/hls/43/index.m3u8
-湖南卫视,http://113.109.117.242:8081/hls/44/index.m3u8
-东方卫视,http://113.109.117.242:8081/hls/45/index.m3u8
-北京卫视,http://113.109.117.242:8081/hls/46/index.m3u8
-浙江卫视,http://113.109.117.242:8081/hls/47/index.m3u8
-江苏卫视,http://113.109.117.242:8081/hls/48/index.m3u8
-黑龙江卫视,http://113.109.117.242:8081/hls/49/index.m3u8
-天津卫视,http://113.109.117.242:8081/hls/50/index.m3u8
-山东卫视,http://113.109.117.242:8081/hls/51/index.m3u8
-湖北卫视,http://113.109.117.242:8081/hls/52/index.m3u8
-安徽卫视,http://113.109.117.242:8081/hls/53/index.m3u8
-辽宁卫视,http://113.109.117.242:8081/hls/54/index.m3u8
-贵州卫视,http://113.109.117.242:8081/hls/55/index.m3u8
-四川卫视,http://113.109.117.242:8081/hls/56/index.m3u8
-重庆卫视,http://113.109.117.242:8081/hls/57/index.m3u8
-河北卫视,http://113.109.117.242:8081/hls/58/index.m3u8
-江西卫视,http://113.109.117.242:8081/hls/59/index.m3u8
-吉林卫视,http://113.109.117.242:8081/hls/60/index.m3u8
-广西卫视,http://113.109.117.242:8081/hls/61/index.m3u8
-云南卫视,http://113.109.117.242:8081/hls/62/index.m3u8
-青海卫视,http://113.109.117.242:8081/hls/63/index.m3u8
-山西卫视,http://113.109.117.242:8081/hls/64/index.m3u8
-陕西卫视,http://113.109.117.242:8081/hls/65/index.m3u8
-北京冬奥纪实,http://113.109.117.242:8081/hls/66/index.m3u8
-CETV-1,http://113.109.117.242:8081/hls/67/index.m3u8
-劲爆体育,http://113.109.117.242:8081/hls/68/index.m3u8
-全纪实,http://113.109.117.242:8081/hls/69/index.m3u8
-体育赛事,http://113.109.117.242:8081/hls/70/index.m3u8
-金鹰卡通,http://113.109.117.242:8081/hls/71/index.m3u8
-岭南戏曲,http://113.109.117.242:8081/hls/72/index.m3u8
-MTV,http://113.109.117.242:8081/hls/73/index.m3u8
-
+CCTV-1高清,http://113.64.145.186:8081/hls/138/index.m3u8
+CCTV-2高清,http://113.64.145.186:8081/hls/2/index.m3u8
+CCTV-3高清,http://113.64.145.186:8081/hls/3/index.m3u8
+CCTV-4高清,http://113.64.145.186:8081/hls/4/index.m3u8
+CCTV-5高清,http://113.64.145.186:8081/hls/5/index.m3u8
+CCTV-6高清,http://113.64.145.186:8081/hls/6/index.m3u8
+CCTV-7高清,http://113.64.145.186:8081/hls/7/index.m3u8
+CCTV-8高清,http://113.64.145.186:8081/hls/8/index.m3u8
+CCTV-9高清,http://113.64.145.186:8081/hls/9/index.m3u8
+CCTV-10高清,http://113.64.145.186:8081/hls/10/index.m3u8
+CCTV-11,http://113.64.145.186:8081/hls/11/index.m3u8
+CCTV-12高清,http://113.64.145.186:8081/hls/12/index.m3u8
+CCTV-13,http://113.64.145.186:8081/hls/13/index.m3u8
+CCTV-14,http://113.64.145.186:8081/hls/14/index.m3u8
+CCTV-15高清,http://113.64.145.186:8081/hls/15/index.m3u8
+CCTV5+高清,http://113.64.145.186:8081/hls/16/index.m3u8
+CCTV-17,http://113.64.145.186:8081/hls/17/index.m3u8
+南山有线,http://113.64.145.186:8081/hls/18/index.m3u8
+揭西台,http://113.64.145.186:8081/hls/19/index.m3u8
+本港台,http://113.64.145.186:8081/hls/135/index.m3u8
+揭阳公共,http://113.64.145.186:8081/hls/22/index.m3u8
+揭阳综合,http://113.64.145.186:8081/hls/21/index.m3u8
+潮州综合,http://113.64.145.186:8081/hls/23/index.m3u8
+汕头台,http://113.64.145.186:8081/hls/24/index.m3u8
+翡翠台,http://113.64.145.186:8081/hls/25/index.m3u8
+明珠台,http://113.64.145.186:8081/hls/26/index.m3u8
+广东公共,http://113.64.145.186:8081/hls/27/index.m3u8
+广东体育高清,http://113.64.145.186:8081/hls/1/index.m3u8
+广东新闻,http://113.64.145.186:8081/hls/28/index.m3u8
+经济科教,http://113.64.145.186:8081/hls/29/index.m3u8
+南方都市,http://113.64.145.186:8081/hls/30/index.m3u8
+广东影视,http://113.64.145.186:8081/hls/31/index.m3u8
+广东少儿,http://113.64.145.186:8081/hls/32/index.m3u8
+动作电影,http://113.64.145.186:8081/hls/34/index.m3u8
+家庭影院,http://113.64.145.186:8081/hls/35/index.m3u8
 凤凰资讯高清,http://113.64.145.186:8081/hls/36/index.m3u8
 凤凰卫视高清,http://113.64.145.186:8081/hls/37/index.m3u8
 凤凰香港高清,http://113.64.145.186:8081/hls/38/index.m3u8
+揭西高清,http://113.64.145.186:8081/hls/39/index.m3u8
+珠江卫视高清,http://113.64.145.186:8081/hls/41/index.m3u8
+浙江卫视高清,http://113.64.145.186:8081/hls/43/index.m3u8
+湖南卫视高清,http://113.64.145.186:8081/hls/42/index.m3u8
+广东卫视高清,http://113.64.145.186:8081/hls/40/index.m3u8
+江苏卫视高清,http://113.64.145.186:8081/hls/44/index.m3u8
+北京卫视高清,http://113.64.145.186:8081/hls/45/index.m3u8
+深圳卫视高清,http://113.64.145.186:8081/hls/46/index.m3u8
+东方卫视高清,http://113.64.145.186:8081/hls/47/index.m3u8
+天津卫视高清,http://113.64.145.186:8081/hls/48/index.m3u8
+安徽卫视高清,http://113.64.145.186:8081/hls/49/index.m3u8
+黑龙江卫视高清,http://113.64.145.186:8081/hls/50/index.m3u8
+湖北卫视高清,http://113.64.145.186:8081/hls/51/index.m3u8
+四川卫视高清,http://113.64.145.186:8081/hls/52/index.m3u8
+贵州卫视高清,http://113.64.145.186:8081/hls/53/index.m3u8
+辽宁卫视高清,http://113.64.145.186:8081/hls/54/index.m3u8
+东南卫视高清,http://113.64.145.186:8081/hls/55/index.m3u8
+上海纪实高清,http://113.64.145.186:8081/hls/56/index.m3u8
+河北卫视高清,http://113.64.145.186:8081/hls/57/index.m3u8
+江西卫视高清,http://113.64.145.186:8081/hls/58/index.m3u8
+吉林卫视高清,http://113.64.145.186:8081/hls/59/index.m3u8
+广西卫视高清,http://113.64.145.186:8081/hls/60/index.m3u8
 经典电影,http://113.64.145.186:8081/hls/61/index.m3u8
 DOX电影,http://113.64.145.186:8081/hls/62/index.m3u8
+热播剧场,http://113.64.145.186:8081/hls/63/index.m3u8
+中国教育1高清,http://113.64.145.186:8081/hls/64/index.m3u8
+魅力足球高清,http://113.64.145.186:8081/hls/65/index.m3u8
+南方经济高清,http://113.64.145.186:8081/hls/66/index.m3u8
+翡翠台高清,http://113.64.145.186:8081/hls/67/index.m3u8
+深都市高清,http://113.64.145.186:8081/hls/68/index.m3u8
+深圳电视剧,http://113.64.145.186:8081/hls/69/index.m3u8
+四川卫视,http://113.64.145.186:8081/hls/71/index.m3u8
+山东教育,http://113.64.145.186:8081/hls/72/index.m3u8
+东南卫视,http://113.64.145.186:8081/hls/74/index.m3u8
+山东卫视,http://113.64.145.186:8081/hls/75/index.m3u8
+重庆卫视,http://113.64.145.186:8081/hls/76/index.m3u8
+河南卫视,http://113.64.145.186:8081/hls/77/index.m3u8
+北京卫视,http://113.64.145.186:8081/hls/78/index.m3u8
+天津卫视,http://113.64.145.186:8081/hls/79/index.m3u8
+南方卫视,http://113.64.145.186:8081/hls/80/index.m3u8
+深圳卫视,http://113.64.145.186:8081/hls/81/index.m3u8
+新疆卫视,http://113.64.145.186:8081/hls/82/index.m3u8
+东南卫视,http://113.64.145.186:8081/hls/83/index.m3u8
+湖南卫视,http://113.64.145.186:8081/hls/84/index.m3u8
+贵州卫视,http://113.64.145.186:8081/hls/85/index.m3u8
+东方卫视,http://113.64.145.186:8081/hls/86/index.m3u8
+星空卫视,http://113.64.145.186:8081/hls/87/index.m3u8
 MV音乐,http://113.64.145.186:8081/hls/88/index.m3u8
+广西卫视,http://113.64.145.186:8081/hls/90/index.m3u8
+广东卫视,http://113.64.145.186:8081/hls/91/index.m3u8
+云南卫视,http://113.64.145.186:8081/hls/92/index.m3u8
+江苏卫视,http://113.64.145.186:8081/hls/93/index.m3u8
+湖北卫视,http://113.64.145.186:8081/hls/94/index.m3u8
+青海卫视,http://113.64.145.186:8081/hls/95/index.m3u8
+河南卫视,http://113.64.145.186:8081/hls/96/index.m3u8
+陕西卫视,http://113.64.145.186:8081/hls/97/index.m3u8
+山西卫视,http://113.64.145.186:8081/hls/98/index.m3u8
+内蒙古卫视,http://113.64.145.186:8081/hls/99/index.m3u8
+旅游卫视,http://113.64.145.186:8081/hls/100/index.m3u8
+甘肃卫视,http://113.64.145.186:8081/hls/101/index.m3u8
+兵团卫视,http://113.64.145.186:8081/hls/102/index.m3u8
+西藏卫视,http://113.64.145.186:8081/hls/103/index.m3u8
+新疆卫视,http://113.64.145.186:8081/hls/104/index.m3u8
+网络棋牌,http://113.64.145.186:8081/hls/106/index.m3u8
+书画频道,http://113.64.145.186:8081/hls/107/index.m3u8
+岭南戏曲,http://113.64.145.186:8081/hls/108/index.m3u8
+现代教育,http://113.64.145.186:8081/hls/109/index.m3u8
+环球奇观,http://113.64.145.186:8081/hls/110/index.m3u8
+家庭理财,http://113.64.145.186:8081/hls/112/index.m3u8
+先锋乒羽,http://113.64.145.186:8081/hls/113/index.m3u8
+家庭购物,http://113.64.145.186:8081/hls/114/index.m3u8
+新动漫,http://113.64.145.186:8081/hls/115/index.m3u8
+央视精品,http://113.64.145.186:8081/hls/116/index.m3u8
+风云音乐,http://113.64.145.186:8081/hls/117/index.m3u8
+怀旧剧场,http://113.64.145.186:8081/hls/118/index.m3u8
+风云剧场,http://113.64.145.186:8081/hls/120/index.m3u8
+风云足球,http://113.64.145.186:8081/hls/119/index.m3u8
+第一剧场,http://113.64.145.186:8081/hls/121/index.m3u8
+武术世界,http://113.64.145.186:8081/hls/122/index.m3u8
+南方购物,http://113.64.145.186:8081/hls/123/index.m3u8
+世界地理,http://113.64.145.186:8081/hls/124/index.m3u8
+老故事,http://113.64.145.186:8081/hls/125/index.m3u8
+嘉佳卡通,http://113.64.145.186:8081/hls/126/index.m3u8
+炫动卡通,http://113.64.145.186:8081/hls/127/index.m3u8
+优漫卡通,http://113.64.145.186:8081/hls/128/index.m3u8
+金鹰卡通,http://113.64.145.186:8081/hls/129/index.m3u8
+CCTV-2,http://113.64.145.186:8081/hls/130/index.m3u8
+CCTV-4,http://113.64.145.186:8081/hls/131/index.m3u8
+CCTV-10,http://113.64.145.186:8081/hls/133/index.m3u8
+CCTV-12,http://113.64.145.186:8081/hls/134/index.m3u8
+中国气象,http://113.64.145.186:8081/hls/33/index.m3u8
 
 本港台,http://183.1.249.104:8081/hls/135/index.m3u8
 凤凰资讯高清,http://183.1.249.104:8081/hls/36/index.m3u8
@@ -12211,39 +12212,129 @@ MV音乐,http://183.1.249.104:8081/hls/88/index.m3u8
 
 广西酒店,#genre#
 
-凤凰中文,http://180.137.27.245:8181/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
-凤凰资讯,http://180.137.27.245:8181/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
-南方5,http://180.137.27.245:8181/tsfile/live/1053_1.m3u8?key=txiptv&playlive=1&authid=0
-本港台,http://180.137.27.245:8181/tsfile/live/1070_1.m3u8?key=txiptv&playlive=1&authid=0
-测试5,http://180.137.27.245:8181/tsfile/live/1073_1.m3u8?key=txiptv&playlive=1&authid=0
-测试6,http://180.137.27.245:8181/tsfile/live/1074_1.m3u8?key=txiptv&playlive=1&authid=0
-测试7,http://180.137.27.245:8181/tsfile/live/1075_1.m3u8?key=txiptv&playlive=1&authid=0
-凤凰资讯 高清,http://180.137.27.245:8181/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-凤凰中文 高清,http://180.137.27.245:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-凤凰香港 高清,http://180.137.27.245:8181/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-星空卫视,http://180.137.27.245:8181/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-中国MTV,http://180.137.27.245:8181/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-风云剧场,http://180.137.27.245:8181/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
+珠江台标清,http://171.109.224.82:8181/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
+牛戏剧场,http://171.109.224.82:8181/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+珠江台 高清,http://171.109.224.82:8181/tsfile/live/1121_1.m3u8?key=txiptv&playlive=0&authid=0
+广西综艺 高清,http://171.109.224.82:8181/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+广西影视 高清,http://171.109.224.82:8181/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
+广西新闻 高清,http://171.109.224.82:8181/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0
+广西都市 高清,http://171.109.224.82:8181/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
+广西卫视 高清,http://171.109.224.82:8181/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV1-综合 高清,http://171.109.224.82:8181/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV2-财经 高清,http://171.109.224.82:8181/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV3-综艺 高清,http://171.109.224.82:8181/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV4-国际 高清,http://171.109.224.82:8181/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5-体育 高清,http://171.109.224.82:8181/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV6-电影 高清,http://171.109.224.82:8181/tsfile/live/faacts/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV7-军农 高清,http://171.109.224.82:8181/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV8-电视剧 高清,http://171.109.224.82:8181/tsfile/live/faacts/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV9-纪录 高清,http://171.109.224.82:8181/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV10-科教 高清,http://171.109.224.82:8181/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV11-戏曲 高清,http://171.109.224.82:8181/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV12-社会与法 高清,http://171.109.224.82:8181/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV13-新闻 高清,http://171.109.224.82:8181/tsfile/live/1052_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV14-少儿 高清,http://171.109.224.82:8181/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV15-音乐 高清,http://171.109.224.82:8181/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-16 高清,http://171.109.224.82:8181/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-17 高清,http://171.109.224.82:8181/tsfile/live/1041_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5+ 高清,http://171.109.224.82:8181/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
+爱上4K电影,http://171.109.224.82:8181/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
+家庭影院 高清,http://171.109.224.82:8181/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
+动作电影 高清,http://171.109.224.82:8181/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
+高清电影,http://171.109.224.82:8181/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
+中国教育一套 高清,http://171.109.224.82:8181/tsfile/live/1059_1.m3u8?key=txiptv&playlive=1&authid=0
+湖南卫视 高清,http://171.109.224.82:8181/tsfile/live/1049_1.m3u8?key=txiptv&playlive=1&authid=0
+金鹰纪实 高清,http://171.109.224.82:8181/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
+深圳卫视 高清,http://171.109.224.82:8181/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
+江苏卫视 高清,http://171.109.224.82:8181/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
+北京卫视 高清,http://171.109.224.82:8181/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0
+东方卫视 高清,http://171.109.224.82:8181/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
+广东卫视 高清,http://171.109.224.82:8181/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
+浙江卫视 高清,http://171.109.224.82:8181/tsfile/live/1050_1.m3u8?key=txiptv&playlive=1&authid=0
+湖北卫视 高清,http://171.109.224.82:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
+河北卫视 高清,http://171.109.224.82:8181/tsfile/live/1045_1.m3u8?key=txiptv&playlive=1&authid=0
+天津卫视 高清,http://171.109.224.82:8181/tsfile/live/1044_1.m3u8?key=txiptv&playlive=1&authid=0
+黑龙江卫视 高清,http://171.109.224.82:8181/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0
+山东卫视 高清,http://171.109.224.82:8181/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
+江西卫视 高清,http://171.109.224.82:8181/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+安徽卫视 高清,http://171.109.224.82:8181/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+辽宁卫视 高清,http://171.109.224.82:8181/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
+甘肃卫视 高清,http://171.109.224.82:8181/tsfile/live/1032_1.m3u8?key=txiptv&playlive=0&authid=0
+贵州卫视 高清,http://171.109.224.82:8181/tsfile/live/1058_1.m3u8?key=txiptv&playlive=1&authid=0
+东南卫视 高清,http://171.109.224.82:8181/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
+高清新视觉,http://171.109.224.82:8181/tsfile/live/1064_1.m3u8?key=txiptv&playlive=1&authid=0
+天映经典 高清,http://171.109.224.82:8181/tsfile/live/1063_1.m3u8?key=txiptv&playlive=1&authid=0
+音乐荟萃,http://171.109.224.82:8181/tsfile/live/1065_1.m3u8?key=txiptv&playlive=1&authid=0
+凤凰资讯 高清,http://171.109.224.82:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+凤凰卫视 高清,http://171.109.224.82:8181/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
+凤凰香港 高清,http://171.109.224.82:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+星空卫视,http://171.109.224.82:8181/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+中国音乐,http://171.109.224.82:8181/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
+经典电影,http://171.109.224.82:8181/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
+热播剧场,http://171.109.224.82:8181/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0
+中国电影,http://171.109.224.82:8181/tsfile/live/1069_1.m3u8?key=txiptv&playlive=1&authid=0
+广州台,http://171.109.224.82:8181/tsfile/live/1070_1.m3u8?key=txiptv&playlive=1&authid=0
+广东影视,http://171.109.224.82:8181/tsfile/live/1071_1.m3u8?key=txiptv&playlive=1&authid=0
+广东公共,http://171.109.224.82:8181/tsfile/live/1072_1.m3u8?key=txiptv&playlive=1&authid=0
+广东新闻,http://171.109.224.82:8181/tsfile/live/1073_1.m3u8?key=txiptv&playlive=1&authid=0
+广东体育,http://171.109.224.82:8181/tsfile/live/1074_1.m3u8?key=txiptv&playlive=1&authid=0
+汽摩,http://171.109.224.82:8181/tsfile/live/1098_1.m3u8?key=txiptv&playlive=1&authid=0
+国学,http://171.109.224.82:8181/tsfile/live/1101_1.m3u8?key=txiptv&playlive=1&authid=0
+新科动漫,http://171.109.224.82:8181/tsfile/live/1104_1.m3u8?key=txiptv&playlive=1&authid=0
+优漫卡通,http://171.109.224.82:8181/tsfile/live/1120_1.m3u8?key=txiptv&playlive=1&authid=0
+动漫秀场,http://171.109.224.82:8181/tsfile/live/1055_1.m3u8?key=txiptv&playlive=1&authid=0
+中国气象,http://171.109.224.82:8181/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&authid=0
+野外,http://171.109.224.82:8181/tsfile/live/1086_1.m3u8?key=txiptv&playlive=1&authid=0
+宁夏卫视,http://171.109.224.82:8181/tsfile/live/1081_1.m3u8?key=txiptv&playlive=1&authid=0
+新疆少儿,http://171.109.224.82:8181/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0
+新疆卫视,http://171.109.224.82:8181/tsfile/live/0110_1.m3u8?key=txiptv&playlive=1&authid=0
+延边卫视,http://171.109.224.82:8181/tsfile/live/1087_1.m3u8?key=txiptv&playlive=1&authid=0
+吉林卫视,http://171.109.224.82:8181/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
+兵团卫视,http://171.109.224.82:8181/tsfile/live/0115_1.m3u8?key=txiptv&playlive=1&authid=0
+南方卫视,http://171.109.224.82:8181/tsfile/live/1084_1.m3u8?key=txiptv&playlive=1&authid=0
+旅游卫视,http://171.109.224.82:8181/tsfile/live/0114_1.m3u8?key=txiptv&playlive=1&authid=0
+嘉佳卡通,http://171.109.224.82:8181/tsfile/live/1085_1.m3u8?key=txiptv&playlive=1&authid=0
+内蒙古卫视,http://171.109.224.82:8181/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
+炫动卡通,http://171.109.224.82:8181/tsfile/live/1080_1.m3u8?key=txiptv&playlive=1&authid=0
+金鹰卡通,http://171.109.224.82:8181/tsfile/live/1079_1.m3u8?key=txiptv&playlive=1&authid=0
+青海卫视,http://171.109.224.82:8181/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
+陕西卫视,http://171.109.224.82:8181/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
+重庆卫视,http://171.109.224.82:8181/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
+山东教育,http://171.109.224.82:8181/tsfile/live/1078_1.m3u8?key=txiptv&playlive=1&authid=0
+卡酷少儿,http://171.109.224.82:8181/tsfile/live/1077_1.m3u8?key=txiptv&playlive=1&authid=0
+甘肃卫视,http://171.109.224.82:8181/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0
+四川卫视,http://171.109.224.82:8181/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
+山西卫视,http://171.109.224.82:8181/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0
+本港台,http://171.109.224.82:8181/tsfile/live/1068_1.m3u8?key=txiptv&playlive=1&authid=0
+吉林卫视 高清,http://171.109.224.82:8181/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
+广西卫视编码,http://171.109.224.82:8181/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
+广西移动,http://171.109.224.82:8181/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
+家庭影院,http://171.109.224.82:8181/tsfile/live/1076_1.m3u8?key=txiptv&playlive=1&authid=0
+游戏风云,http://171.109.224.82:8181/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
+少儿动画,http://171.109.224.82:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
+广西国际,http://171.109.224.82:8181/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
+南宁公共 高清,http://171.109.224.82:8181/tsfile/live/1125_1.m3u8?key=txiptv&playlive=1&authid=0
+南宁影视 高清,http://171.109.224.82:8181/tsfile/live/1126_1.m3u8?key=txiptv&playlive=1&authid=0
+南宁生活 高清,http://171.109.224.82:8181/tsfile/live/1127_1.m3u8?key=txiptv&playlive=1&authid=0
+央视新闻回放,http://171.109.224.82:8181/tsfile/live/1046_1.m3u8?key=txiptv&playlive=1&authid=0
+广西新闻回放,http://171.109.224.82:8181/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&authid=0
+广东科教,http://171.109.224.82:8181/tsfile/live/1135_1.m3u8?key=txiptv&playlive=1&authid=0
+广东少儿,http://171.109.224.82:8181/tsfile/live/1136_1.m3u8?key=txiptv&playlive=1&authid=0
+岭南戏曲,http://171.109.224.82:8181/tsfile/live/1137_1.m3u8?key=txiptv&playlive=1&authid=0
+珠江台,http://171.109.224.82:8181/tsfile/live/1138_1.m3u8?key=txiptv&playlive=1&authid=0
+容县台,http://171.109.224.82:8181/tsfile/live/1031_6.m3u8?key=txiptv&playlive=1&authid=0
 
-星空卫视,http://110.72.87.127:808/hls/60/index.m3u8
-凤凰卫视,http://110.72.87.127:808/hls/62/index.m3u8
-凤凰资讯,http://110.72.87.127:808/hls/63/index.m3u8
-香港音乐,http://110.72.87.127:808/hls/64/index.m3u8
-凤凰中文HD,http://110.72.87.127:808/hls/83/index.m3u8
-香港卫视HD,http://110.72.87.127:808/hls/333/index.m3u8
-海峡卫视,http://110.72.87.127:808/hls/72/index.m3u8
-凤凰资讯HD,http://110.72.87.127:808/hls/1/index.m3u8
-
-天映经典 高清,http://171.109.224.82:8181/tsfile/live/1063_1.m3u8
-音乐荟萃,http://171.109.224.82:8181/tsfile/live/1065_1.m3u8
-凤凰资讯 高清,http://171.109.224.82:8181/tsfile/live/1001_1.m3u8
-凤凰卫视 高清,http://171.109.224.82:8181/tsfile/live/1009_1.m3u8
-凤凰香港 高清,http://171.109.224.82:8181/tsfile/live/1005_1.m3u8
-星空卫视,http://171.109.224.82:8181/tsfile/live/1006_1.m3u8
-中国音乐,http://171.109.224.82:8181/tsfile/live/1007_1.m3u8
-经典电影,http://171.109.224.82:8181/tsfile/live/1012_1.m3u8
-热播剧场,http://171.109.224.82:8181/tsfile/live/1037_1.m3u8
-中国电影,http://171.109.224.82:8181/tsfile/live/1069_1.m3u8
+星空卫视,http://110.72.79.71:808/hls/60/index.m3u8
+中国电影,http://110.72.79.71:808/hls/61/index.m3u8
+中国电影2,http://110.72.79.71:808/hls/65/index.m3u8
+凤凰卫视,http://110.72.79.71:808/hls/62/index.m3u8
+凤凰资讯,http://110.72.79.71:808/hls/63/index.m3u8
+香港音乐,http://110.72.79.71:808/hls/64/index.m3u8
+凤凰中文HD,http://110.72.79.71:808/hls/83/index.m3u8
+香港卫视HD,http://110.72.79.71:808/hls/333/index.m3u8
+海峡卫视,http://110.72.79.71:808/hls/72/index.m3u8
+经典电影,http://110.72.79.71:808/hls/220/index.m3u8
+凤凰资讯HD,http://110.72.79.71:808/hls/1/index.m3u8
 
 
 
