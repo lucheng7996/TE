@@ -15016,6 +15016,48 @@ wugltest,https://www.goodiptv.club/douyu/1844872
 
 
 港澳台,#genre#
+中天亚洲台,http://livetv.skycf.eu.org/live.m3u8?c=3
+凤凰资讯,http://livetv.skycf.eu.org/live.m3u8?c=2
+台视新闻,http://livetv.skycf.eu.org/live.m3u8?c=4
+TVBS新闻,http://livetv.skycf.eu.org/live.m3u8?c=5
+中视新闻,http://livetv.skycf.eu.org/live.m3u8?c=6
+中天新闻,http://livetv.skycf.eu.org/live.m3u8?c=7
+公视新闻,http://livetv.skycf.eu.org/live.m3u8?c=8
+镜新闻,http://livetv.skycf.eu.org/live.m3u8?c=10
+东森新闻,http://livetv.skycf.eu.org/live.m3u8?c=9
+三立新闻,http://livetv.skycf.eu.org/live.m3u8?c=12
+民视新闻,http://livetv.skycf.eu.org/live.m3u8?c=11
+东森财经新闻,http://livetv.skycf.eu.org/live.m3u8?c=14
+华视新闻,http://livetv.skycf.eu.org/live.m3u8?c=13
+
+中天新闻2台,http://magicluweibo.com:2086/live.m3u8?c=3
+中天新闻,http://magicluweibo.com:2086/live.m3u8?c=2
+中天新闻,http://magicluweibo.com:2086/live.m3u8?c=4
+民视新闻,http://magicluweibo.com:2086/live.m3u8?c=5
+寰宇新闻台湾台,http://magicluweibo.com:2086/live.m3u8?c=8
+TVBS新闻,http://magicluweibo.com:2086/live.m3u8?c=6
+寰宇新闻,http://magicluweibo.com:2086/live.m3u8?c=7
+东森财经,http://magicluweibo.com:2086/live.m3u8?c=9
+华视新闻,http://magicluweibo.com:2086/live.m3u8?c=10
+台视新闻,http://magicluweibo.com:2086/live.m3u8?c=11
+台视新闻,http://magicluweibo.com:2086/live.m3u8?c=12
+中视新闻,http://magicluweibo.com:2086/live.m3u8?c=13
+公视新闻,http://magicluweibo.com:2086/live.m3u8?c=14
+镜新闻,http://magicluweibo.com:2086/live.m3u8?c=15
+17,http://magicluweibo.com:2086/live.m3u8?c=17
+18,http://magicluweibo.com:2086/live.m3u8?c=18
+19,http://magicluweibo.com:2086/live.m3u8?c=19
+20号[1920*1080],http://magicluweibo.com:2086/live.m3u8?c=20
+22号[1920*1080],http://magicluweibo.com:2086/live.m3u8?c=22
+21号[1920*1080],http://magicluweibo.com:2086/live.m3u8?c=21
+23号[1280*720],http://magicluweibo.com:2086/live.m3u8?c=23
+24号[1920*1080],http://magicluweibo.com:2086/live.m3u8?c=24
+25号[1920*1080],http://magicluweibo.com:2086/live.m3u8?c=25
+26号[1920*1080],http://magicluweibo.com:2086/live.m3u8?c=26
+27号[1920*1080],http://magicluweibo.com:2086/live.m3u8?c=27
+29号[1280*720],http://magicluweibo.com:2086/live.m3u8?c=29
+28号[1280*720],http://magicluweibo.com:2086/live.m3u8?c=28
+
 TVB J2台,http://ali.hlspull.yximgs.com/live/twlivefhwohdpthzyfiplhdftuzfbvdimhdznbzszbcvxzfzsehbvbztvbd2.flv
 TVB 翡翠台,http://ali.hlspull.yximgs.com/live/twlivefhwwzpthzyztzzzxcxbfhzzfzvhdtzdvbtvzszxzfszzcvbctvbfc.flv
 TVB 明珠台,http://ali.hlspull.yximgs.com/live/twlivetcfzhvdzzxcodwoetzmncthvbstyreyhbnnvbdzzwthzyztvbmz.flv
