@@ -15193,6 +15193,10 @@ TLC旅游生活,http://198.16.100.90:8278/tlc_twn/playlist.m3u8?tid=MA0A59040822
 TVBS新闻,http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8
 FOX新闻,https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 
+香港翡翠,http://113.109.119.235:8081/hls/20/index.m3u8
+TVB翡翠台,http://ali.hlspull.yximgs.com/live/huanqiuhklivefhwwjpthjyjtjjjxcxbfhjjfjvhdtjdvbtvjsjxjfsjjcvbctvbfc.flv
+无线新闻台,http://ali.hlspull.yximgs.com/live/huanqiuhklivefhwjpthljjsjsjjbvdljdmnbjhdhyjyjtvbwxxw.flv
+
 备用源,#genre#
 CCTV-1综合,http://123.6.102.32:11789/51.php?id=2022576803.m3u8
 CCTV-2财经,http://123.6.102.32:11789/51.php?id=2022576703.m3u8
