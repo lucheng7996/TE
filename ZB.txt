@@ -14793,6 +14793,23 @@ TVBS新闻,http://livetv.skycf.eu.org/live.m3u8?c=5
 东森财经新闻,http://livetv.skycf.eu.org/live.m3u8?c=14
 华视新闻,http://livetv.skycf.eu.org/live.m3u8?c=13
 
+三立新闻+,http://csscc.cc:2095/live.m3u8?c=3
+中视新闻,http://csscc.cc:2095/live.m3u8?c=2
+寰宇新闻,http://csscc.cc:2095/live.m3u8?c=4
+凤凰资讯,http://csscc.cc:2095/live.m3u8?c=1
+中天新闻,http://csscc.cc:2095/live.m3u8?c=7
+民视新闻,http://csscc.cc:2095/live.m3u8?c=8
+东森新闻,http://csscc.cc:2095/live.m3u8?c=6
+大爱,http://csscc.cc:2095/live.m3u8?c=5
+中天新闻2,http://csscc.cc:2095/live.m3u8?c=10
+TVBS新闻,http://csscc.cc:2095/live.m3u8?c=11
+大受2,http://csscc.cc:2095/live.m3u8?c=9
+公视,http://csscc.cc:2095/live.m3u8?c=13
+国会频道,http://csscc.cc:2095/live.m3u8?c=15
+国会频道2,http://csscc.cc:2095/live.m3u8?c=16
+14,http://csscc.cc:2095/live.m3u8?c=14
+亚洲新闻,http://csscc.cc:2095/live.m3u8?c=17
+
 TVB J2台,http://ali.hlspull.yximgs.com/live/twlivefhwohdpthzyfiplhdftuzfbvdimhdznbzszbcvxzfzsehbvbztvbd2.flv
 TVB 翡翠台,http://ali.hlspull.yximgs.com/live/twlivefhwwzpthzyztzzzxcxbfhzzfzvhdtzdvbtvzszxzfszzcvbctvbfc.flv
 TVB 明珠台,http://ali.hlspull.yximgs.com/live/twlivetcfzhvdzzxcodwoetzmncthvbstyreyhbnnvbdzzwthzyztvbmz.flv
