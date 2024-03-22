@@ -1,0 +1,47 @@
+{
+  "spider": "./jar/custom_spider.jar;md5;770a64d7528f1c45c19fa9ca0adab5a0",
+  "lives": [
+    {
+      "name": "CC",
+      "url": "./CC.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }, 
+    {
+      "name": "mlzlzj_TV",
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/mlzlzj/TV/main/iptv_list.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }, 
+    {
+      "name": "mlzlzj_IPTV",
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/mlzlzj/IPTV/main/iptv_list.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "ssili126",
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "Fairy8o",
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/DIYP-v4.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "3万歌曲",
+      "url": "https://gitee.com/xu-wei-11/life/raw/master/live/%E4%B8%89%E4%B8%87%E6%AD%8C%E6%9B%B2.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "ZB1",
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/alkt279/Xgw/master/ZB1.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ]
+}
