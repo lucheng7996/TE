@@ -31,6 +31,8 @@ sudo ln -sf /usr/local/bin/chrome-headless-shell-linux64/chrome-headless-shell /
 sudo chmod +x /usr/local/bin/chromedriver
 - name: Run script
 run: python ${{ github.workspace }}/IPTV.py
+
+run: python ${{ github.workspace }}/iptv-zb.py
 - name: 提交更改
 run: |
 git config --local user.email "lucheng7996@163.com"
