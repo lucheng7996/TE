@@ -3,7 +3,7 @@ name: cc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 9,19 * * *'
+    - cron: '0 9, 19, 02 * * *'
   push:
     branches:
       - main
@@ -28,7 +28,7 @@ jobs:
         run: python ${{ github.workspace }}/IPTV.py
 
       - name: Run iptv-zb
-        run: python ${{ github.workspace }}/iptv-zb.py
+      -  run: python ${{ github.workspace }}/iptv-zb.py
          
       - name: 提交更改
         run: |
