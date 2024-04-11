@@ -1,5 +1,6 @@
 name: IPTV All
 on:
+workflow_dispatch:
 push:
 schedule:
 - name: daily_task
