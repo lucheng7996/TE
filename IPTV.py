@@ -1,34 +1,18 @@
 import time
-import os
 import concurrent.futures
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import requests
 import re
-from datetime import datetime
+import os
 import threading
 from queue import Queue
 
+
 # 扫源
 urls = [
-        "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki", #河北
-        "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iYmVpamluZyI%3D", #北京
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iZ3Vhbmdkb25nIg%3D%3D", #广东
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ic2hhbmdoYWki", #上海
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0idGlhbmppbiI%3D", #天津
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iY2hvbmdxaW5nIg%3D%3D", #重庆
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ic2hhbnhpIg%3D%3D", #山西
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iU2hhYW54aSI%3D", #陕西
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ibGlhb25pbmci", #辽宁
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iamlhbmdzdSI%3D", #江苏
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iemhlamlhbmci", #浙江
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5a6J5b69Ig%3D%3D", #安徽
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iRnVqaWFuIg%3D%3D", #福建
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rGf6KW%2FIg%3D%3D", #江西
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bGx5LicIg%3D%3D", #山东
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D", #河南
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rmW5YyXIg%3D%3D", #湖北
-         "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rmW5Y2XIg%3D%3D", #湖南
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki",  # Hebei (河北)    
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rmW5Y2XIg%3D%3D"  # 湖南
 ]
 
 def modify_urls(url):
@@ -137,16 +121,15 @@ for url in urls:
                         name = item.get('name')
                         urlx = item.get('url')
                         if ',' in urlx:
-                            urlx = f"aaaaaaaa"
+                            urlx=f"aaaaaaaa"
 
-                        # if 'http' in urlx or 'udp' in urlx or 'rtp' in urlx:
                         if 'http' in urlx:
                             urld = f"{urlx}"
                         else:
                             urld = f"{url_x}{urlx}"
 
-                        if name and urld:
-                            # 删除特定文字
+                        if name and urlx:
+                             # 删除特定文字
                             name = name.replace("中央", "CCTV")
                             name = name.replace("高清", "")
                             name = name.replace("HD", "")
@@ -252,7 +235,7 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
             channel_name, channel_url = line.split(',')
             if 'genre' not in channel_url:
                 channels.append((channel_name, channel_url))
-
+                    
 
 # 定义工作线程函数
 def worker():
@@ -396,7 +379,7 @@ with open("qita.txt", 'w', encoding='utf-8') as file:
 
 # 合并自定义频道文件内容
 file_contents = []
-file_paths = ["cctv.txt", "weishi.txt","hn.txt", "gangaotai.txt", "qita.txt"]  # 替换为实际的文件路径列表
+file_paths = ["cctv.txt", "weishi.txt","hn.txt", "qita.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -413,11 +396,11 @@ with open("IPTV_JD.txt", "w", encoding="utf-8") as output:
     output.write(f"{now.strftime("%H:%M:%S")},url\n")
 
 
+
 os.remove("iptv.txt")
 os.remove("cctv.txt")
 os.remove("weishi.txt")
 os.remove("hn.txt")
-os.remove("gangaotai.txt")
 os.remove("qita.txt")
 
 print("任务运行完毕，分类频道列表可查看文件夹内IPTV_JD.txt文件！")
