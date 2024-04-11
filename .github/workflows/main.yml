@@ -23,9 +23,10 @@ jobs:
       - name: Install dependencies
         run: pip install selenium requests futures eventlet
                 
-      - name: Run ZB
+      - name: Run IPTV
         run: python ${{ github.workspace }}/IPTV.py
 
+      - name: Run iptv-zb
         run: python ${{ github.workspace }}/iptv-zb.py
          
       - name: 提交更改
