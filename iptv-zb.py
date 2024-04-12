@@ -124,6 +124,7 @@ class GetChannel():
         
         urls_a = list(set(urls_a))
         #urls_all = urls_a[:2]  #前2个值用于返回
+        print(urls_a[:2])
         return urls_a[:2]
 
 
