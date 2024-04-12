@@ -245,7 +245,10 @@ with open("IPTV_ZB.txt", 'w', encoding='utf-8') as file:
     file.write('\n湖南频道,#genre#\n')
     for result in resultxs:
         channel_name, channel_url = result
-        if '湖南' in channel_name or '长沙' in channel_name or '金鹰' in channel_name:
+        if '湖南' in channel_name or '长沙' in channel_name or '金鹰' in channel_name or '衡阳' in channel_name or '株洲' in channel_name or '张家界' in channel_name\
+                or '娄底' in channel_name or '邵阳' in channel_name or '宁乡' in channel_name or '怀化' in channel_name or '岳阳' in channel_name or '郴州' in channel_name\
+                or '常德' in channel_name or '永州' in channel_name or '浏阳' in channel_name or '益阳' in channel_name or  '安仁' in channel_name or '桂东' in channel_name\
+                or '茶陵' in channel_name or '临澧' in channel_name or '武冈' in channel_name or '新化' in channel_name or '津市' in channel_name or '溆浦' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -260,7 +263,13 @@ with open("IPTV_ZB.txt", 'w', encoding='utf-8') as file:
     for result in resultxs:
         channel_name, channel_url = result
         if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name and '湖南' not in \
-                channel_name and '长沙' not in channel_name and '金鹰' not in channel_name and '凤凰' not in channel_name:
+                channel_name and '长沙' not in channel_name and '金鹰' not in channel_name and '凤凰' not in channel_name\
+                '衡阳' not in channel_name or '株洲' not in channel_name or '张家界' not in channel_name or '娄底' not in \
+                channel_name or '邵阳' not in channel_name or '宁乡' not in channel_name or '怀化' not in channel_name or '岳阳' \
+                not in channel_name or '郴州' not in channel_name or '常德' not in channel_name or '永州' not in channel_name or \
+                '浏阳' in channel_name or '益阳' in channel_name or '安仁' not in channel_name or '桂东' not in channel_name\
+                or '茶陵' not in channel_name or '临澧' not in channel_name or '武冈' not in channel_name or '新化' not in \
+                channel_name or '津市' not in channel_name or '溆浦' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
