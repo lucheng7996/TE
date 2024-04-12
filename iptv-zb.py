@@ -91,6 +91,7 @@ class GetChannel():
         self.org = org
 
     def get_channel(self):
+        urls_a = []
         urls_all = []
         for url in self.urls:
             url_0 = str(base64.b64encode((f'"Server: udpxy" && city="{url}" && org="{self.org}"').encode("utf-8")),
@@ -110,7 +111,7 @@ class GetChannel():
                         pattern = r'class="proctabl"'
                         page_proctabl = re.findall(pattern, page_content)
                         if page_proctabl:
-                            urls_all.append(urlx)
+                            urls_a.append(urlx)
                             print(f"{urlx} 可以访问")
 
                     except requests.RequestException as e:
@@ -118,6 +119,14 @@ class GetChannel():
             except:
                 print(f"{url_64} 访问失败")
                 pass
+        
+        urls_a = set(urls_a)
+        for a in urls_a:
+            if count >= 3 then:
+                continue
+            else:
+                urls_all.append(urls_a[a])
+                count += 1
         return urls_all
 
 
