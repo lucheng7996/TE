@@ -121,9 +121,9 @@ class GetChannel():
         return urls_all
 
 
-urls_hn = ["Changsha","Hengyang"]
-urls_sc = ['Chengdu']
-urls_bj = ["Beijing"]
+urls_hn = ["changsha","hengyang"]
+urls_sc = ['chengdu']
+urls_bj = ["beijing"]
 
 tf_hn = TextFileReader("hunan.txt")
 tf_sc = TextFileReader("sichuan.txt")
