@@ -13,7 +13,7 @@ r = requests.get(url)
 open('DIYP-v4.txt', 'wb').write(r.content)
 
 keywords = ['凤凰卫视', '凤凰资讯', 'TVB翡翠', 'TVB明珠', 'TVB星河', 'J2', '无线', '有线', '天映', 'VIU', 'RTHK', 'HOY',
-            '香港卫视','Viut']  # 需要提取的关键字列表
+            '香港卫视', 'Viut']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 with open('DIYP-v4.txt', 'r', encoding='utf-8') as file, open('HK.txt', 'w', encoding='utf-8') as HK:
     HK.write('\n港澳频道,#genre#\n')
@@ -47,8 +47,9 @@ task_queue = Queue()
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 '
                   'Safari/537.36'}
-                  
-#文件读取
+
+
+# 文件读取
 class Record:
     def __init__(self, name, url):
         self.name = name  # 频道名称
@@ -57,28 +58,31 @@ class Record:
     def __str__(self):
         return f"{self.name},{self.url}"
 
-#抽象类读取文件
+
+# 抽象类读取文件
 class FileReader:
 
     def read_data(self) -> list[Record]:
         '''读取文件的数据'''
         pass
 
+
 class TextFileReader(FileReader):
 
     def __init__(self, path):
-        self.path = path  #定义成员变量记录文件路径
+        self.path = path  # 定义成员变量记录文件路径
 
     def read_data(self) -> list[Record]:
         f = open(self.path, "r", encoding="UTF-8")
         record_list = []
         for line in f.readlines():
             data_list = line.strip().split(",")
-            record = Record(data_list[0],data_list[1])
+            record = Record(data_list[0], data_list[1])
             record_list.append(record)
 
         f.close()
         return record_list
+
 
 class GetChannel():
 
@@ -114,10 +118,11 @@ class GetChannel():
                 print(f"{url_64} 访问失败")
                 pass
         return urls_all
-        
+
+
 urls_hn = ["Changsha", "Zhuzhou", "Hengyang"]
 urls_sc = ['Chengdu']
-tf_hn= TextFileReader("hunan.txt")
+tf_hn = TextFileReader("hunan.txt")
 tf_sc = TextFileReader("sichuan.txt")
 channelsx_hn = tf_hn.read_data()
 channelsx_sc = tf_sc.read_data()
@@ -125,9 +130,9 @@ channelsx_sc = tf_sc.read_data()
 u_hn = GetChannel(urls_hn)
 urls_hn_all = set(u_hn.get_channel())
 u_sc = GetChannel(urls_sc)
-urls_sc_all  = set(u_sc.get_channel())
+urls_sc_all = set(u_sc.get_channel())
 
-results =[]
+results = []
 channel = []
 resultsx = []
 resultxs = []
@@ -143,7 +148,7 @@ for urlx in urls_sc_all:
         channel = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
         results.extend(channel)
 
-results = sorted(set(results)) # 去重得到唯一的URL列表
+results = sorted(set(results))  # 去重得到唯一的URL列表
 
 
 # 定义工作线程函数
@@ -250,23 +255,21 @@ with open("IPTV_ZB.txt", 'w', encoding='utf-8') as file:
             else:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
-
-     channel_counters = {}
-     file.write('\n其他频道,#genre#\n')
-     for result in resultxs:
-         channel_name, channel_url = result
-         if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name and '湖南' not in \
-                 channel_name and '长沙' not in channel_name and '金鹰' not in channel_name and '凤凰' not in channel_name:
-             if channel_name in channel_counters:
-                 if channel_counters[channel_name] >= result_counter:
-                     continue
-                 else:
-                     file.write(f"{channel_name},{channel_url}\n")
-                     channel_counters[channel_name] += 1
-             else:
-                 file.write(f"{channel_name},{channel_url}\n")
-                 channel_counters[channel_name] = 1
-
+    channel_counters = {}
+    file.write('\n其他频道,#genre#\n')
+    for result in resultxs:
+        channel_name, channel_url = result
+        if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name and '湖南' not in \
+                channel_name and '长沙' not in channel_name and '金鹰' not in channel_name and '凤凰' not in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
 
 # 合并所有的txt文件
 file_contents = []
@@ -279,7 +282,7 @@ for file_path in file_paths:
     # 写入合并后的txt文件
 with open("IPTV_ZB.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
-# 写入更新日期时间
+    # 写入更新日期时间
     # file.write(f"{now_today}更新,#genre#\n")
     now = datetime.now()
     output.write(f"\n更新时间,#genre#\n")
