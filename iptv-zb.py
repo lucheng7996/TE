@@ -93,6 +93,7 @@ class GetChannel():
     def get_channel(self):
         urls_a = []
         urls_all = []
+        count = 0
         for url in self.urls:
             url_0 = str(base64.b64encode((f'"Server: udpxy" && city="{url}" && org="{self.org}"').encode("utf-8")),
                         "utf-8")
