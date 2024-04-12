@@ -79,53 +79,74 @@ class TextFileReader(FileReader):
 
         f.close()
         return record_list
+
+class GetChannel():
+
+    def __init__(self, urls):
+        self.urls = urls
+
+    def get_channel(self):
+        urls_all = []
+        for url in self.urls:
+            url_0 = str(base64.b64encode((f'"Server: udpxy" && city="{url}" && org="Chinanet"').encode("utf-8")),
+                        "utf-8")
+            url_64 = f'https://fofa.info/result?qbase64={url_0}'
+            print(url_64)
+            try:
+                response = requests.get(url_64, headers=headers, timeout=15)
+                page_content = response.text
+                pattern = r'href="(http://\d+\.\d+\.\d+\.\d+:\d+)"'
+                page_urls = re.findall(pattern, page_content)
+                for urlx in page_urls:
+                    try:
+                        response = requests.get(url=urlx + '/status', timeout=1)
+                        response.raise_for_status()  # 返回状态码不是200异常
+                        page_content = response.text
+                        pattern = r'class="proctabl"'
+                        page_proctabl = re.findall(pattern, page_content)
+                        if page_proctabl:
+                            urls_all.append(urlx)
+                            print(f"{urlx} 可以访问")
+
+                    except requests.RequestException as e:
+                        pass
+            except:
+                print(f"{url_64} 访问失败")
+                pass
+        return urls_all
         
-urls = ["changsha", "zhuzhou", "hengyang"]
-
+urls_hn = ["Changsha", "Zhuzhou", "Hengyang"]
+urls_sc = ['Chengdu']
 tf_hn= TextFileReader("hunan.txt")
-channelsx = tf_hn.read_data()
+tf_sc = TextFileReader("sichuan.txt")
+channelsx_hn = tf_hn.read_data()
+channelsx_sc = tf_sc.read_data()
 
-results = []
-channel = []
-urls_all = []
+u_hn = GetChannel(urls_hn)
+urls_hn_all = set(u_hn.get_channel())
+u_sc = GetChannel(urls_sc)
+urls_sc_all  = set(u_sc.get_channel())
+
+results =[]
+results_hn = []
+results_sc = []
+channel_hn = []
+channel_sc = []
 resultsx = []
 resultxs = []
 error_channels = []
 
+for urlx in urls_hn_all:
+    for a in channelsx_hn:
+        channel_hn = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
+        results_hn.extend(channel_hn)
 
-for url in urls:
-    url_0 = str(base64.b64encode((f'"Server: udpxy" && city="{url}" && org="Chinanet"').encode("utf-8")), "utf-8")
-    url_64 = f'https://fofa.info/result?qbase64={url_0}'
-    print(url_64)
-    try:
-        response = requests.get(url_64, headers=headers, timeout=15)
-        page_content = response.text
-        pattern = r'href="(http://\d+\.\d+\.\d+\.\d+:\d+)"'
-        page_urls = re.findall(pattern, page_content)
-        for urlx in page_urls:
-            try:
-                response = requests.get(url=urlx + '/status', timeout=1)
-                response.raise_for_status()  # 返回状态码不是200异常
-                page_content = response.text
-                pattern = r'class="proctabl"'
-                page_proctabl = re.findall(pattern, page_content)
-                if page_proctabl:
-                    urls_all.append(urlx)
-                    print(f"{urlx} 可以访问")
+for urlx in urls_sc_all:
+    for a in channelsx_sc:
+        channel_sc = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
+        results_sc.extend(channel_sc)
 
-            except requests.RequestException as e:
-                pass
-    except:
-        print(f"{url_64} 访问失败")
-        pass
-
-urls_all = set(urls_all)  # 去重得到唯一的URL列表
-for urlx in urls_all:
-    for a in channelsx:
-        channel = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
-        results.extend(channel)
-
-results = sorted(results)
+results = sorted(set(results_hn) + set(results_sc)) # 去重得到唯一的URL列表
 
 
 # 定义工作线程函数
@@ -233,21 +254,21 @@ with open("IPTV_ZB.txt", 'w', encoding='utf-8') as file:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
 
-    # channel_counters = {}
-    # file.write('\n其他频道,#genre#\n')
-    # for result in resultxs:
-    #     channel_name, channel_url = result
-    #     if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name and '湖南' not in \
-    #             channel_name and '长沙' not in channel_name and '金鹰' not in channel_name and '凤凰' not in channel_name:
-    #         if channel_name in channel_counters:
-    #             if channel_counters[channel_name] >= result_counter:
-    #                 continue
-    #             else:
-    #                 file.write(f"{channel_name},{channel_url}\n")
-    #                 channel_counters[channel_name] += 1
-    #         else:
-    #             file.write(f"{channel_name},{channel_url}\n")
-    #             channel_counters[channel_name] = 1
+     channel_counters = {}
+     file.write('\n其他频道,#genre#\n')
+     for result in resultxs:
+         channel_name, channel_url = result
+         if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name and '湖南' not in \
+                 channel_name and '长沙' not in channel_name and '金鹰' not in channel_name and '凤凰' not in channel_name:
+             if channel_name in channel_counters:
+                 if channel_counters[channel_name] >= result_counter:
+                     continue
+                 else:
+                     file.write(f"{channel_name},{channel_url}\n")
+                     channel_counters[channel_name] += 1
+             else:
+                 file.write(f"{channel_name},{channel_url}\n")
+                 channel_counters[channel_name] = 1
 
 
 # 合并所有的txt文件
