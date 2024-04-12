@@ -123,12 +123,12 @@ class GetChannel():
                 pass
         
         urls_a = list(set(urls_a))
-        #urls_all = urls_a[:2]  #前2个值用于返回
-        print(urls_a[:2])
-        return urls_a[:2]
+        #urls_all = urls_a[:3]  #取3个IP用于返回
+        print(urls_a[:3])
+        return urls_a[:3]
 
 
-urls_hn = ["changsha","hengyang"]
+urls_hn = ["changsha","hengyang","zhuzhou"]
 urls_sc = ['chengdu']
 urls_bj = ["beijing"]
 
