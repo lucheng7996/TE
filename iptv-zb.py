@@ -122,7 +122,7 @@ class GetChannel():
                 print(f"{url_64} 访问失败")
                 pass
         
-        urls_a = set(urls_a)
+        urls_a = list(set(urls_a))
         #urls_all = urls_a[:2]  #前2个值用于返回
         return urls_a[:2]
 
