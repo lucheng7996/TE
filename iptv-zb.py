@@ -93,7 +93,7 @@ class GetChannel():
     def get_channel(self):
         urls_all = []
         for url in self.urls:
-            url_0 = str(base64.b64encode((f'"Server: udpxy" && city="{url}" && org="{org}"').encode("utf-8")),
+            url_0 = str(base64.b64encode((f'"Server: udpxy" && city="{url}" && org="{self.org}"').encode("utf-8")),
                         "utf-8")
             url_64 = f'https://fofa.info/result?qbase64={url_0}'
             print(url_64)
