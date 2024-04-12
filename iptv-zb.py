@@ -86,13 +86,14 @@ class TextFileReader(FileReader):
 
 class GetChannel():
 
-    def __init__(self, urls):
+    def __init__(self, urls, org = "Chinanet"):
         self.urls = urls
+        self.org = org
 
     def get_channel(self):
         urls_all = []
         for url in self.urls:
-            url_0 = str(base64.b64encode((f'"Server: udpxy" && city="{url}" && org="Chinanet"').encode("utf-8")),
+            url_0 = str(base64.b64encode((f'"Server: udpxy" && city="{url}" && org="{org}"').encode("utf-8")),
                         "utf-8")
             url_64 = f'https://fofa.info/result?qbase64={url_0}'
             print(url_64)
@@ -122,15 +123,22 @@ class GetChannel():
 
 urls_hn = ["Changsha", "Zhuzhou", "Hengyang", "Yueyang"]
 urls_sc = ['Chengdu', 'Bazhong', 'Mianyang', 'Nanchong']
+urls_sc = ["Beijing"]
+
 tf_hn = TextFileReader("hunan.txt")
 tf_sc = TextFileReader("sichuan.txt")
+tf_bj = TextFileReader("beijing.txt")
 channelsx_hn = tf_hn.read_data()
 channelsx_sc = tf_sc.read_data()
+channelsx_bj = tf_sc.read_data()
 
 u_hn = GetChannel(urls_hn)
 urls_hn_all = set(u_hn.get_channel())
 u_sc = GetChannel(urls_sc)
 urls_sc_all = set(u_sc.get_channel())
+
+u_bj = GetChannel(urls_bj, "China Unicom Beijing Province Network")
+urls_bj_all = set(u_bj.get_channel())
 
 results = []
 channel = []
@@ -148,6 +156,7 @@ def get_channel(urls, channels):
             
 results.extend(set(get_channel(urls_hn_all, channelsx_hn)))  # 去重得到唯一的URL列表
 results.extend(set(get_channel(urls_sc_all, channelsx_sc)))  # 去重得到唯一的URL列表
+results.extend(set(get_channel(urls_bj_all, channelsx_bj)))  # 去重得到唯一的URL列表
 
 results = sorted(results) #排序
 
@@ -180,7 +189,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 15
+num_threads = 10
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     t.start()
@@ -210,7 +219,7 @@ for resulta in resultsx:
 resultxs.sort(key=lambda x: channel_key(x[0]))
 # now_today = datetime.date.today()
 
-result_counter = 15  # 每个频道需要的个数
+result_counter = 20  # 每个频道需要的个数
 
 with open("IPTV_ZB.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
