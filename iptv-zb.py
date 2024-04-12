@@ -84,7 +84,7 @@ class TextFileReader(FileReader):
 urls = ["changsha", "zhuzhou", "xiangtan", "hengyang", "shaoyang", "yueyang", "changde", "zhangjiajie", "yiyang",
         "chenzhou", "yongzhou", "huaihua", "loudi"]
 
-tf_hn= TextFileReader("Hunan.txt")
+tf_hn= TextFileReader("hunan.txt")
 channelsx = tf_hn.read_data()
 
 results = []
