@@ -1,4 +1,6 @@
 import time
+import datetime
+import pytz
 import os
 import re
 import base64
@@ -294,10 +296,18 @@ with open("IPTV_ZB.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
     # 写入更新日期时间
     # file.write(f"{now_today}更新,#genre#\n")
-    now = datetime.now()
+    # 获取当前时间
+    now = datetime.datetime.now()
+
+    # 设置时区
+    tz = pytz.timezone('Asia/Shanghai')
+
+    # 将本地时间转换为指定时区的时间
+    localized_time = tz.localize(now)
+            
     output.write(f"\n更新时间,#genre#\n")
-    output.write(f"{now.strftime("%Y-%m-%d")},url\n")
-    output.write(f"{now.strftime("%H:%M:%S")},url\n")
+    output.write(f"{localized_time.strftime("%Y-%m-%d")},url\n")
+    output.write(f"{localized_time.strftime("%H:%M:%S")},url\n")
 
 os.remove("DIYP-v4.txt")
 os.remove("HK.txt")
