@@ -121,8 +121,8 @@ class GetChannel():
         return urls_all
 
 
-urls_hn = ["Changsha", "Zhuzhou", "Hengyang", "Yueyang"]
-urls_sc = ['Chengdu', 'Bazhong', 'Mianyang', 'Nanchong']
+urls_hn = ["Changsha","Hengyang"]
+urls_sc = ['Chengdu']
 urls_bj = ["Beijing"]
 
 tf_hn = TextFileReader("hunan.txt")
@@ -189,7 +189,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 10
+num_threads = 15
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     t.start()
@@ -219,7 +219,7 @@ for resulta in resultsx:
 resultxs.sort(key=lambda x: channel_key(x[0]))
 # now_today = datetime.date.today()
 
-result_counter = 20  # 每个频道需要的个数
+result_counter = 10  # 每个频道需要的个数
 
 with open("IPTV_ZB.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
