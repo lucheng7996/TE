@@ -138,18 +138,18 @@ resultsx = []
 resultxs = []
 error_channels = []
 
-for urlx in urls_hn_all:
-    for a in channelsx_hn:
-        channel = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
-        results.extend(channel)
+def get_channel(urls, channels):
+    for urlx in urls:
+        for a in channels:
+            channel = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
+            results.extend(channel)
 
-for urlx in urls_sc_all:
-    for a in channelsx_sc:
-        channel = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
-        results.extend(channel)
+    return results
+            
+results.extend(set(get_channel(urls_hn_all, channelsx_hn)))  # 去重得到唯一的URL列表
+results.extend(set(get_channel(urls_sc_all, channelsx_sc)))  # 去重得到唯一的URL列表
 
-results = sorted(set(results))  # 去重得到唯一的URL列表
-
+results = sorted(results) #排序
 
 # 定义工作线程函数
 def worker():
