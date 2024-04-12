@@ -123,7 +123,7 @@ class GetChannel():
 
 urls_hn = ["Changsha", "Zhuzhou", "Hengyang", "Yueyang"]
 urls_sc = ['Chengdu', 'Bazhong', 'Mianyang', 'Nanchong']
-urls_sc = ["Beijing"]
+urls_bj = ["Beijing"]
 
 tf_hn = TextFileReader("hunan.txt")
 tf_sc = TextFileReader("sichuan.txt")
