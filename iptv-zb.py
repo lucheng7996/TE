@@ -123,12 +123,7 @@ class GetChannel():
                 pass
         
         urls_a = set(urls_a)
-        for a in urls_a:
-            if count >= 3:
-                continue
-            else:
-                urls_all.append(urls_a[a])
-                count += 1
+        urls_all = urls_a[:2]  #前2个值用于返回
         return urls_all
 
 
