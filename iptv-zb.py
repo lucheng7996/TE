@@ -130,7 +130,7 @@ tf_sc = TextFileReader("sichuan.txt")
 tf_bj = TextFileReader("beijing.txt")
 channelsx_hn = tf_hn.read_data()
 channelsx_sc = tf_sc.read_data()
-channelsx_bj = tf_sc.read_data()
+channelsx_bj = tf_bj.read_data()
 
 u_hn = GetChannel(urls_hn)
 urls_hn_all = set(u_hn.get_channel())
