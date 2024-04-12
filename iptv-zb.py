@@ -297,17 +297,10 @@ with open("IPTV_ZB.txt", "w", encoding="utf-8") as output:
     # 写入更新日期时间
     # file.write(f"{now_today}更新,#genre#\n")
     # 获取当前时间
-    now = datetime.datetime.now()
-
-    # 设置时区
-    tz = pytz.timezone('Asia/Shanghai')
-
-    # 将本地时间转换为指定时区的时间
-    localized_time = tz.localize(now)
-            
+    now = datetime.now()          
     output.write(f"\n更新时间,#genre#\n")
-    output.write(f"{localized_time.strftime("%Y-%m-%d")},url\n")
-    output.write(f"{localized_time.strftime("%H:%M:%S")},url\n")
+    output.write(f"{now.strftime("%Y-%m-%d")},url\n")
+    output.write(f"{now.strftime("%H:%M:%S")},url\n")
 
 os.remove("DIYP-v4.txt")
 os.remove("HK.txt")
