@@ -108,7 +108,8 @@ class GetChannel():
                         response = requests.get(url=urlx + '/status', timeout=1)
                         response.raise_for_status()  # 返回状态码不是200异常
                         page_content = response.text
-                        pattern = r'class="proctabl"'
+                        #pattern = r'class="proctabl"'
+                        pattern = r'value="Restart"'
                         page_proctabl = re.findall(pattern, page_content)
                         if page_proctabl:
                             urls_a.append(urlx)
@@ -122,7 +123,7 @@ class GetChannel():
         
         urls_a = set(urls_a)
         for a in urls_a:
-            if count >= 3 then:
+            if count >= 3:
                 continue
             else:
                 urls_all.append(urls_a[a])
