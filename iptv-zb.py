@@ -73,7 +73,6 @@ class TextFileReader(FileReader):
         f = open(self.path, "r", encoding="UTF-8")
         record_list = []
         for line in f.readlines():
-            line = line.strip()
             data_list = line.split(",")
             record = Record(data_list[0],data_list[1])
             record_list.append(record)
@@ -81,8 +80,7 @@ class TextFileReader(FileReader):
         f.close()
         return record_list
         
-urls = ["changsha", "zhuzhou", "xiangtan", "hengyang", "shaoyang", "yueyang", "changde", "zhangjiajie", "yiyang",
-        "chenzhou", "yongzhou", "huaihua", "loudi"]
+urls = ["changsha", "zhuzhou", "hengyang"]
 
 tf_hn= TextFileReader("hunan.txt")
 channelsx = tf_hn.read_data()
