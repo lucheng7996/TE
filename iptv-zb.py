@@ -128,25 +128,22 @@ u_sc = GetChannel(urls_sc)
 urls_sc_all  = set(u_sc.get_channel())
 
 results =[]
-results_hn = []
-results_sc = []
-channel_hn = []
-channel_sc = []
+channel = []
 resultsx = []
 resultxs = []
 error_channels = []
 
 for urlx in urls_hn_all:
     for a in channelsx_hn:
-        channel_hn = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
-        results_hn.extend(channel_hn)
+        channel = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
+        results.extend(channel)
 
 for urlx in urls_sc_all:
     for a in channelsx_sc:
-        channel_sc = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
-        results_sc.extend(channel_sc)
+        channel = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
+        results.extend(channel)
 
-results = sorted(set(results_hn) + set(results_sc)) # 去重得到唯一的URL列表
+results = sorted(set(results)) # 去重得到唯一的URL列表
 
 
 # 定义工作线程函数
