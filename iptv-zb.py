@@ -50,12 +50,12 @@ headers = {
                   
 #文件读取
 class Record:
-    def __init__(self, chan, url):
-        self.chan = chan  # 频道名称
+    def __init__(self, name, url):
+        self.name = name  # 频道名称
         self.url = url  # 频道链接
 
     def __str__(self):
-        return f"{self.chan},{self.url}"
+        return f"{self.name},{self.url}"
 
 #抽象类读取文件
 class FileReader:
@@ -73,7 +73,7 @@ class TextFileReader(FileReader):
         f = open(self.path, "r", encoding="UTF-8")
         record_list = []
         for line in f.readlines():
-            data_list = line.split(",")
+            data_list = line.strip().split(",")
             record = Record(data_list[0],data_list[1])
             record_list.append(record)
 
