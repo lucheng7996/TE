@@ -121,9 +121,9 @@ for url in urls:
 
 urls_all = set(urls_all)  # 去重得到唯一的URL列表
 for urlx in urls_all:
-    channel = [f'{name},{url.replace("http://8.8.8.8:8", urlx)}' for name, url in
-               [for line in channelsx]]
-    results.extend(channel)
+    for a in channelsx:
+        channel = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
+        results.extend(channel)
 
 results = sorted(results)
 
