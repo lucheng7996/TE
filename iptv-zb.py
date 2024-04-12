@@ -263,13 +263,14 @@ with open("IPTV_ZB.txt", 'w', encoding='utf-8') as file:
     for result in resultxs:
         channel_name, channel_url = result
         if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name and '湖南' not in \
-                channel_name and '长沙' not in channel_name and '金鹰' not in channel_name and '凤凰' not in channel_name and\
-                '衡阳' not in channel_name and '株洲' not in channel_name and '张家界' not in channel_name and '娄底' not in \
-                channel_name and '邵阳' not in channel_name and '宁乡' not in channel_name and '怀化' not in channel_name and '岳阳' \
-                not in channel_name and '郴州' not in channel_name and '常德' not in channel_name and '永州' not in channel_name and \
-                '浏阳' in channel_name and '益阳' in channel_name and '安仁' not in channel_name and '桂东' not in channel_name\
-                and '茶陵' not in channel_name and '临澧' not in channel_name and '武冈' not in channel_name and '新化' not in \
-                channel_name and '津市' not in channel_name and '溆浦' not in channel_name:
+            channel_name and '长沙' not in channel_name and '金鹰' not in channel_name and '凤凰' not in \
+            channel_name and '衡阳' not in channel_name and '株洲' not in channel_name and '张家界' not in \
+            channel_name and '娄底' not in channel_name and '邵阳' not in channel_name and '宁乡' not in \
+            channel_name and '怀化' not in channel_name and '岳阳' not in channel_name and '郴州' not in \
+            channel_name and '常德' not in channel_name and '永州' not in channel_name and '浏阳' not in \
+            channel_name and '益阳' not in channel_name and '安仁' not in channel_name and '桂东' not in \
+            channel_name and '茶陵' not in channel_name and '临澧' not in channel_name and '武冈' not in \
+            channel_name and '新化' not in channel_name and '津市' not in channel_name and '溆浦' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
