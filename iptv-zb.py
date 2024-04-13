@@ -168,12 +168,12 @@ def get_channel(urls, channels):
             channel = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
             results.extend(channel)
 
-    return results
-            
-results.extend(set(get_channel(urls_hn_all, channelsx_hn)))  # 去重得到唯一的URL列表
-results.extend(set(get_channel(urls_sc_all, channelsx_sc)))  # 去重得到唯一的URL列表
+    return results          
+
 results.extend(set(get_channel(urls_bj_all, channelsx_bj)))  # 去重得到唯一的URL列表
 results.extend(set(get_channel(urls_fj_all, channelsx_fj)))  # 去重得到唯一的URL列表
+results.extend(set(get_channel(urls_sc_all, channelsx_sc)))  # 去重得到唯一的URL列表
+results.extend(set(get_channel(urls_hn_all, channelsx_hn)))  # 去重得到唯一的URL列表
 
 results = sorted(set(results)) #排序
 
@@ -236,7 +236,7 @@ for resulta in resultsx:
 resultxs.sort(key=lambda x: channel_key(x[0]))
 # now_today = datetime.date.today()
 
-result_counter = 15  # 每个频道需要的个数
+result_counter = 18  # 每个频道需要的个数
 
 with open("IPTV_ZB.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
