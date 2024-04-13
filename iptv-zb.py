@@ -95,7 +95,7 @@ class GetChannel():
         urls_all = []
         count = 0
         for url in self.urls:
-            url_0 = str(base64.b64encode((f'"Server: udpxy" && city="{url}" && org="{self.org}"').encode("utf-8")),
+            url_0 = str(base64.b64encode((f'"Server: udpxy" && region="{url}" && org="{self.org}"').encode("utf-8")),
                         "utf-8")
             url_64 = f'https://fofa.info/result?qbase64={url_0}'
             print(url_64)
@@ -128,10 +128,13 @@ class GetChannel():
         return urls_a[:3]
 
 
-urls_hn = ["changsha","hengyang","zhuzhou"]
-urls_sc = ['chengdu']
+#urls_hn = ["changsha","hengyang","zhuzhou"]
+urls_hn = ["hunan"]
+#urls_sc = ['chengdu']
+urls_sc = ['sichuan']
 urls_bj = ["beijing"]
-urls_fj = ["fuzhou","xiamen"]
+#urls_fj = ["fuzhou","xiamen"]
+urls_fj = ["fujian"]
 
 tf_hn = TextFileReader("hunan.txt")
 tf_sc = TextFileReader("sichuan.txt")
