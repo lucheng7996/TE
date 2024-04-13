@@ -264,7 +264,8 @@ with open("IPTV_ZB.txt", 'w', encoding='utf-8') as file:
         if '湖南' in channel_name or '长沙' in channel_name or '金鹰' in channel_name or '衡阳' in channel_name or '株洲' in channel_name or '张家界' in channel_name\
                 or '娄底' in channel_name or '邵阳' in channel_name or '宁乡' in channel_name or '怀化' in channel_name or '岳阳' in channel_name or '郴州' in channel_name\
                 or '常德' in channel_name or '永州' in channel_name or '浏阳' in channel_name or '益阳' in channel_name or  '安仁' in channel_name or '桂东' in channel_name\
-                or '茶陵' in channel_name or '临澧' in channel_name or '武冈' in channel_name or '新化' in channel_name or '津市' in channel_name or '溆浦' in channel_name:
+                or '茶陵' in channel_name or '临澧' in channel_name or '武冈' in channel_name or '新化' in channel_name or '津市' in channel_name or '溆浦' in channel_name\
+                or '湘西' in channel_name or '湘潭' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -286,7 +287,8 @@ with open("IPTV_ZB.txt", 'w', encoding='utf-8') as file:
             channel_name and '常德' not in channel_name and '永州' not in channel_name and '浏阳' not in \
             channel_name and '益阳' not in channel_name and '安仁' not in channel_name and '桂东' not in \
             channel_name and '茶陵' not in channel_name and '临澧' not in channel_name and '武冈' not in \
-            channel_name and '新化' not in channel_name and '津市' not in channel_name and '溆浦' not in channel_name:
+            channel_name and '新化' not in channel_name and '津市' not in channel_name and '溆浦' not in \
+            channel_name and '湘西' not in channel_name and '湘潭' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
