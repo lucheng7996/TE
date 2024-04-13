@@ -100,7 +100,7 @@ class GetChannel():
             url_64 = f'https://fofa.info/result?qbase64={url_0}'
             print(url_64)
             try:
-                response = requests.get(url_64, headers=headers, timeout=3)
+                response = requests.get(url_64, headers=headers, timeout=(20,5))
                 page_content = response.text
                 pattern = r'href="(http://\d+\.\d+\.\d+\.\d+:\d+)"'
                 page_urls = re.findall(pattern, page_content)
