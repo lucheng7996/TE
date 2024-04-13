@@ -131,13 +131,16 @@ class GetChannel():
 urls_hn = ["changsha","hengyang","zhuzhou"]
 urls_sc = ['chengdu']
 urls_bj = ["beijing"]
+urls_fj = ["fuzhou","xiamen"]
 
 tf_hn = TextFileReader("hunan.txt")
 tf_sc = TextFileReader("sichuan.txt")
 tf_bj = TextFileReader("beijing.txt")
+tf_fj = TextFileReader("fujian.txt")
 channelsx_hn = tf_hn.read_data()
 channelsx_sc = tf_sc.read_data()
 channelsx_bj = tf_bj.read_data()
+channelsx_fj = tf_fj.read_data()
 
 u_hn = GetChannel(urls_hn)
 urls_hn_all = set(u_hn.get_channel())
@@ -146,6 +149,9 @@ urls_sc_all = set(u_sc.get_channel())
 
 u_bj = GetChannel(urls_bj, "China Unicom Beijing Province Network")
 urls_bj_all = set(u_bj.get_channel())
+
+u_fj = GetChannel(urls_fj)
+urls_fj_all = set(u_fj.get_channel())
 
 results = []
 channel = []
@@ -164,6 +170,7 @@ def get_channel(urls, channels):
 results.extend(set(get_channel(urls_hn_all, channelsx_hn)))  # 去重得到唯一的URL列表
 results.extend(set(get_channel(urls_sc_all, channelsx_sc)))  # 去重得到唯一的URL列表
 results.extend(set(get_channel(urls_bj_all, channelsx_bj)))  # 去重得到唯一的URL列表
+results.extend(set(get_channel(urls_fj_all, channelsx_fj)))  # 去重得到唯一的URL列表
 
 results = sorted(set(results)) #排序
 
