@@ -6,6 +6,7 @@ import requests
 import threading
 from queue import Queue
 from datetime import datetime
+import pytz
 
 #  获取远程直播源文件
 url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/DIYP-v4.txt"
@@ -323,7 +324,9 @@ with open("IPTV_ZB.txt", "w", encoding="utf-8") as output:
     # 写入更新日期时间
     # file.write(f"{now_today}更新,#genre#\n")
     # 获取当前时间
-    now = datetime.now()          
+    local_tz = pytz.timezone("Asia/Shanghai")
+    now = datetime.datetime.now(local_tz)
+    #now = datetime.now()
     output.write(f"\n更新时间,#genre#\n")
     output.write(f"{now.strftime("%Y-%m-%d")},url\n")
     output.write(f"{now.strftime("%H:%M:%S")},url\n")
