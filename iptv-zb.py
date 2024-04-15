@@ -325,7 +325,7 @@ with open("IPTV_ZB.txt", "w", encoding="utf-8") as output:
     # file.write(f"{now_today}更新,#genre#\n")
     # 获取当前时间
     local_tz = pytz.timezone("Asia/Shanghai")
-    now = datetime.datetime.now(local_tz)
+    now = datetime.now(local_tz)
     #now = datetime.now()
     output.write(f"\n更新时间,#genre#\n")
     output.write(f"{now.strftime("%Y-%m-%d")},url\n")
