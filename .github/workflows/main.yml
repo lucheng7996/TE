@@ -22,7 +22,10 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install selenium requests futures eventlet                
+        run: pip install selenium requests futures eventlet 
+
+      - name: Install dependencies
+        run: pip install pytz
 
       - name: Run iptv-zb
         run: python ${{ github.workspace }}/iptv-zb.py
