@@ -126,14 +126,14 @@ class GetChannel():
         # urls_a = list(urls_a)
         # urls_all = urls_a[:3]  #取3个IP用于返回
         urls_cunt = 3  # 取3个不同IP
-        for i in urls_a:
-            if i in urls_all:
+        for i in range(len(urls_a)):
+            if urls_a[i] in urls_all:
                 pass
             else:
                 if urls_all[i] >= urls_cunt:
                     continue
                 else:
-                    urls_all += i
+                    urls_all += urls_a[i]
         print(urls_all)
         return urls_all
 
@@ -255,16 +255,16 @@ with open("IPTV_HN.txt", 'w', encoding='utf-8') as file:
     file.write('央视频道,#genre#\n')
     for result in resultxs:
         channel_name, channel_url = result
-        if 'CCTV' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"{channel_name},{channel_url}\n")
-                    channel_counters[channel_name] += 1
+        #if 'CCTV' in channel_name:
+        if channel_name in channel_counters:
+            if channel_counters[channel_name] >= result_counter:
+                continue
             else:
                 file.write(f"{channel_name},{channel_url}\n")
-                channel_counters[channel_name] = 1
+                channel_counters[channel_name] += 1
+        else:
+            file.write(f"{channel_name},{channel_url}\n")
+            channel_counters[channel_name] = 1
 
 # 合并所有的txt文件
 file_contents = []
