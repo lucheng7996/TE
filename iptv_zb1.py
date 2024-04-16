@@ -253,7 +253,7 @@ result_counter = 10  # 每个频道需要的个数
 
 with open("IPTV_HN.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
-    file.write('央视频道,#genre#\n')
+    file.write('湖南电信,#genre#\n')
     for result in resultxs:
         channel_name, channel_url = result
         #if 'CCTV' in channel_name:
