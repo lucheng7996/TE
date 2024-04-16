@@ -87,7 +87,7 @@ class TextFileReader(FileReader):
 
 class GetChannel():
 
-    def __init__(self, urls, org = "Chinanet"):
+    def __init__(self, urls, org="Chinanet"):
         self.urls = urls
         self.org = org
 
@@ -110,7 +110,7 @@ class GetChannel():
                         response = requests.get(url=urlx + '/status', timeout=3)
                         response.raise_for_status()  # 返回状态码不是200异常
                         page_content = response.text
-                        #pattern = r'class="proctabl"'
+                        # pattern = r'class="proctabl"'
                         pattern = r'value="Restart"'
                         page_proctabl = re.findall(pattern, page_content)
                         if page_proctabl:
@@ -122,29 +122,28 @@ class GetChannel():
             except:
                 print(f"{url_64} 访问失败")
                 pass
-        
-        #urls_a = list(urls_a)
-        #urls_all = urls_a[:3]  #取3个IP用于返回
-        urls_cunt = 3 #取3个不同IP
+
+        # urls_a = list(urls_a)
+        # urls_all = urls_a[:3]  #取3个IP用于返回
+        urls_cunt = 3  # 取3个不同IP
         for i in urls_a:
-			if i in urls_all:
-				 pass
-			esle:
-				if urls_all[i] >= urls_cunt:
+            if i in urls_all:
+                pass
+            else:
+                if urls_all[i] >= urls_cunt:
                     continue
                 else:
-					urls_all += i
-				
-        print(urls_all)
-        return urls_all
+                    urls_all += i
 
+print(urls_all)
+return urls_all
 
-#urls_hn = ["changsha","hengyang","zhuzhou"]
+# urls_hn = ["changsha","hengyang","zhuzhou"]
 urls_hn = ["hunan"]
-#urls_sc = ['chengdu']
+# urls_sc = ['chengdu']
 urls_sc = ['sichuan']
 urls_bj = ["beijing"]
-#urls_fj = ["fuzhou","xiamen"]
+# urls_fj = ["fuzhou","xiamen"]
 urls_fj = ["fujian"]
 
 tf_hn = TextFileReader("hunan.txt")
@@ -173,20 +172,23 @@ resultsx = []
 resultxs = []
 error_channels = []
 
+
 def get_channel(urls, channels):
     for urlx in urls:
         for a in channels:
             channel = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
             results.extend(channel)
 
-    return results          
+    return results
 
-#results.extend(set(get_channel(urls_bj_all, channelsx_bj)))  # 去重得到唯一的URL列表
-#results.extend(set(get_channel(urls_fj_all, channelsx_fj)))  # 去重得到唯一的URL列表
-#results.extend(set(get_channel(urls_sc_all, channelsx_sc)))  # 去重得到唯一的URL列表
+
+# results.extend(set(get_channel(urls_bj_all, channelsx_bj)))  # 去重得到唯一的URL列表
+# results.extend(set(get_channel(urls_fj_all, channelsx_fj)))  # 去重得到唯一的URL列表
+# results.extend(set(get_channel(urls_sc_all, channelsx_sc)))  # 去重得到唯一的URL列表
 results.extend(get_channel(urls_hn_all, channelsx_hn))  # 去重得到唯一的URL列表
 
-#results = sorted(set(results)) #排序
+
+# results = sorted(set(results)) #排序
 
 # 定义工作线程函数
 def worker():
@@ -264,7 +266,6 @@ with open("IPTV_HN.txt", 'w', encoding='utf-8') as file:
             else:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
-    
 
 # 合并所有的txt文件
 file_contents = []
@@ -282,7 +283,7 @@ with open("IPTV_ZB.txt", "w", encoding="utf-8") as output:
     # 获取当前时间
     local_tz = pytz.timezone("Asia/Shanghai")
     now = datetime.now(local_tz)
-    #now = datetime.now()
+    # now = datetime.now()
     output.write(f"\n更新时间,#genre#\n")
     output.write(f"{now.strftime("%Y-%m-%d")},url\n")
     output.write(f"{now.strftime("%H:%M:%S")},url\n")
