@@ -126,7 +126,7 @@ class GetChannel():
         #urls_a = list(urls_a)
         #urls_all = urls_a[:3]  #取3个IP用于返回
         urls_cunt = 3 #取3个不同IP
-        for i in urls_a
+        for i in urls_a:
 			if i in urls_all:
 				 pass
 			esle:
@@ -275,7 +275,7 @@ for file_path in file_paths:
         file_contents.append(content)
 
     # 写入合并后的txt文件
-with open("IPTV_ZB1.txt", "w", encoding="utf-8") as output:
+with open("IPTV_ZB.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
     # 写入更新日期时间
     # file.write(f"{now_today}更新,#genre#\n")
@@ -291,6 +291,5 @@ os.remove("DIYP-v4.txt")
 os.remove("HK.txt")
 os.remove("TW.txt")
 os.remove("GAT.txt")
-os.remove("IPTV_HN.txt")
 
 print(f"电视频道成功写入IPTV_ZB.txt")
