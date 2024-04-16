@@ -185,6 +185,7 @@ def get_channel(urls, channels):
 # results.extend(set(get_channel(urls_bj_all, channelsx_bj)))  # 去重得到唯一的URL列表
 # results.extend(set(get_channel(urls_fj_all, channelsx_fj)))  # 去重得到唯一的URL列表
 # results.extend(set(get_channel(urls_sc_all, channelsx_sc)))  # 去重得到唯一的URL列表
+print(urls_hn_all)
 results.extend(get_channel(urls_hn_all, channelsx_hn))  # 去重得到唯一的URL列表
 
 
@@ -202,12 +203,12 @@ def worker():
                 resultsx.append(result)
                 numberx = (len(resultsx) + len(error_channels)) / len(results) * 100
                 print(
-                    f"可用频道：{len(resultsx)} , 不可用频道：{len(error_channels)} 个 , 总频道：{len(results)} 个 ,总进度：{numberx:.2f} %。")
+                    f"可用频道：{len(resultsx)} 个, 不可用频道：{len(error_channels)} 个 , 总频道：{len(results)} 个 ,总进度：{numberx:.2f} %。")
             else:
                 error_channels.append(result)
                 numberx = (len(resultsx) + len(error_channels)) / len(results) * 100
                 print(
-                    f"可用频道：{len(resultsx)} 个 , 不可用频道：{len(error_channels)} , 总频道：{len(results)} 个 ,总进度：{numberx:.2f} %。")
+                    f"可用频道：{len(resultsx)} 个 , 不可用频道：{len(error_channels)} 个, 总频道：{len(results)} 个 ,总进度：{numberx:.2f} %。")
         except:
             error_channels.append(result)
             numberx = (len(resultsx) + len(error_channels)) / len(results) * 100
