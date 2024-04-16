@@ -127,45 +127,44 @@ class GetChannel():
         # urls_all = urls_a[:3]  #取3个IP用于返回
         index = 1
         urls_cunt = 3  # 取3个不同IP
-        for i in range(len(urls_a)):
-            if urls_a[i] in urls_all:
+        for i in urls_a:
+            if i in urls_all:
                 continue
             else:
                 if index > urls_cunt:
                     continue
                 else:
                     index += 1
-                    urls_all += urls_a[i]
+                    urls_all.append(i)
         print(urls_all)
         return urls_all
 
 # urls_hn = ["changsha","hengyang","zhuzhou"]
 urls_hn = ["hunan"]
-# urls_sc = ['chengdu']
-urls_sc = ['sichuan']
-urls_bj = ["beijing"]
-# urls_fj = ["fuzhou","xiamen"]
-urls_fj = ["fujian"]
+
+#urls_sc = ['sichuan']
+#urls_bj = ["beijing"]
+#urls_fj = ["fujian"]
 
 tf_hn = TextFileReader("hunan.txt")
-tf_sc = TextFileReader("sichuan.txt")
-tf_bj = TextFileReader("beijing.txt")
-tf_fj = TextFileReader("fujian.txt")
+#tf_sc = TextFileReader("sichuan.txt")
+#tf_bj = TextFileReader("beijing.txt")
+#tf_fj = TextFileReader("fujian.txt")
 channelsx_hn = tf_hn.read_data()
-channelsx_sc = tf_sc.read_data()
-channelsx_bj = tf_bj.read_data()
-channelsx_fj = tf_fj.read_data()
+#channelsx_sc = tf_sc.read_data()
+#channelsx_bj = tf_bj.read_data()
+#channelsx_fj = tf_fj.read_data()
 
 u_hn = GetChannel(urls_hn)
 urls_hn_all = set(u_hn.get_channel())
-u_sc = GetChannel(urls_sc)
-urls_sc_all = set(u_sc.get_channel())
+#u_sc = GetChannel(urls_sc)
+#urls_sc_all = set(u_sc.get_channel())
 
-u_bj = GetChannel(urls_bj, "China Unicom Beijing Province Network")
-urls_bj_all = set(u_bj.get_channel())
+#u_bj = GetChannel(urls_bj, "China Unicom Beijing Province Network")
+#urls_bj_all = set(u_bj.get_channel())
 
-u_fj = GetChannel(urls_fj)
-urls_fj_all = set(u_fj.get_channel())
+#u_fj = GetChannel(urls_fj)
+#urls_fj_all = set(u_fj.get_channel())
 
 results = []
 channel = []
