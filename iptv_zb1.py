@@ -1,4 +1,4 @@
-import time
+#import time
 import os
 import re
 import base64
@@ -134,9 +134,8 @@ class GetChannel():
                     continue
                 else:
                     urls_all += i
-
-print(urls_all)
-return urls_all
+        print(urls_all)
+        return urls_all
 
 # urls_hn = ["changsha","hengyang","zhuzhou"]
 urls_hn = ["hunan"]
