@@ -124,9 +124,19 @@ class GetChannel():
                 pass
         
         urls_a = list(set(urls_a))
-        #urls_all = urls_a[:3]  #取3个IP用于返回
-        print(urls_a[:3])
-        return urls_a[:3]
+        index = 1
+        urls_cunt = 3  # 取3个不同IP
+        for i in urls_a:
+            if i in urls_all:
+                continue
+            else:
+                if index > urls_cunt:
+                    continue
+                else:
+                    index += 1
+                    urls_all.append(i)
+        print(urls_all)
+        return urls_all
 
 
 #urls_hn = ["changsha","hengyang","zhuzhou"]
