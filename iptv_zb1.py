@@ -189,7 +189,7 @@ print(urls_hn_all)
 results.extend(get_channel(urls_hn_all, channelsx_hn))  # 去重得到唯一的URL列表
 
 
-# results = sorted(set(results)) #排序
+results = sorted(results) #排序
 
 # 定义工作线程函数
 def worker():
