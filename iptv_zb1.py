@@ -125,14 +125,16 @@ class GetChannel():
 
         # urls_a = list(urls_a)
         # urls_all = urls_a[:3]  #取3个IP用于返回
+        index = 1
         urls_cunt = 3  # 取3个不同IP
         for i in range(len(urls_a)):
             if urls_a[i] in urls_all:
-                pass
+                continue
             else:
-                if urls_all[i] >= urls_cunt:
+                if index > urls_cunt:
                     continue
                 else:
+                    index += 1
                     urls_all += urls_a[i]
         print(urls_all)
         return urls_all
