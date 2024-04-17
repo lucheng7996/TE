@@ -341,10 +341,7 @@ with open("IPTV_ZB.txt", "w", encoding="utf-8") as output:
     output.write(f"{now.strftime("%Y-%m-%d")},url\n")
     output.write(f"{now.strftime("%H:%M:%S")},url\n")
 
-os.remove("DIYP-v4.txt")
-os.remove("HK.txt")
-os.remove("TW.txt")
-os.remove("GAT.txt")
+output.close()
 
 print(f"电视频道成功写入IPTV_ZB.txt")
 
@@ -356,7 +353,7 @@ def txt_to_m3u(input_file, output_file):
     # 打开m3u文件并写入内容
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
-
+        print(f"写入文件开始。")
         # 初始化genre变量
         genre = ''
 
@@ -372,10 +369,16 @@ def txt_to_m3u(input_file, output_file):
                 else:
                     # 将频道信息写入m3u文件
                     f.write(f'#EXTINF:-1 group-title="{genre}",{channel_name}\n')
-                    f.write(f'{channel_url}\n')
-
-
+                    f.write(f'{channel_url}\n')                    
+        print(f"写入文件结束。")
+                
 # 将txt文件转换为m3u文件
 txt_to_m3u('IPTV_ZB.txt', 'IPTV_ZB.m3u')
 
 print(f"m3u文件创建成功,IPTV_ZB.m3u")
+
+os.remove("DIYP-v4.txt")
+os.remove("HK.txt")
+os.remove("TW.txt")
+os.remove("GAT.txt")
+
