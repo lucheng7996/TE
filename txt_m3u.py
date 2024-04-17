@@ -7,6 +7,7 @@ def txt_to_m3u(input_file, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
         print(f"写入文件开始。")
+        f.write(f'#EXTINF:-1 group-title="{genre}",{channel_name}\n')
         # 初始化genre变量
         genre = ''
 
