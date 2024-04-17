@@ -376,6 +376,6 @@ def txt_to_m3u(input_file, output_file):
                     f.write(f'{channel_url}\n')
 
 # 将txt文件转换为m3u文件
-txt_to_m3u('iptv_list.txt', 'iptv_list.m3u')
+txt_to_m3u('IPTV_ZB.txt', 'IPTV_ZB.m3u')
 
 print(f"m3u文件创建成功,IPTV_ZB.m3u")
