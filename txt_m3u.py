@@ -1,7 +1,7 @@
 def txt_to_m3u(input_file, output_file):
     # 读取txt文件内容
-    with open(input_file, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+    with open(input_file, 'r', encoding='utf-8') as fr:
+        lines = fr.readlines()
 
     # 打开m3u文件并写入内容
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -22,10 +22,13 @@ def txt_to_m3u(input_file, output_file):
                 else:
                     # 将频道信息写入m3u文件
                     f.write(f'#EXTINF:-1 group-title="{genre}",{channel_name}\n')
-                    f.write(f'{channel_url}\n')                    
+                    f.write(f'{channel_url}\n')
         print(f"写入文件结束。")
-                
-# 将txt文件转换为m3u文件
-txt_to_m3u('IPTV_ZB.txt', 'IPTV_ZB.m3u')
+    
+    fr.close()
+    f.close()
 
-print(f"m3u文件创建成功,IPTV_ZB.m3u")
+# 将txt文件转换为m3u文件
+txt_to_m3u('IPTV_ZB.txt', 'IPTV_Z.m3u')
+
+print(f"m3u文件创建成功,IPTV_Z.m3u")
