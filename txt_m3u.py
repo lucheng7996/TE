@@ -7,7 +7,7 @@ def txt_to_m3u():
         print(f"写入文件开始。")
         f.write(f'#EXTINF:-1 group-title="AAA","http://kuanglong.vicp.hk:2121/udp/239.93.16.118:8708"\n')
         # 初始化genre变量
-        genre = ''
+        #genre = ''
 
         # 遍历txt文件内容
         # for line in lines:
