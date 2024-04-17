@@ -1,8 +1,7 @@
-def txt_to_m3u():
-   
+def txt_to_m3u():   
 
     # 打开m3u文件并写入内容
-    with open('IPTV_Z.m3u', 'w', encoding='utf-8') as f:
+    with open('ABCCC', 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
         print(f"写入文件开始。")
         f.write("TEST")
