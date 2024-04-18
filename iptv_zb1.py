@@ -199,8 +199,8 @@ task_queue.join()
 for resulta in resultsx:
     channel_name, channel_url = resulta
     resultx = channel_name, channel_url
-    if 
-    resultxs.append(resultx)
+    if resultx not in resultxs:
+        resultxs.append(resultx)
 
 # 对频道进行排序
 #resultxs.sort(key=lambda x: channel_key(x[0]))
