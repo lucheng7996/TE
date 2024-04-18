@@ -1,49 +1,7 @@
-#import time
-import os
 import re
 import base64
 import requests
 import threading
-from queue import Queue
-from datetime import datetime
-import pytz
-
-#  获取远程直播源文件
-url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/DIYP-v4.txt"
-r = requests.get(url)
-open('DIYP-v4.txt', 'wb').write(r.content)
-
-keywords = ['凤凰卫视', '凤凰资讯', 'TVB翡翠', 'TVB明珠', 'TVB星河', 'J2', '无线', '有线', '天映', 'VIU', 'RTHK', 'HOY',
-            '香港卫视', 'Viut']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-with open('DIYP-v4.txt', 'r', encoding='utf-8') as file, open('HK.txt', 'w', encoding='utf-8') as HK:
-    HK.write('\n港澳频道,#genre#\n')
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-            HK.write(line)  # 将该行写入输出文件
-
-keywords = ['民视', '中视', '台视', '华视', '新闻台', '东森', '龙祥', '公视', '三立', '大爱', '年代新闻', '人间卫视',
-            '人間', '大立']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-with open('DIYP-v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
-    TW.write('\n台湾频道,#genre#\n')
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-            TW.write(line)  # 将该行写入输出文件
-
-# 读取要合并的香港频道和台湾频道文件
-file_contents = []
-file_paths = ["HK.txt", "TW.txt"]  # 替换为实际的文件路径列表
-for file_path in file_paths:
-    with open(file_path, 'r', encoding="utf-8") as file:
-        content = file.read()
-        file_contents.append(content)
-# 生成合并后的文件
-with open("GAT.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
-
-# 线程安全的队列，用于存储下载任务
-task_queue = Queue()
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 '
@@ -189,7 +147,7 @@ print(urls_hn_all)
 results.extend(get_channel(urls_hn_all, channelsx_hn))  # 去重得到唯一的URL列表
 
 
-results = sorted(results) #排序
+#results = sorted(results) #排序
 
 # 定义工作线程函数
 def worker():
@@ -247,7 +205,7 @@ for resulta in resultsx:
     resultxs.append(resultx)
 
 # 对频道进行排序
-resultxs.sort(key=lambda x: channel_key(x[0]))
+#resultxs.sort(key=lambda x: channel_key(x[0]))
 # now_today = datetime.date.today()
 
 result_counter = 10  # 每个频道需要的个数
@@ -275,23 +233,6 @@ for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
         file_contents.append(content)
+    file.close()
 
-    # 写入合并后的txt文件
-with open("IPTV_ZB.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
-    # 写入更新日期时间
-    # file.write(f"{now_today}更新,#genre#\n")
-    # 获取当前时间
-    local_tz = pytz.timezone("Asia/Shanghai")
-    now = datetime.now(local_tz)
-    # now = datetime.now()
-    output.write(f"\n更新时间,#genre#\n")
-    output.write(f"{now.strftime("%Y-%m-%d")},url\n")
-    output.write(f"{now.strftime("%H:%M:%S")},url\n")
-
-os.remove("DIYP-v4.txt")
-os.remove("HK.txt")
-os.remove("TW.txt")
-os.remove("GAT.txt")
-
-print(f"电视频道成功写入IPTV_ZB.txt")
+print(f"电视频道成功写入IPTV_HN.txt")
