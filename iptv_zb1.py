@@ -2,6 +2,7 @@ import re
 import base64
 import requests
 import threading
+from queue import Queue
 
 # 线程安全的队列，用于存储下载任务
 task_queue = Queue()
