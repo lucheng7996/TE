@@ -31,7 +31,7 @@ jobs:
         run: python ${{ github.workspace }}/iptv_zb1.py
 
       - name: Run txt_m3u
-        run: python ${{ github.workspace }}/txt_m3u.py
+        #run: python ${{ github.workspace }}/txt_m3u.py
          
       - name: 提交更改
         run: |
@@ -39,6 +39,6 @@ jobs:
           git config --local user.name "lucheng7996"
           git add .
           git commit *.txt -m "Add generated file"
-          git commit *.m3u -m "Add generated file"
+          #git commit *.m3u -m "Add generated file"
           #git pull --rebase
           git push -f
