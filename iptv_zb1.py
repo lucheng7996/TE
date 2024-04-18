@@ -196,6 +196,13 @@ for result in results:
 # 等待所有任务完成
 task_queue.join()
 
+def channel_key(channel_name):
+    match = re.search(r'\d+', channel_name)
+    if match:
+        return int(match.group())
+    else:
+        return float('inf')  # 返回一个无穷大的数字作为关键字
+        
 for resulta in resultsx:
     channel_name, channel_url = resulta
     resultx = channel_name, channel_url
@@ -203,7 +210,7 @@ for resulta in resultsx:
         resultxs.append(resultx)
 
 # 对频道进行排序
-#resultxs.sort(key=lambda x: channel_key(x[0]))
+resultxs.sort(key=lambda x: channel_key(x[0]))
 # now_today = datetime.date.today()
 
 result_counter = 10  # 每个频道需要的个数
@@ -213,7 +220,6 @@ with open("IPTV_HN.txt", 'w', encoding='utf-8') as file:
     file.write('湖南电信,#genre#\n')
     for result in resultxs:
         channel_name, channel_url = result
-        #if 'CCTV' in channel_name:
         if channel_name in channel_counters:
             if channel_counters[channel_name] >= result_counter:
                 continue
