@@ -139,9 +139,11 @@ def get_channel(urls, channels):
     for urlx in urls:
         for a in channels:
             channel = [f'{a.name},{a.url.replace("http://8.8.8.8:8", urlx)}']
-            results.extend(channel)
+            if channel not in results:
+                results.extend(channel)
 
     return results
+
 
 
 # results.extend(set(get_channel(urls_bj_all, channelsx_bj)))  # 去重得到唯一的URL列表
@@ -203,7 +205,7 @@ for resulta in resultsx:
 #resultxs.sort(key=lambda x: channel_key(x[0]))
 # now_today = datetime.date.today()
 
-result_counter = 10  # 每个频道需要的个数
+result_counter = 8  # 每个频道需要的个数
 
 with open("IPTV_HN.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
