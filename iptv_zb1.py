@@ -210,7 +210,8 @@ for resulta in resultsx:
         resultxs.append(resultx)
 
 # 对频道进行排序
-resultxs.sort(key=lambda x: channel_key(x[0]))
+#resultxs.sort(key=lambda x: channel_key(x[0]))
+resultxs1 = sorted(resultxs, key=lambda x: x[0])
 # now_today = datetime.date.today()
 
 result_counter = 10  # 每个频道需要的个数
@@ -218,7 +219,7 @@ result_counter = 10  # 每个频道需要的个数
 with open("IPTV_HN.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
     file.write('湖南电信,#genre#\n')
-    for result in resultxs:
+    for result in resultxs1:
         channel_name, channel_url = result
         if channel_name in channel_counters:
             if channel_counters[channel_name] >= result_counter:
