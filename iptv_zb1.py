@@ -190,15 +190,6 @@ for result in results:
 # 等待所有任务完成
 task_queue.join()
 
-
-def channel_key(channel_name):
-    match = re.search(r'\d+', channel_name)
-    if match:
-        return int(match.group())
-    else:
-        return float('inf')  # 返回一个无穷大的数字作为关键字
-
-
 for resulta in resultsx:
     channel_name, channel_url = resulta
     resultx = channel_name, channel_url
@@ -225,14 +216,6 @@ with open("IPTV_HN.txt", 'w', encoding='utf-8') as file:
         else:
             file.write(f"{channel_name},{channel_url}\n")
             channel_counters[channel_name] = 1
-
-# 合并所有的txt文件
-file_contents = []
-file_paths = ["IPTV_HN.txt", "GAT.txt"]  # 替换为实际的文件路径列表
-for file_path in file_paths:
-    with open(file_path, 'r', encoding="utf-8") as file:
-        content = file.read()
-        file_contents.append(content)
-    file.close()
+file.close()
 
 print(f"电视频道成功写入IPTV_HN.txt")
