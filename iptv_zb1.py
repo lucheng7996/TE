@@ -214,7 +214,7 @@ for resulta in resultsx:
 resultxs1 = sorted(resultxs, key=lambda x: x[0])
 # now_today = datetime.date.today()
 
-result_counter = 10  # 每个频道需要的个数
+result_counter = 14  # 每个频道需要的个数
 
 with open("IPTV_HN.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
