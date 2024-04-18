@@ -28,10 +28,7 @@ jobs:
         run: pip install pytz
         
       - name: Run iptv-zb
-        run: python ${{ github.workspace }}/iptv_zb1.py
-
-      - name: Run txt_m3u
-        #run: python ${{ github.workspace }}/txt_m3u.py
+        run: python ${{ github.workspace }}/iptv_zb1.py      
          
       - name: 提交更改
         run: |
