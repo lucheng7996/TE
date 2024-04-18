@@ -199,6 +199,7 @@ task_queue.join()
 for resulta in resultsx:
     channel_name, channel_url = resulta
     resultx = channel_name, channel_url
+    if 
     resultxs.append(resultx)
 
 # 对频道进行排序
