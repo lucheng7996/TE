@@ -32,6 +32,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install Beautifulsoup4 requests 
+
+      - name: Install dependencies
+        run: pip3 install translate
         
       - name: Run iptv-zb
         run: python ${{ github.workspace }}/iptv_udp.py
