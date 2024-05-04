@@ -120,13 +120,13 @@ for keyword in keywords:
 
             if valid_ips:
                 # 生成节目列表 省份运营商.txt
-                rtp_filename = f'files/outfiles/{province}_{isp}.txt'
+                rtp_filename = f'outfiles/{province}_{isp}.txt'
                 with open(rtp_filename, 'r', encoding='utf-8') as file:
                     data = file.read()
                 txt_filename = f'{province_en}{isp_en}.txt'
                 with open(txt_filename, 'w') as new_file:
                     for url in valid_ips:
-                        new_data = data.replace("rtp://", f"{url}/udp/")
+                        new_data = data.replace("udp://", f"{url}/udp/")
                         new_file.write(new_data)
 
                 print(f'已生成播放列表，保存至{txt_filename}')
@@ -144,7 +144,7 @@ for keyword in keywords:
                 print(f"{current_time} 搜索IPTV频道源[]，超时次数过多：{timeout_cnt} 次，停止处理")
 
 # 获取outfiles目录下的文件名
-files1 = os.listdir('files/outfiles')
+files1 = os.listdir('outfiles')
 file_contents = []
 for file_path in files1:
     with open(file_path, 'r', encoding="utf-8") as file:
