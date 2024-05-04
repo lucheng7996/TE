@@ -138,6 +138,7 @@ for keyword in keywords:
                     for url in valid_ips:
                         new_data = data.replace("udp://", f"{url}/udp/")
                         new_file.write(new_data)
+                    new_file.write('\n')
 
                 print(f'已生成播放列表，保存至{txt_filename}')
 
@@ -166,7 +167,7 @@ for file_path in files1:
 
 # 写入合并后的txt文件
 with open("IPTV_UDP.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
+    output.write('\n\n'.join(file_contents))
     # 写入更新日期时间
     # file.write(f"{now_today}更新,#genre#\n")
     # 获取当前时间
