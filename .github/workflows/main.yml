@@ -22,17 +22,13 @@ jobs:
           python-version: 3.x
 
       - name: Install dependencies
-        run: pip install selenium requests futures eventlet 
-
+        run: pip install selenium requests futures eventlet
       - name: Install dependencies
         run: pip install pytz
-
       - name: Install dependencies
         run: pip install opencv-python requests 
-
       - name: Install dependencies
         run: pip install Beautifulsoup4 requests 
-
       - name: Install dependencies
         run: pip3 install translate
         
@@ -46,6 +42,7 @@ jobs:
         run: |
           git config --local user.email "lucheng7996@163.com"
           git config --local user.name "lucheng7996"
+          git reset --hard origin/main
           git add .
           git commit *.txt -m "Add generated file"
           git commit *.m3u -m "Add generated file"
