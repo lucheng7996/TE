@@ -3,10 +3,10 @@ import requests
 import re
 import base64
 import cv2
-#import datetime
+# import datetime
 from datetime import datetime
 from bs4 import BeautifulSoup
-#from urllib.parse import urlparse
+# from urllib.parse import urlparse
 # pip3 install translate
 from translate import Translator
 import pytz
@@ -123,7 +123,7 @@ for keyword in keywords:
                 # 生成节目列表 省份运营商.txt
                 out_path = 'outfiles'
                 if not os.path.exists(out_path):
-                    #文件夹不存在，需要创建
+                    # 文件夹不存在，需要创建
                     print(f"文件夹 '{out_path}' 不存在，创建。")
                     os.makedirs(out_path)
                 out_path = os.path.abspath('outfiles')
@@ -157,9 +157,9 @@ for file_path in files1:
     with open('outfiles/' + file_path, 'r', encoding="utf-8") as file:
         content = file.read()
         file_contents.append(content)
-        
-    #移除文件
-    os.remove 'outfiles/' + file_path
+
+    # 移除文件
+    os.remove('outfiles/' + file_path)
 
 # 写入合并后的txt文件
 with open("IPTV_UDP.txt", "w", encoding="utf-8") as output:
@@ -169,7 +169,7 @@ with open("IPTV_UDP.txt", "w", encoding="utf-8") as output:
     # 获取当前时间
     local_tz = pytz.timezone("Asia/Shanghai")
     now = datetime.now(local_tz)
-    #now = datetime.now()
+    # now = datetime.now()
     output.write(f"\n更新时间,#genre#\n")
     output.write(f"{now.strftime("%Y-%m-%d")},url\n")
     output.write(f"{now.strftime("%H:%M:%S")},url\n")
