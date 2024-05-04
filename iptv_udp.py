@@ -11,13 +11,22 @@ from bs4 import BeautifulSoup
 from translate import Translator
 import pytz
 
+def filter_files(path, ext):
+    files = os.listdir(path)
+    result = []
+    for file in files:
+        if file.endswith(ext):
+            result.append(file)
+    return result
+
 # 获取udp目录下的文件名
-files = os.listdir('files')
+#files = os.listdir('files')
+files = 'files'
 
 files_name = []
 
 # 去除后缀名并保存至provinces_isps
-for file in files:
+for file in filter_files(files, ".txt"):
     name, extension = os.path.splitext(file)
     files_name.append(name)
 
@@ -159,9 +168,11 @@ for keyword in keywords:
                 print(f"{current_time} 搜索IPTV频道源[]，超时次数过多：{timeout_cnt} 次，停止处理")
 
 # 获取outfiles目录下的文件名
-files1 = os.listdir('outfiles')
+#files1 = os.listdir('outfiles')
+files1 = 'outfiles'
+#过滤TXT文件
 file_contents = []
-for file_path in files1:
+for file_path in filter_files(files1, '.txt'):
     with open('outfiles/' + file_path, 'r', encoding="utf-8") as file:
         content = file.read()
         file_contents.append(content)
