@@ -157,6 +157,9 @@ for file_path in files1:
     with open('outfiles/' + file_path, 'r', encoding="utf-8") as file:
         content = file.read()
         file_contents.append(content)
+        
+    #移除文件
+    os.remove 'outfiles/' + file_path
 
 # 写入合并后的txt文件
 with open("IPTV_UDP.txt", "w", encoding="utf-8") as output:
