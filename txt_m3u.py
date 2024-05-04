@@ -30,6 +30,6 @@ def txt_to_m3u(input_file, output_file):
     f.close()
 
 # 将txt文件转换为m3u文件
-txt_to_m3u('IPTV_ZB.txt', 'IPTV_Z.m3u')
+txt_to_m3u('IPTV_UDP.txt', 'IPTV_UDP.m3u')
 
-print(f"m3u文件创建成功,IPTV_Z.m3u")
+print(f"m3u文件创建成功,IPTV_UDP.m3u")
