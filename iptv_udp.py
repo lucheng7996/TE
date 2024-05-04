@@ -146,6 +146,7 @@ for keyword in keywords:
                 print(f'已生成播放列表，保存至{txt_filename}')
 
             else:
+                timeout_cnt += 1
                 print("未找到合适的 IP 地址。")
 
         except (requests.Timeout, requests.RequestException) as e:
