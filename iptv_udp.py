@@ -36,7 +36,7 @@ for province_isp in provinces_isps:
             lines = [line.strip() for line in lines if line.strip()]
         # 获取第一行中以包含 "udp://" 的值作为 mcast
         if lines:
-            first_line = lines[0]
+            first_line = lines[1]
             if "udp://" in first_line:
                 mcast = first_line.split("udp://")[1].split(" ")[0]
                 keywords.append(province_isp + "_" + mcast)
@@ -63,6 +63,7 @@ for keyword in keywords:
     elif isp == "联通" and province_en =="beijing":
         asn = "4808"
     else:
+        asn = ""
         org = ""
 
     current_time = datetime.now()
@@ -71,7 +72,7 @@ for keyword in keywords:
     while len(result_urls) == 0 and timeout_cnt <= 5:
         try:
             search_url = 'https://fofa.info/result?qbase64='
-            search_txt = f'\"udpxy\" && country=\"CN\" && region=\"{province}\" && asn=\"{org}\"'
+            search_txt = f'\"udpxy\" && country=\"CN\" && region=\"{province}\" && asn=\"{asn}\"'
             # 将字符串编码为字节流
             bytes_string = search_txt.encode('utf-8')
             # 使用 base64 进行编码
