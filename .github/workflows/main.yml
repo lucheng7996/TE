@@ -26,9 +26,12 @@ jobs:
 
       - name: Install dependencies
         run: pip install pytz
+
+      - name: Install dependencies
+        run: pip install opencv-python requests 
         
       - name: Run iptv-zb
-        run: python ${{ github.workspace }}/iptv-zb.py
+        run: python ${{ github.workspace }}/iptv_udp.py
 
       - name: Run txt_m3u
         run: python ${{ github.workspace }}/txt_m3u.py 
