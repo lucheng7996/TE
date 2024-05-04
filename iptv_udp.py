@@ -57,11 +57,11 @@ for keyword in keywords:
         org = "Chinanet"
         isp_en = "ctcc"
         asn = "4134"
-    elif isp == "联通":
+    elif isp == "联通" and province_en != "beijing":
         isp_en = "cucc"
         org = "CHINA UNICOM China169 Backbone"
         asn = "4837"
-    elif isp == "联通" and province_en =="beijing":
+    elif isp == "联通" and province_en == "beijing":
         asn = "4808"
     else:
         asn = ""
