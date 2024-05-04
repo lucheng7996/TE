@@ -154,7 +154,7 @@ for keyword in keywords:
 files1 = os.listdir('outfiles')
 file_contents = []
 for file_path in files1:
-    with open(file_path, 'r', encoding="utf-8") as file:
+    with open('outfiles/' + file_path, 'r', encoding="utf-8") as file:
         content = file.read()
         file_contents.append(content)
 
