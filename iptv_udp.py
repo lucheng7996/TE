@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 # pip3 install translate
 from translate import Translator
 
-# 获取rtp目录下的文件名
+# 获取udp目录下的文件名
 files = os.listdir('files')
 
 files_name = []
@@ -34,7 +34,7 @@ for province_isp in provinces_isps:
         with open(f'files/{province_isp}.txt', 'r', encoding='utf-8') as file:
             lines = file.readlines()
             lines = [line.strip() for line in lines if line.strip()]
-        # 获取第一行中以包含 "rtp://" 的值作为 mcast
+        # 获取第一行中以包含 "udp://" 的值作为 mcast
         if lines:
             first_line = lines[0]
             if "udp://" in first_line:
@@ -55,9 +55,13 @@ for keyword in keywords:
     if isp == "电信":
         org = "Chinanet"
         isp_en = "ctcc"
+        asn = "4134"
     elif isp == "联通":
         isp_en = "cucc"
         org = "CHINA UNICOM China169 Backbone"
+        asn = "4837"
+    elif isp == "联通" and province_en ="beijing":
+        asn = "4808"
     else:
         org = ""
 
@@ -67,7 +71,7 @@ for keyword in keywords:
     while len(result_urls) == 0 and timeout_cnt <= 5:
         try:
             search_url = 'https://fofa.info/result?qbase64='
-            search_txt = f'\"udpxy\" && country=\"CN\" && region=\"{province}\" && org=\"{org}\"'
+            search_txt = f'\"udpxy\" && country=\"CN\" && region=\"{province}\" && asn=\"{org}\"'
             # 将字符串编码为字节流
             bytes_string = search_txt.encode('utf-8')
             # 使用 base64 进行编码
@@ -115,7 +119,7 @@ for keyword in keywords:
 
             if valid_ips:
                 # 生成节目列表 省份运营商.txt
-                rtp_filename = f'files/{province}_{isp}.txt'
+                rtp_filename = f'files/outfiles/{province}_{isp}.txt'
                 with open(rtp_filename, 'r', encoding='utf-8') as file:
                     data = file.read()
                 txt_filename = f'{province_en}{isp_en}.txt'
@@ -124,7 +128,7 @@ for keyword in keywords:
                         new_data = data.replace("rtp://", f"{url}/udp/")
                         new_file.write(new_data)
 
-                print(f'已生成播放列表，保存至{txt_filename}')                
+                print(f'已生成播放列表，保存至{txt_filename}')
 
             else:
                 print("未找到合适的 IP 地址。")
@@ -138,3 +142,28 @@ for keyword in keywords:
             else:
                 print(f"{current_time} 搜索IPTV频道源[]，超时次数过多：{timeout_cnt} 次，停止处理")
 
+# 获取outfiles目录下的文件名
+files1 = os.listdir('files/outfiles')
+out_files = []
+
+for file_path in files1:
+    with open(file_path, 'r', encoding="utf-8") as file:
+        content = file.read()
+        file_contents.append(content)
+
+# 写入合并后的txt文件
+with open("IPTV_UDP.txt", "w", encoding="utf-8") as output:
+    output.write('\n'.join(file_contents))
+    # 写入更新日期时间
+    # file.write(f"{now_today}更新,#genre#\n")
+    # 获取当前时间
+    local_tz = pytz.timezone("Asia/Shanghai")
+    now = datetime.now(local_tz)
+    #now = datetime.now()
+    output.write(f"\n更新时间,#genre#\n")
+    output.write(f"{now.strftime("%Y-%m-%d")},url\n")
+    output.write(f"{now.strftime("%H:%M:%S")},url\n")
+
+output.close()
+
+print(f"电视频道成功写入IPTV_UDP.txt")
