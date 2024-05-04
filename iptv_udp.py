@@ -120,11 +120,11 @@ for keyword in keywords:
                     cap.release()
 
             if valid_ips:
-                # 生成节目列表 省份运营商.txt
+                # 生成节目列表 省份运营商.txt                
                 udp_filename = f'files/{province}_{isp}.txt'
                 with open(udp_filename, 'r', encoding='utf-8') as file:
                     data = file.read()
-                txt_filename = f'{province_en}_{isp_en}.txt'
+                txt_filename = f'outfiles/{province_en}_{isp_en}.txt'
                 with open(txt_filename, 'w') as new_file:
                     for url in valid_ips:
                         new_data = data.replace("udp://", f"{url}/udp/")
@@ -144,12 +144,16 @@ for keyword in keywords:
             else:
                 print(f"{current_time} 搜索IPTV频道源[]，超时次数过多：{timeout_cnt} 次，停止处理")
 
+# 获取outfiles目录下的文件名
+files1 = os.listdir('outfiles')
 file_contents = []
-file_paths = ["sichuan_ctcc.txt", "beijing_ctcc.txt", "fujian_ctcc.txt", "guangdong_ctcc.txt"]  # 替换为实际的文件路径列表
-for file_path in file_paths:
-    with open(file_path, 'r', encoding="utf-8") as file:
+for file_path in files1:
+    with open('outfiles/' + file_path, 'r', encoding="utf-8") as file:
         content = file.read()
         file_contents.append(content)
+
+    # 移除文件
+    #os.remove('outfiles/' + file_path)
 
 # 写入合并后的txt文件
 with open("IPTV_UDP.txt", "w", encoding="utf-8") as output:
