@@ -125,7 +125,7 @@ for keyword in keywords:
                     #文件夹不存在，需要创建
                     print(f"文件夹 '{out_path}' 不存在，创建。")
                     os.makedirs(out_path)
-                rtp_filename = f'{out_path}/{province}_{isp}.txt'
+                rtp_filename = f'/{out_path}/{province}_{isp}.txt'
                 with open(rtp_filename, 'r', encoding='utf-8') as file:
                     data = file.read()
                 txt_filename = f'{province_en}{isp_en}.txt'
