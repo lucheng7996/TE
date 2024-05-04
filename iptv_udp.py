@@ -120,7 +120,12 @@ for keyword in keywords:
 
             if valid_ips:
                 # 生成节目列表 省份运营商.txt
-                rtp_filename = f'outfiles/{province}_{isp}.txt'
+                out_path = 'outfiles'
+                if not os.path.exists(out_path):
+                    #文件夹不存在，需要创建
+                    print(f"文件夹 '{out_path}' 不存在，创建。")
+                    os.makedirs(out_path)
+                rtp_filename = f'{out_path}/{province}_{isp}.txt'
                 with open(rtp_filename, 'r', encoding='utf-8') as file:
                     data = file.read()
                 txt_filename = f'{province_en}{isp_en}.txt'
@@ -144,7 +149,7 @@ for keyword in keywords:
                 print(f"{current_time} 搜索IPTV频道源[]，超时次数过多：{timeout_cnt} 次，停止处理")
 
 # 获取outfiles目录下的文件名
-files1 = os.listdir('outfiles')
+files1 = os.listdir('files/outfiles')
 file_contents = []
 for file_path in files1:
     with open(file_path, 'r', encoding="utf-8") as file:
