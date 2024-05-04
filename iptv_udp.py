@@ -126,7 +126,7 @@ for keyword in keywords:
                     data = file.read()
                 txt_filename = f'outfiles/{province_en}_{isp_en}.txt'
                 with open(txt_filename, 'w') as new_file:
-                    new_file.write(f'{province}{isp},#genre#')
+                    new_file.write(f'{province}{isp},#genre#\n')
                     for url in valid_ips:
                         new_data = data.replace("udp://", f"{url}/udp/")
                         new_file.write(new_data)
