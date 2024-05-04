@@ -60,7 +60,7 @@ for keyword in keywords:
         isp_en = "cucc"
         org = "CHINA UNICOM China169 Backbone"
         asn = "4837"
-    elif isp == "联通" and province_en ="beijing":
+    elif isp == "联通" and province_en =="beijing":
         asn = "4808"
     else:
         org = ""
@@ -144,8 +144,7 @@ for keyword in keywords:
 
 # 获取outfiles目录下的文件名
 files1 = os.listdir('files/outfiles')
-out_files = []
-
+file_contents = []
 for file_path in files1:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
