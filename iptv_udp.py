@@ -127,10 +127,10 @@ for keyword in keywords:
                     print(f"文件夹 '{out_path}' 不存在，创建。")
                     os.makedirs(out_path)
                 out_path = os.path.abspath('outfiles')
-                rtp_filename = f'{out_path}/{province}_{isp}.txt'
-                with open(rtp_filename, 'r', encoding='utf-8') as file:
+                udp_filename = f'files/{province}_{isp}.txt'
+                with open(udp_filename, 'r', encoding='utf-8') as file:
                     data = file.read()
-                txt_filename = f'{province_en}{isp_en}.txt'
+                txt_filename = f'outfiles/{province_en}_{isp_en}.txt'
                 with open(txt_filename, 'w') as new_file:
                     for url in valid_ips:
                         new_data = data.replace("udp://", f"{url}/udp/")
