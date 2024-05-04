@@ -37,7 +37,7 @@ for province_isp in provinces_isps:
             lines = [line.strip() for line in lines if line.strip()]
         # 获取第一行中以包含 "udp://" 的值作为 mcast
         if lines:
-            first_line = lines[1]
+            first_line = lines[0]
             if "udp://" in first_line:
                 mcast = first_line.split("udp://")[1].split(" ")[0]
                 keywords.append(province_isp + "_" + mcast)
@@ -53,7 +53,6 @@ for keyword in keywords:
     province_en = province_en.lower()
     # 根据不同的 isp 设置不同的 org 值
     org = "Chinanet"
-    others = ""
     if isp == "电信" and province_en == "sichuang":
         org = "Chinanet"
         isp_en = "ctcc"
@@ -63,15 +62,18 @@ for keyword in keywords:
         org = "Chinanet"
         isp_en = "ctcc"
         asn = "4134"
+        others = ''
     elif isp == "联通" and province_en != "beijing":
         isp_en = "cucc"
         org = "CHINA UNICOM China169 Backbone"
         asn = "4837"
+        others = ''
     elif isp == "联通" and province_en == "beijing":
-        asn = "4808"        
+        asn = "4808"
     else:
         asn = ""
         org = ""
+        others = ''
 
     current_time = datetime.now()
     timeout_cnt = 0
@@ -120,8 +122,11 @@ for keyword in keywords:
                     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
                     print(f"{current_time} {video_url} 的分辨率为 {width}x{height}")
                     # 检查分辨率是否大于0
-                    if width > 0 and height > 0:
-                        valid_ips.append(url)
+                    if width > 0 and height > 0 :
+                        if len(valid_ips) < 3:
+                            valid_ips.append(url)
+                        else:
+                            pass
                     # 关闭视频流
                     cap.release()
 
