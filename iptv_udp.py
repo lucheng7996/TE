@@ -11,6 +11,11 @@ from bs4 import BeautifulSoup
 from translate import Translator
 import pytz
 
+proxy = {
+    'http': '139.9.119.20:80',
+    'http': '47.106.144.184:7890',
+}
+
 def filter_files(path, ext):
     files = os.listdir(path)
     result = []
@@ -96,7 +101,7 @@ for keyword in keywords:
             search_txt = base64.b64encode(bytes_string).decode('utf-8')
             search_url += search_txt
             print(f"{current_time} 查询运营商 : {province}{isp} ，查询网址 : {search_url}")
-            response = requests.get(search_url, timeout=30)
+            response = requests.get(search_url, timeout=30, proxies=proxy))
             # 处理响应
             response.raise_for_status()
             # 检查请求是否成功
