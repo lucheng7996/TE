@@ -62,27 +62,26 @@ for keyword in keywords:
     province_en = province_en.lower()
     # 根据不同的 isp 设置不同的 org 值
     org = "Chinanet"
+    others = ''
     if isp == "电信" and province_en == "sichuang":
         org = "Chinanet"
         isp_en = "ctcc"
         asn = "4134"
         others = '&& city="Chengdu" '
-    elif isp == "联通" and province_en != "sichuang":
+    elif isp == "电信" and province_en != "sichuang":
         org = "Chinanet"
         isp_en = "ctcc"
-        asn = "4134"
-        others = ''
+        asn = "4134"        
     elif isp == "联通" and province_en != "beijing":
         isp_en = "cucc"
         org = "CHINA UNICOM China169 Backbone"
         asn = "4837"
-        others = ''
     elif isp == "联通" and province_en == "beijing":
         asn = "4808"
+        isp_en = "cucc"
     else:
         asn = ""
         org = ""
-        others = ''
 
     current_time = datetime.now()
     timeout_cnt = 0
