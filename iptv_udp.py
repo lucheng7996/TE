@@ -57,7 +57,7 @@ for province_isp in provinces_isps:
 for keyword in keywords:
     province, isp, mcast = keyword.split("_")
     # 将省份转成英文小写
-    translator = Translator(from_lang='ch', to_lang='en')
+    translator = Translator(from_lang='chinese', to_lang='english')
     province_en = translator.translate(province)
     province_en = province_en.lower()
     # 根据不同的 isp 设置不同的 org 值
