@@ -149,7 +149,7 @@ for keyword in keywords:
                     for url in valid_ips:
                         new_data = data.replace("udp://", f"{url}/udp/")
                         new_file.write(new_data)
-                    new_file.write('\n')
+                        new_file.write('\n')
 
                 print(f'已生成播放列表，保存至{txt_filename}')
 
