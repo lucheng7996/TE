@@ -3,7 +3,7 @@ name: cc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 9,18,02 * * *'
+    - cron: '0 9,17,01 * * *'
   push:
     branches:
       - main
