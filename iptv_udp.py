@@ -57,7 +57,7 @@ for province_isp in provinces_isps:
 for keyword in keywords:
     province, isp, mcast = keyword.split("_")
     # 将省份转成英文小写
-    translator = Translator(from_lang='chinese', to_lang='english')
+    translator = Translator(from_lang='ch', to_lang='en')
     province_en = translator.translate(province)
     province_en = province_en.lower()
     # 根据不同的 isp 设置不同的 org 值
@@ -71,7 +71,7 @@ for keyword in keywords:
     elif isp == "电信" and province_en != "sichuang":
         org = "Chinanet"
         isp_en = "ctcc"
-        asn = "4134"        
+        asn = "4134"
     elif isp == "联通" and province_en != "beijing":
         isp_en = "cucc"
         org = "CHINA UNICOM China169 Backbone"
