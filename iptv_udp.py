@@ -37,6 +37,7 @@ for file in filter_files(files, ".txt"):
 
 # 忽略不符合要求的文件名
 provinces_isps = [name for name in files_name if name.count('_') == 1]
+provinces_isps = sorted(provinces_isps)
 
 # 打印结果
 print(f"本次查询：{provinces_isps}的组播节目")
