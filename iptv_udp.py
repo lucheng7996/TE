@@ -30,18 +30,23 @@ def get_tonkiang(key_words):
         "Submit": " "
     }
     url = "http://tonkiang.us/hoteliptv.php"
-    resp = requests.post(url, headers=header, data=data, proxies=proxy)
+    resp = requests.post(url, headers=header, data=data)
     resp.encoding = 'utf-8'
     # print(resp.text)
     et = etree.HTML(resp.text)
     divs = et.xpath('//div[@class="tables"]/div')
     for div in divs:
-        status = div.xpath('./div[3]/div/text()')[0]
-        if "暂时失效" not in status:
-            url = div.xpath('./div[1]/a/b/text()')[0]
-            url = url.strip()
-            result_urls.append(f'http://{url}')
-            break
+        try:
+            status = div.xpath('./div[3]/div/text()')[0]
+            if "暂时失效" not in status:
+                url = div.xpath('./div[1]/a/b/text()')[0]
+                url = url.strip()
+                result_urls.append(f'http://{url}')
+                break
+            else:
+                continue
+        except:
+            pass
     return result_urls
 
 
