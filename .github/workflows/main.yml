@@ -28,6 +28,7 @@ jobs:
           pip install opencv-python requests
           pip install Beautifulsoup4 requests
           pip install translate
+          pip install lxml
         
       - name: Run py
         run: |
