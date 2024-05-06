@@ -10,11 +10,84 @@ from bs4 import BeautifulSoup
 # pip3 install translate
 from translate import Translator
 import pytz
+from lxml import etree
+
+header = {
+    "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+}
 
 proxy = {
     'http': '139.9.119.20:80',
     'http': '47.106.144.184:7890',
 }
+
+
+def get_tonkiang(key_words):
+    result_urls = []
+    data = {
+        "saerch": f"{key_words}",
+        "Submit": " "
+    }
+    url = "http://tonkiang.us/hoteliptv.php"
+    resp = requests.post(url, headers=header, data=data, proxies=proxy)
+    resp.encoding = 'utf-8'
+    # print(resp.text)
+    et = etree.HTML(resp.text)
+    divs = et.xpath('//div[@class="tables"]/div')
+    for div in divs:
+        status = div.xpath('./div[3]/div/text()')[0]
+        if "暂时失效" not in status:
+            url = div.xpath('./div[1]/a/b/text()')[0]
+            url = url.strip()
+            result_urls.append(f'http://{url}')
+            break
+    return result_urls
+
+
+def gen_files(province, isp, province_en, isp_en):
+    # 生成节目列表 省份运营商.txt
+    udp_filename = f'files/{province}_{isp}.txt'
+    with open(udp_filename, 'r', encoding='utf-8') as file:
+        data = file.read()
+    txt_filename = f'outfiles/{province_en}_{isp_en}.txt'
+    with open(txt_filename, 'w', encoding='utf-8') as new_file:
+        new_file.write(f'{province}{isp},#genre#\n')
+        for url in valid_ips:
+            new_data = data.replace("udp://", f"{url}/udp/")
+            new_file.write(new_data)
+            new_file.write('\n')
+
+    print(f'已生成播放列表，保存至{txt_filename}')
+
+
+def via_url(result_urls, mcast):
+    valid_ips = []
+    # 遍历所有视频链接
+    for url in result_urls:
+        video_url = url + "/udp/" + mcast
+
+        # 用OpenCV读取视频
+        cap = cv2.VideoCapture(video_url)
+
+        # 检查视频是否成功打开
+        if not cap.isOpened():
+            print(f"{current_time} {video_url} 无效")
+        else:
+            # 读取视频的宽度和高度
+            width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+            height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+            print(f"{current_time} {video_url} 的分辨率为 {width}x{height}")
+            # 检查分辨率是否大于0
+            if width > 0 and height > 0:
+                if len(valid_ips) < 3:
+                    valid_ips.append(url)
+                else:
+                    pass
+            # 关闭视频流
+            cap.release()
+    return valid_ips
+
 
 def filter_files(path, ext):
     files = os.listdir(path)
@@ -24,8 +97,9 @@ def filter_files(path, ext):
             result.append(file)
     return result
 
+
 # 获取udp目录下的文件名
-#files = os.listdir('files')
+# files = os.listdir('files')
 files = 'files'
 
 files_name = []
@@ -102,7 +176,7 @@ for keyword in keywords:
             search_txt = base64.b64encode(bytes_string).decode('utf-8')
             search_url += search_txt
             print(f"{current_time} 查询运营商 : {province}{isp} ，查询网址 : {search_url}")
-            response = requests.get(search_url, timeout=30, proxies=proxy)
+            response = requests.get(search_url, headers=header, timeout=30, proxies=proxy)
             # 处理响应
             response.raise_for_status()
             # 检查请求是否成功
@@ -114,54 +188,27 @@ for keyword in keywords:
             # 设置匹配的格式，如http://8.8.8.8:8888
             pattern = r"http://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+"
             urls_all = re.findall(pattern, html_content)
+            # urls_all = ['http://106.86.155.109:20005']
             # 去重得到唯一的URL列表
             result_urls = set(urls_all)
             print(f"{current_time} result_urls:{result_urls}")
 
             valid_ips = []
 
-            # 遍历所有视频链接
-            for url in result_urls:
-                video_url = url + "/udp/" + mcast
-
-                # 用OpenCV读取视频
-                cap = cv2.VideoCapture(video_url)
-
-                # 检查视频是否成功打开
-                if not cap.isOpened():
-                    print(f"{current_time} {video_url} 无效")
-                else:
-                    # 读取视频的宽度和高度
-                    width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-                    height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-                    print(f"{current_time} {video_url} 的分辨率为 {width}x{height}")
-                    # 检查分辨率是否大于0
-                    if width > 0 and height > 0 :
-                        if len(valid_ips) < 3:
-                            valid_ips.append(url)
-                        else:
-                            pass
-                    # 关闭视频流
-                    cap.release()
+            valid_ips = via_url(result_urls, mcast)
 
             if valid_ips:
-                # 生成节目列表 省份运营商.txt
-                udp_filename = f'files/{province}_{isp}.txt'
-                with open(udp_filename, 'r', encoding='utf-8') as file:
-                    data = file.read()
-                txt_filename = f'outfiles/{province_en}_{isp_en}.txt'
-                with open(txt_filename, 'w') as new_file:
-                    new_file.write(f'{province}{isp},#genre#\n')
-                    for url in valid_ips:
-                        new_data = data.replace("udp://", f"{url}/udp/")
-                        new_file.write(new_data)
-                        new_file.write('\n')
-
-                print(f'已生成播放列表，保存至{txt_filename}')
-
+                gen_files(province, isp, province_en, isp_en)
             else:
                 timeout_cnt += 1
-                print("未找到合适的 IP 地址。")
+                print("未找到合适的 IP 地址，重新查询tonking")
+                result_u = get_tonkiang(f'{province}{isp}')
+                if len(result_u) > 0:
+                    print(f"{current_time} result_u:{result_u}")
+                    valid_ips = via_url(result_u, mcast)
+                    gen_files(province, isp, province_en, isp_en)
+                else:
+                    print("未找到合适的 IP 地址.")
 
         except (requests.Timeout, requests.RequestException) as e:
             timeout_cnt += 1
@@ -173,9 +220,9 @@ for keyword in keywords:
                 print(f"{current_time} 搜索IPTV频道源[]，超时次数过多：{timeout_cnt} 次，停止处理")
 
 # 获取outfiles目录下的文件名
-#files1 = os.listdir('outfiles')
+# files1 = os.listdir('outfiles')
 files1 = 'outfiles'
-#过滤TXT文件
+# 过滤TXT文件
 file_contents = []
 for file_path in filter_files(files1, '.txt'):
     with open('outfiles/' + file_path, 'r', encoding="utf-8") as file:
@@ -183,7 +230,7 @@ for file_path in filter_files(files1, '.txt'):
         file_contents.append(content)
 
     # 移除文件
-    #os.remove('outfiles/' + file_path)
+    # os.remove('outfiles/' + file_path)
 
 # 写入合并后的txt文件
 with open("IPTV_UDP.txt", "w", encoding="utf-8") as output:
