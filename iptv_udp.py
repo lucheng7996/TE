@@ -11,6 +11,11 @@ from bs4 import BeautifulSoup
 from translate import Translator
 import pytz
 from lxml import etree
+import threading
+from queue import Queue
+
+# 线程安全的队列，用于存储下载任务
+task_queue = Queue()
 
 header = {
     "User-Agent":
@@ -65,12 +70,15 @@ def gen_files(province, isp, province_en, isp_en):
 
     print(f'已生成播放列表，保存至{txt_filename}')
 
+valid_ips = []
 
-def via_url(result_urls, mcast):
-    valid_ips = []
-    # 遍历所有视频链接
-    for url in result_urls:
-        video_url = url + "/udp/" + mcast
+def worker():
+    while True:
+        result = task_queue.get()
+
+        # 遍历所有视频链接
+        #for url in result_urls:
+        video_url = result + "/udp/" + mcast
 
         # 用OpenCV读取视频
         cap = cv2.VideoCapture(video_url)
@@ -91,7 +99,9 @@ def via_url(result_urls, mcast):
                     pass
             # 关闭视频流
             cap.release()
-    return valid_ips
+        # 标记任务完成
+        task_queue.task_done()
+        #return valid_ips
 
 
 def filter_files(path, ext):
@@ -198,9 +208,22 @@ for keyword in keywords:
             result_urls = set(urls_all)
             print(f"{current_time} result_urls:{result_urls}")
 
+            # 创建多个工作线程
+            num_threads = 10
+            for _ in range(num_threads):
+                t = threading.Thread(target=worker, daemon=True)
+                t.start()
+
+            # 添加下载任务到队列
+            for url in result_urls:
+                task_queue.put(url)
+
+            # 等待所有任务完成
+            task_queue.join()
+
             valid_ips = []
 
-            valid_ips = via_url(result_urls, mcast)
+            #valid_ips = via_url(result_urls, mcast)
 
             if valid_ips:
                 gen_files(province, isp, province_en, isp_en)
@@ -210,7 +233,19 @@ for keyword in keywords:
                 result_u = get_tonkiang(f'{province}{isp}')
                 if len(result_u) > 0:
                     print(f"{current_time} result_u:{result_u}")
-                    valid_ips = via_url(result_u, mcast)
+                    # 创建多个工作线程
+                    num_threads = 5
+                    for _ in range(num_threads):
+                        t = threading.Thread(target=worker, daemon=True)
+                        t.start()
+
+                    # 添加下载任务到队列
+                    for url in result_u:
+                        task_queue.put(url)
+
+                    # 等待所有任务完成
+                    task_queue.join()
+                    #valid_ips = via_url(result_u, mcast)
                     gen_files(province, isp, province_en, isp_en)
                 else:
                     print("未找到合适的 IP 地址.")
