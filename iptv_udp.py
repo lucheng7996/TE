@@ -24,8 +24,32 @@ proxy = {
     'http': '47.106.144.184:7890',
 }
 
+#验证tonkiang可用IP
+def via_tonking(url):
+    headers = {
+        'Referer': 'http://tonkiang.us/hotellist.html',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    }
+    #ip = url
+    url = f'http://tonkiang.us/alllist.php?s={url}&c=false&y=false'
+    response = requests.get(
+        url=url,
+        headers=headers,
+        verify=False,
+    )
+    # print(response.text)
+    et = etree.HTML(response.text)
+    div_text = et.xpath('//div[@class="result"]/div/text()')[1]
+    if "暂时失效" not in div_text:
+        return True
+    else:
+        return False
+
+#从tonkiang获取可用IP
 def get_tonkiang(key_words):
     result_urls = []
+    #urls1 = []
+    index = 0
     data = {
         "saerch": f"{key_words}",
         "Submit": " "
@@ -40,15 +64,21 @@ def get_tonkiang(key_words):
         try:
             status = div.xpath('./div[3]/div/text()')[0]
             if "暂时失效" not in status:
-                url = div.xpath('./div[1]/a/b/text()')[0]
-                url = url.strip()
-                result_urls.append(f'http://{url}')
-                break
+                if index < 1:
+                    url = div.xpath('./div[1]/a/b/text()')[0]
+                    url = url.strip()
+                    if via_tonking(url):
+                        result_urls.append(f'http://{url}')
+                        index += 1
+                else:
+                    break
             else:
                 continue
         except:
             pass
     return result_urls
+
+#生成文件
 def gen_files(valid_ips, province, isp, province_en, isp_en):
     # 生成节目列表 省份运营商.txt
     index = 0
