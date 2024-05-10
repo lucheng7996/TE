@@ -60,7 +60,7 @@ def gen_files(valid_ips, province, isp, province_en, isp_en):
         new_file.write(f'{province}{isp},#genre#\n')
         for url in valid_ips:
             if index < 3:
-                new_data = data.replace("udp://", f"{url}/udp/")
+                new_data = data.replace("udp://", f"{url[0]}/udp/")
                 new_file.write(new_data)
                 new_file.write('\n')
                 index += 1
@@ -209,7 +209,8 @@ def main():
                 print(f"{current_time} result_urls:{result_urls}")
 
                 valid_ips = asyncio.run(tasks(result_urls, mcast))
-
+                #异步验证导致返回空值,排除列表空无素
+                valid_ips = [e for e in valid_ips if e]
                 if valid_ips:
                     gen_files(valid_ips, province, isp, province_en, isp_en)
                 else:
