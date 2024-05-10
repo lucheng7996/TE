@@ -60,7 +60,7 @@ def gen_files(valid_ips, province, isp, province_en, isp_en):
         new_file.write(f'{province}{isp},#genre#\n')
         for url in valid_ips:
             if index < 3:
-                new_data = data.replace("udp://", f"{url[0]}/udp/")
+                new_data = data.replace("udp://", f"{url}/udp/")
                 new_file.write(new_data)
                 new_file.write('\n')
                 index += 1
