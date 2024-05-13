@@ -82,6 +82,7 @@ def get_tonkiang(key_words):
 def gen_files(valid_ips, province, isp, province_en, isp_en):
     # 生成节目列表 省份运营商.txt
     index = 0
+    print(valid_ips)
     udp_filename = f'files/{province}_{isp}.txt'
     with open(udp_filename, 'r', encoding='utf-8') as file:
         data = file.read()
@@ -250,7 +251,10 @@ def main():
                     if len(result_u) > 0:
                         print(f"{current_time} result_u:{result_u}")
                         valid_ips = asyncio.run(tasks(result_u, mcast))
-                        gen_files(valid_ips, province, isp, province_en, isp_en)
+                        if len(valid_ips) > 0:                            
+                            gen_files(valid_ips, province, isp, province_en, isp_en)
+                        else:
+                            print("未找到合适的 IP.")
                     else:
                         print("未找到合适的 IP 地址.")
             except (requests.Timeout, requests.RequestException) as e:
