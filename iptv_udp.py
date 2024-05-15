@@ -24,18 +24,21 @@ proxy = {
     'http': '47.106.144.184:7890',
 }
 
-#验证tonkiang可用IP
+
+# 验证tonkiang可用IP
 def via_tonking(url):
     headers = {
         'Referer': 'http://tonkiang.us/hotellist.html',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     }
-    #ip = url
+    # ip = url
     url = f'http://tonkiang.us/alllist.php?s={url}&c=false&y=false'
     response = requests.get(
         url=url,
         headers=headers,
         verify=False,
+        proxies=proxy,
+        timeout=10
     )
     # print(response.text)
     et = etree.HTML(response.text)
@@ -45,17 +48,18 @@ def via_tonking(url):
     else:
         return False
 
-#从tonkiang获取可用IP
+
+# 从tonkiang获取可用IP
 def get_tonkiang(key_words):
     result_urls = []
-    #urls1 = []
+    # urls1 = []
     index = 0
     data = {
         "saerch": f"{key_words}",
         "Submit": " "
     }
     url = "http://tonkiang.us/hoteliptv.php"
-    resp = requests.post(url, headers=header, data=data)
+    resp = requests.post(url, headers=header, data=data, timeout=10, proxies=proxy)
     resp.encoding = 'utf-8'
     # print(resp.text)
     et = etree.HTML(resp.text)
@@ -78,7 +82,8 @@ def get_tonkiang(key_words):
             pass
     return result_urls
 
-#生成文件
+
+# 生成文件
 def gen_files(valid_ips, province, isp, province_en, isp_en):
     # 生成节目列表 省份运营商.txt
     index = 0
@@ -99,6 +104,8 @@ def gen_files(valid_ips, province, isp, province_en, isp_en):
                 continue
 
     print(f'已生成播放列表，保存至{txt_filename}')
+
+
 def filter_files(path, ext):
     files = os.listdir(path)
     result = []
@@ -107,17 +114,18 @@ def filter_files(path, ext):
             result.append(file)
     return result
 
+
 async def via_url(result_url, mcast):
     valid_ips = []
     # 遍历所有视频链接
-    #for url in result_urls:
+    # for url in result_urls:
     video_url = result_url + "/udp/" + mcast
 
     loop = asyncio.get_running_loop()
     future_obj = loop.run_in_executor(None, cv2.VideoCapture, video_url)
     cap = await future_obj
     # 用OpenCV读取视频
-    #cap = cv2.VideoCapture(video_url)
+    # cap = cv2.VideoCapture(video_url)
 
     # 检查视频是否成功打开
     if not cap.isOpened():
@@ -137,11 +145,14 @@ async def via_url(result_url, mcast):
         cap.release()
     return valid_ips
 
+
 # 将任务添加到执行队列中去
 async def tasks(url_list, mcast):
     tasks = [via_url(url, mcast) for url in url_list]
     ret = await asyncio.gather(*tasks)
     return ret
+
+
 # 主入口
 def main():
     # 获取udp目录下的文件名
@@ -240,7 +251,7 @@ def main():
                 print(f"{current_time} result_urls:{result_urls}")
 
                 valid_ips = asyncio.run(tasks(result_urls, mcast))
-                #异步验证导致返回空值,排除列表空无素
+                # 异步验证导致返回空值,排除列表空无素
                 valid_ips = [e for e in valid_ips if e]
                 if valid_ips:
                     gen_files(valid_ips, province, isp, province_en, isp_en)
@@ -251,7 +262,7 @@ def main():
                     if len(result_u) > 0:
                         print(f"{current_time} result_u:{result_u}")
                         valid_ips = asyncio.run(tasks(result_u, mcast))
-                        if len(valid_ips) > 0:                            
+                        if len(valid_ips) > 0:
                             gen_files(valid_ips, province, isp, province_en, isp_en)
                         else:
                             print("未找到合适的 IP.")
@@ -295,4 +306,6 @@ def main():
     output.close()
 
     print(f"电视频道成功写入IPTV_UDP.txt")
+
+
 main()
