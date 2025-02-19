@@ -2621,6 +2621,73 @@ CCTV-5+,http://39.164.180.36:19901/tsfile/live/0016_1.m3u8$周口移动
 宁夏卫视,http://39.164.180.36:19901/tsfile/live/0112_1.m3u8$周口移动
 青海卫视,http://39.164.180.36:19901/tsfile/live/0140_1.m3u8$周口移动
 
+CCTV-1,http://tv1.91tv.top:9089/tsfile/live/1003_1.m3u8$广州广电
+CCTV-2,http://tv1.91tv.top:9089/tsfile/live/0002_1.m3u8$广州广电
+CCTV-3,http://tv1.91tv.top:9089/tsfile/live/0003_1.m3u8$广州广电
+CCTV-4,http://tv1.91tv.top:9089/tsfile/live/1000_1.m3u8$广州广电
+CCTV-5,http://tv1.91tv.top:9089/tsfile/live/0005_1.m3u8$广州广电
+CCTV-6,http://tv1.91tv.top:9089/tsfile/live/0006_1.m3u8$广州广电
+CCTV-7,http://tv1.91tv.top:9089/tsfile/live/1001_1.m3u8$广州广电
+CCTV-8,http://tv1.91tv.top:9089/tsfile/live/0008_1.m3u8$广州广电
+CCTV-9,http://tv1.91tv.top:9089/tsfile/live/0009_1.m3u8$广州广电
+CCTV-10,http://tv1.91tv.top:9089/tsfile/live/0010_1.m3u8$广州广电
+CCTV-11,http://tv1.91tv.top:9089/tsfile/live/0011_1.m3u8$广州广电
+CCTV-12,http://tv1.91tv.top:9089/tsfile/live/0012_1.m3u8$广州广电
+CCTV-13,http://tv1.91tv.top:9089/tsfile/live/0013_1.m3u8$广州广电
+CCTV-14,http://tv1.91tv.top:9089/tsfile/live/0014_1.m3u8$广州广电
+CCTV-15,http://tv1.91tv.top:9089/tsfile/live/0015_1.m3u8$广州广电
+CCTV-16,http://tv1.91tv.top:9089/tsfile/live/1002_1.m3u8$广州广电
+CCTV-17,http://tv1.91tv.top:9089/tsfile/live/1004_1.m3u8$广州广电
+CCTV-5+,http://tv1.91tv.top:9089/tsfile/live/1005_1.m3u8$广州广电
+广东卫视,http://tv1.91tv.top:9089/tsfile/live/0125_1.m3u8$广州广电
+深圳卫视,http://tv1.91tv.top:9089/tsfile/live/0126_1.m3u8$广州广电
+湖南卫视,http://tv1.91tv.top:9089/tsfile/live/0128_1.m3u8$广州广电
+安徽卫视,http://tv1.91tv.top:9089/tsfile/live/0130_1.m3u8$广州广电
+浙江卫视,http://tv1.91tv.top:9089/tsfile/live/0124_1.m3u8$广州广电
+江苏卫视,http://tv1.91tv.top:9089/tsfile/live/0127_1.m3u8$广州广电
+北京卫视,http://tv1.91tv.top:9089/tsfile/live/0122_1.m3u8$广州广电
+东方卫视,http://tv1.91tv.top:9089/tsfile/live/0107_1.m3u8$广州广电
+天津卫视,http://tv1.91tv.top:9089/tsfile/live/0135_1.m3u8$广州广电
+河南卫视,http://tv1.91tv.top:9089/tsfile/live/0139_1.m3u8$广州广电
+湖北卫视,http://tv1.91tv.top:9089/tsfile/live/0132_1.m3u8$广州广电
+广西卫视,http://tv1.91tv.top:9089/tsfile/live/0113_1.m3u8$广州广电
+四川卫视,http://tv1.91tv.top:9089/tsfile/live/0123_1.m3u8$广州广电
+重庆卫视,http://tv1.91tv.top:9089/tsfile/live/0142_1.m3u8$广州广电
+江西卫视,http://tv1.91tv.top:9089/tsfile/live/0138_1.m3u8$广州广电
+黑龙江卫视,http://tv1.91tv.top:9089/tsfile/live/0143_1.m3u8$广州广电
+辽宁卫视,http://tv1.91tv.top:9089/tsfile/live/0121_1.m3u8$广州广电
+云南卫视,http://tv1.91tv.top:9089/tsfile/live/0119_1.m3u8$广州广电
+河北卫视,http://tv1.91tv.top:9089/tsfile/live/0117_1.m3u8$广州广电
+贵州卫视,http://tv1.91tv.top:9089/tsfile/live/0120_1.m3u8$广州广电
+青海卫视,http://tv1.91tv.top:9089/tsfile/live/0140_1.m3u8$广州广电
+吉林卫视,http://tv1.91tv.top:9089/tsfile/live/0116_1.m3u8$广州广电
+山西卫视,http://tv1.91tv.top:9089/tsfile/live/0118_1.m3u8$广州广电
+陕西卫视,http://tv1.91tv.top:9089/tsfile/live/0136_1.m3u8$广州广电
+东南卫视,http://tv1.91tv.top:9089/tsfile/live/0137_1.m3u8$广州广电
+新疆卫视,http://tv1.91tv.top:9089/tsfile/live/0110_1.m3u8$广州广电
+西藏卫视,http://tv1.91tv.top:9089/tsfile/live/0111_1.m3u8$广州广电
+山东卫视,http://tv1.91tv.top:9089/tsfile/live/0131_1.m3u8$广州广电
+翡翠台,http://tv1.91tv.top:9089/tsfile/live/1006_1.m3u8$广州广电
+明珠台,http://tv1.91tv.top:9089/tsfile/live/1007_1.m3u8$广州广电
+星空卫视,http://tv1.91tv.top:9089/tsfile/live/1008_1.m3u8$广州广电
+凤凰中文,http://tv1.91tv.top:9089/tsfile/live/1009_1.m3u8$广州广电
+澳亚卫视,http://tv1.91tv.top:9089/tsfile/live/1010_1.m3u8$广州广电
+广东珠江,http://tv1.91tv.top:9089/tsfile/live/1011_1.m3u8$广州广电
+广东民生,http://tv1.91tv.top:9089/tsfile/live/1012_1.m3u8$广州广电
+广东新闻,http://tv1.91tv.top:9089/tsfile/live/1013_1.m3u8$广州广电
+广东体育,http://tv1.91tv.top:9089/tsfile/live/1014_1.m3u8$广州广电
+广东影视,http://tv1.91tv.top:9089/tsfile/live/1015_1.m3u8$广州广电
+广东少儿,http://tv1.91tv.top:9089/tsfile/live/1016_1.m3u8$广州广电
+广州法治,http://tv1.91tv.top:9089/tsfile/live/1017_1.m3u8$广州广电
+广州竞赛,http://tv1.91tv.top:9089/tsfile/live/1018_1.m3u8$广州广电
+广州新闻,http://tv1.91tv.top:9089/tsfile/live/1019_1.m3u8$广州广电
+广州影视,http://tv1.91tv.top:9089/tsfile/live/1020_1.m3u8$广州广电
+金鹰卡通,http://tv1.91tv.top:9089/tsfile/live/1021_1.m3u8$广州广电
+卡酷少儿,http://tv1.91tv.top:9089/tsfile/live/1022_1.m3u8$广州广电
+优漫卡通,http://tv1.91tv.top:9089/tsfile/live/1023_1.m3u8$广州广电
+嘉佳卡通,http://tv1.91tv.top:9089/tsfile/live/1024_1.m3u8$广州广电
+岭南戏曲,http://tv1.91tv.top:9089/tsfile/live/1025_1.m3u8$广州广电
+
 CCTV-1,http://111.172.12.162:1111/tsfile/live/0001_1.m3u8$武汉电信
 CCTV-2,http://111.172.12.162:1111/tsfile/live/0002_1.m3u8$武汉电信
 CCTV-3,http://111.172.12.162:1111/tsfile/live/0003_1.m3u8$武汉电信
@@ -32415,6 +32482,7 @@ TVB Jade,http://php.jdshipin.com:8880/smt.php?id=Tvbjade
 
 
 ITV2,#genre#
+//http://www.up3d.fun:12291
 CCTV1 综合,http://www.bing91.cn:12291/6000000001000029752/wasusyt/index.m3u8$8M1080_华数
 CCTV1 综合,http://www.bing91.cn:12291/1000000001000018602/ystenlive/index.m3u8$8M1080_易视腾
 CCTV1 综合,http://www.bing91.cn:12291/5000000004000002226/bestzb/index.m3u8$7.5M1080_百视通
