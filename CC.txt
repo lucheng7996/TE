@@ -30013,6 +30013,18 @@ HOY78,http://ali.hlspull.yximgs.com/live/l3w1tt2dkzvpukkliu64ah00b49-golive.flv
 
 
 AKTV,#genre#
+翡翠台,http://go1.bkpcp.top/tl/null
+天映经典,http://go1.bkpcp.top/tl/null-1
+黄金华剧台,http://go1.bkpcp.top/tl/null-2
+千禧经典台,http://go1.bkpcp.top/tl/null-3
+华语剧台,http://go1.bkpcp.top/tl/null-4
+美亚电影台(粤语),http://go1.bkpcp.top/tl/null-5
+TVB星河,http://go1.bkpcp.top/tl/null-7
+黄金翡翠,http://go1.bkpcp.top/tl/null-9
+粤语片台,http://go1.bkpcp.top/tl/null-10
+东森电影台,http://go1.bkpcp.top/tl/null-11
+PopC,http://go1.bkpcp.top/tl/popc
+
 中天新聞台,http://aktv.top/AKTV/live/aktv/null-8/AKTV.m3u8
 翡翠台,http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
 TVBS-新聞台,http://aktv.top/AKTV/live/aktv/tvbs-1/AKTV.m3u8
@@ -30104,7 +30116,6 @@ CCTV-1  港澳版,https://live.hkdvb.com/hls/live/33.m3u8?token=720542278502347
 CGTN Documentary,https://live.hkdvb.com/hls/live/34.m3u8?token=720542278502347
 CGTN English,https://live.hkdvb.com/hls/live/35.m3u8?token=720542278502347
 RTHK36,https://live.hkdvb.com/hls/live/36.m3u8?token=720542278502347
-
 
 smart测试3,#genre#
 CCTV-01,http://ku9.fr.to/smt.php?id=cctv1
@@ -35738,28 +35749,6 @@ CHC家庭影院,http://oxtvs.com/ott/?q=c642c3aa36f291b8dd1dccb47b50a229&id=3755
 CHC动作电影,https://ali.hlspull.yximgs.com/live/diyp_chcdongzuo.flv
 CHC家庭影院,https://ali.hlspull.yximgs.com/live/diyp_chcjiating.flv
 CHC影迷电影,https://ali.hlspull.yximgs.com/live/diyp_chcyingmi.flv
-
-凤凰中文,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=1
-凤凰资讯,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=2
-凤凰香港,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=3
-翡翠台,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=4
-无线新闻,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=5
-明珠台,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=7
-欢乐新闻,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=8
-TVB星河,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=9
-MYTV SUPER粤,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=10
-黄金华剧,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=11
-MYTV SUPER1,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=12
-MYTV SUPER2,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=13
-MYTV SUPER3,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=14
-MYTV 18台,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=15
-18台,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=16
-MYTV SUPER4,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=17
-MYTV SUPER5,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=18
-无线新闻,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=19
-爆谷台,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=99
-Now新闻,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=42
-TVB星河,http://106.53.99.30/公众号【榴芒电视】/proxy/gotv.php?id=91
 
 美亚电影频粤,http://php.jdshipin.com:8880/TVOD/iptv.php?id=meiya
 美亚电影台,https://iptv.vip-tptv.xyz/tv.php?id=1
