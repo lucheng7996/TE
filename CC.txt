@@ -35919,6 +35919,230 @@ CHC家庭影院,http://oxtvs.com/ott/?q=c642c3aa36f291b8dd1dccb47b50a229&id=3755
 
 
 测试代理源,#genre#
+凤凰资讯台,http://iptv.diyp.tech/iptv.php?key=gat2&id=1
+凤凰香港台,http://iptv.diyp.tech/iptv.php?key=gat2&id=2
+凤凰中文台,http://iptv.diyp.tech/iptv.php?key=gat2&id=3
+星空卫视,http://iptv.diyp.tech/iptv.php?key=gat2&id=4
+广东珠江台,http://iptv.diyp.tech/iptv.php?key=gat2&id=5
+TVB翡翠台,http://iptv.diyp.tech/iptv.php?key=gat2&id=6
+TVBPLus,http://iptv.diyp.tech/iptv.php?key=gat2&id=7
+TVB新闻台,http://iptv.diyp.tech/iptv.php?key=gat2&id=8
+TVB明珠台,http://iptv.diyp.tech/iptv.php?key=gat2&id=9
+TVB功夫粤,http://iptv.diyp.tech/iptv.php?key=gat2&id=10
+TVB功夫国,http://iptv.diyp.tech/iptv.php?key=gat2&id=11
+
+凤凰卫视中文台,http://iptv.diyp.tech/iptv.php?key=gat5&id=7ab7c7d787d2a25089f090027098972a
+凤凰卫视资讯台,http://iptv.diyp.tech/iptv.php?key=gat5&id=7f4703c71abe60b90887a794355363c8
+凤凰卫视香港台,http://iptv.diyp.tech/iptv.php?key=gat5&id=f2ad963332e3a496326ee97dc82c475e
+香港有线新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=7e16c9dcca07e4f3249e6e4ff4595d58
+香港有线18台,http://iptv.diyp.tech/iptv.php?key=gat5&id=5d777c11e2f6f9bf2b6a0f7c60b1ec35
+香港有线18台(普通话),http://iptv.diyp.tech/iptv.php?key=gat5&id=fd678fa9d3e994ffe0fe35c69b67da25
+TVB无线新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=f7b4583df4a36084ee912dbe42ae7432
+TVB翡翠台,http://iptv.diyp.tech/iptv.php?key=gat5&id=263ef8e25e9d14599c49b2169d133840
+黃金翡翠台,http://iptv.diyp.tech/iptv.php?key=gat5&id=c30ff7b5afb328b1a3e5958020d17f40
+TVB明珠台,http://iptv.diyp.tech/iptv.php?key=gat5&id=cadf460aacc566024c43c7c43091734c
+TVB Plus,http://iptv.diyp.tech/iptv.php?key=gat5&id=6c926e1cfe37408a9fc33d9666854c33
+TVB娱乐新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=f9a426e451c3d4242be5fbc7afbd1fb0
+TVB星河,http://iptv.diyp.tech/iptv.php?key=gat5&id=b71ea0a94348ba3eb862353aee89e46c
+ViuTV,http://iptv.diyp.tech/iptv.php?key=gat5&id=4f0dd8b20a195bdf2dcf5540f665ee0b
+ViuTV6,http://iptv.diyp.tech/iptv.php?key=gat5&id=9c90ad0f35197d9dee6694009f60414a
+NOW新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=6a3d405304fe3a466ac2d7d294e31064
+HOY国际财经台,http://iptv.diyp.tech/iptv.php?key=gat5&id=46afb145a48a7a5e56ba31f89040534f
+HOY TV,http://iptv.diyp.tech/iptv.php?key=gat5&id=994ea82418128a7140f65a69ce654665
+HOY资讯台,http://iptv.diyp.tech/iptv.php?key=gat5&id=2aa057e2ab7d591e5da68cc7d1179d1c
+港台电视31,http://iptv.diyp.tech/iptv.php?key=gat5&id=355ab09b4402b15e7f864173fc4c84cf
+港台电视32,http://iptv.diyp.tech/iptv.php?key=gat5&id=8128f85ceeb8578999e1128d54883592
+
+翡翠台,http://iptv.diyp.tech/iptv.php?key=gat1&id=1
+翡翠台,http://iptv.diyp.tech/iptv.php?key=gat1&id=2
+翡翠台(香港·时区),http://iptv.diyp.tech/iptv.php?key=gat1&id=3
+翡翠台(香港·时区),http://iptv.diyp.tech/iptv.php?key=gat1&id=4
+翡翠台(美加·东岸时区),http://iptv.diyp.tech/iptv.php?key=gat1&id=5
+翡翠台(美加·西岸时区),http://iptv.diyp.tech/iptv.php?key=gat1&id=6
+翡翠台(欧·新时区),http://iptv.diyp.tech/iptv.php?key=gat1&id=7
+翡翠台(英国时区),http://iptv.diyp.tech/iptv.php?key=gat1&id=8
+TVB Plus,http://iptv.diyp.tech/iptv.php?key=gat1&id=9
+TVB Plus,http://iptv.diyp.tech/iptv.php?key=gat1&id=10
+TVB明珠台,http://iptv.diyp.tech/iptv.php?key=gat1&id=11
+TVB明珠台,http://iptv.diyp.tech/iptv.php?key=gat1&id=12
+TVB生活台,http://iptv.diyp.tech/iptv.php?key=gat1&id=13
+TVB生活台,http://iptv.diyp.tech/iptv.php?key=gat1&id=14
+TVB星河频道,http://iptv.diyp.tech/iptv.php?key=gat1&id=15
+TVB无线新闻台,http://iptv.diyp.tech/iptv.php?key=gat1&id=16
+TVB无线新闻台,http://iptv.diyp.tech/iptv.php?key=gat1&id=17
+凤凰资讯台,http://iptv.diyp.tech/iptv.php?key=gat1&id=18
+凤凰资讯台,http://iptv.diyp.tech/iptv.php?key=gat1&id=19
+凤凰资讯台,http://iptv.diyp.tech/iptv.php?key=gat1&id=20
+凤凰香港台,http://iptv.diyp.tech/iptv.php?key=gat1&id=21
+凤凰中文台,http://iptv.diyp.tech/iptv.php?key=gat1&id=22
+凤凰中文台,http://iptv.diyp.tech/iptv.php?key=gat1&id=23
+Now新闻台,http://iptv.diyp.tech/iptv.php?key=gat1&id=24
+Now财经台,http://iptv.diyp.tech/iptv.php?key=gat1&id=25
+HOY 76,http://iptv.diyp.tech/iptv.php?key=gat1&id=26
+HOY 77,http://iptv.diyp.tech/iptv.php?key=gat1&id=27
+HOY 78,http://iptv.diyp.tech/iptv.php?key=gat1&id=28
+TVB1,http://iptv.diyp.tech/iptv.php?key=gat1&id=29
+TVB Pearl Drama 明珠劇集台,http://iptv.diyp.tech/iptv.php?key=gat1&id=30
+TVB Drama 翡翠劇集台,http://iptv.diyp.tech/iptv.php?key=gat1&id=33
+TVB Drama 翡翠劇集台,http://iptv.diyp.tech/iptv.php?key=gat1&id=34
+TVB E 翡翠娛樂台,http://iptv.diyp.tech/iptv.php?key=gat1&id=35
+TVB E 翡翠娛樂台,http://iptv.diyp.tech/iptv.php?key=gat1&id=36
+POP C,http://iptv.diyp.tech/iptv.php?key=gat1&id=37
+POP C,http://iptv.diyp.tech/iptv.php?key=gat1&id=38
+Now爆谷台,http://iptv.diyp.tech/iptv.php?key=gat1&id=39
+Now爆谷台,http://iptv.diyp.tech/iptv.php?key=gat1&id=40
+Now爆谷台,http://iptv.diyp.tech/iptv.php?key=gat1&id=41
+Now爆谷星影台,http://iptv.diyp.tech/iptv.php?key=gat1&id=42
+Now爆谷星影台,http://iptv.diyp.tech/iptv.php?key=gat1&id=43
+Now爆谷星影台,http://iptv.diyp.tech/iptv.php?key=gat1&id=44
+Now華劇台,http://iptv.diyp.tech/iptv.php?key=gat1&id=45
+Now華劇台,http://iptv.diyp.tech/iptv.php?key=gat1&id=46
+Now華劇台,http://iptv.diyp.tech/iptv.php?key=gat1&id=47
+Now劇集台,http://iptv.diyp.tech/iptv.php?key=gat1&id=48
+Now劇集台,http://iptv.diyp.tech/iptv.php?key=gat1&id=49
+Now劇集台,http://iptv.diyp.tech/iptv.php?key=gat1&id=50
+TVB功夫台,http://iptv.diyp.tech/iptv.php?key=gat1&id=53
+TVB功夫台,http://iptv.diyp.tech/iptv.php?key=gat1&id=54
+中国电影频道,http://iptv.diyp.tech/iptv.php?key=gat1&id=56
+中国电影频道,http://iptv.diyp.tech/iptv.php?key=gat1&id=57
+ViuTV,http://iptv.diyp.tech/iptv.php?key=gat1&id=65
+ViuTV,http://iptv.diyp.tech/iptv.php?key=gat1&id=66
+ViuTV,http://iptv.diyp.tech/iptv.php?key=gat1&id=67
+ViuTV6,http://iptv.diyp.tech/iptv.php?key=gat1&id=68
+ViuTV6,http://iptv.diyp.tech/iptv.php?key=gat1&id=69
+ViuTV6,http://iptv.diyp.tech/iptv.php?key=gat1&id=70
+粤语片台,http://iptv.diyp.tech/iptv.php?key=gat1&id=71
+美亚电影,http://iptv.diyp.tech/iptv.php?key=gat1&id=72
+美亚电影,http://iptv.diyp.tech/iptv.php?key=gat1&id=73
+美亚电影,http://iptv.diyp.tech/iptv.php?key=gat1&id=74
+美亚电影,http://iptv.diyp.tech/iptv.php?key=gat1&id=75
+美亚电影,http://iptv.diyp.tech/iptv.php?key=gat1&id=76
+美亚电影,http://iptv.diyp.tech/iptv.php?key=gat1&id=77
+TVB星河频道国语,http://iptv.diyp.tech/iptv.php?key=gat1&id=78
+凤凰香港台,http://iptv.diyp.tech/iptv.php?key=gat1&id=79
+凤凰香港台,http://iptv.diyp.tech/iptv.php?key=gat1&id=80
+星空卫视,http://iptv.diyp.tech/iptv.php?key=gat1&id=81
+Now爆谷星影台,http://iptv.diyp.tech/iptv.php?key=gat1&id=82
+Now新闻台,http://iptv.diyp.tech/iptv.php?key=gat1&id=83
+Now直播台,http://iptv.diyp.tech/iptv.php?key=gat1&id=84
+Now直播台,http://iptv.diyp.tech/iptv.php?key=gat1&id=85
+Now财经台,http://iptv.diyp.tech/iptv.php?key=gat1&id=86
+NowJelli紫金国际,http://iptv.diyp.tech/iptv.php?key=gat1&id=87
+NowSports1,http://iptv.diyp.tech/iptv.php?key=gat1&id=88
+NowSports1,http://iptv.diyp.tech/iptv.php?key=gat1&id=89
+NowSports651,http://iptv.diyp.tech/iptv.php?key=gat1&id=102
+NowSports652,http://iptv.diyp.tech/iptv.php?key=gat1&id=103
+NowSports英超1台,http://iptv.diyp.tech/iptv.php?key=gat1&id=104
+NowSports英超1台,http://iptv.diyp.tech/iptv.php?key=gat1&id=105
+bEINSports1,http://iptv.diyp.tech/iptv.php?key=gat1&id=116
+bEINSports1,http://iptv.diyp.tech/iptv.php?key=gat1&id=117
+NowGolf 2,http://iptv.diyp.tech/iptv.php?key=gat1&id=122
+NowGolf 3,http://iptv.diyp.tech/iptv.php?key=gat1&id=123
+Now630体育台,http://iptv.diyp.tech/iptv.php?key=gat1&id=124
+Now630体育台,http://iptv.diyp.tech/iptv.php?key=gat1&id=125
+NowSports641,http://iptv.diyp.tech/iptv.php?key=gat1&id=126
+NowSportsPlus,http://iptv.diyp.tech/iptv.php?key=gat1&id=127
+NBA TV,http://iptv.diyp.tech/iptv.php?key=gat1&id=128
+澳门莲花,http://iptv.diyp.tech/iptv.php?key=gat1&id=129
+TVB功夫台国语,http://iptv.diyp.tech/iptv.php?key=gat1&id=130
+WOW TV,http://iptv.diyp.tech/iptv.php?key=gat1&id=131
+KTSF26美国旧金山,http://iptv.diyp.tech/iptv.php?key=gat1&id=132
+KTSF26美国旧金山,http://iptv.diyp.tech/iptv.php?key=gat1&id=133
+KR ALL TV,http://iptv.diyp.tech/iptv.php?key=gat1&id=134
+香港卫视HKS,http://iptv.diyp.tech/iptv.php?key=gat1&id=135
+HOY 76,http://iptv.diyp.tech/iptv.php?key=gat1&id=136
+HOY 76,http://iptv.diyp.tech/iptv.php?key=gat1&id=137
+HOY 77,http://iptv.diyp.tech/iptv.php?key=gat1&id=138
+HOY 77,http://iptv.diyp.tech/iptv.php?key=gat1&id=139
+HOY 78,http://iptv.diyp.tech/iptv.php?key=gat1&id=140
+HOY 78,http://iptv.diyp.tech/iptv.php?key=gat1&id=141
+無線衛星亞洲台,http://iptv.diyp.tech/iptv.php?key=gat1&id=142
+無線衛星亞洲台,http://iptv.diyp.tech/iptv.php?key=gat1&id=143
+HKC18台,http://iptv.diyp.tech/iptv.php?key=gat1&id=153
+HKC18台,http://iptv.diyp.tech/iptv.php?key=gat1&id=154
+HKC18台,http://iptv.diyp.tech/iptv.php?key=gat1&id=155
+C18跑马,http://iptv.diyp.tech/iptv.php?key=gat1&id=156
+C18跑马,http://iptv.diyp.tech/iptv.php?key=gat1&id=157
+C18跑马,http://iptv.diyp.tech/iptv.php?key=gat1&id=158
+88跑马台,http://iptv.diyp.tech/iptv.php?key=gat1&id=159
+28AI智慧赛马,http://iptv.diyp.tech/iptv.php?key=gat1&id=160
+黄金翡翠台,http://iptv.diyp.tech/iptv.php?key=gat1&id=161
+黄金翡翠台,http://iptv.diyp.tech/iptv.php?key=gat1&id=162
+黄金翡翠台,http://iptv.diyp.tech/iptv.php?key=gat1&id=163
+黄金翡翠台,http://iptv.diyp.tech/iptv.php?key=gat1&id=164
+TVB千禧经典台,http://iptv.diyp.tech/iptv.php?key=gat1&id=165
+MyTV千禧经典台,http://iptv.diyp.tech/iptv.php?key=gat1&id=166
+MyTV千禧经典台,http://iptv.diyp.tech/iptv.php?key=gat1&id=167
+MyTV千禧经典台,http://iptv.diyp.tech/iptv.php?key=gat1&id=168
+MyTV千禧经典台,http://iptv.diyp.tech/iptv.php?key=gat1&id=169
+亚洲剧台,http://iptv.diyp.tech/iptv.php?key=gat1&id=170
+亚洲剧台,http://iptv.diyp.tech/iptv.php?key=gat1&id=171
+亚洲剧台,http://iptv.diyp.tech/iptv.php?key=gat1&id=172
+亚洲剧台,http://iptv.diyp.tech/iptv.php?key=gat1&id=173
+亚洲剧台,http://iptv.diyp.tech/iptv.php?key=gat1&id=174
+亚洲剧台,http://iptv.diyp.tech/iptv.php?key=gat1&id=175
+华语剧台,http://iptv.diyp.tech/iptv.php?key=gat1&id=176
+华语剧台,http://iptv.diyp.tech/iptv.php?key=gat1&id=177
+华语剧台,http://iptv.diyp.tech/iptv.php?key=gat1&id=178
+华语剧台,http://iptv.diyp.tech/iptv.php?key=gat1&id=179
+华语剧台,http://iptv.diyp.tech/iptv.php?key=gat1&id=180
+TVB娱乐新闻,http://iptv.diyp.tech/iptv.php?key=gat1&id=185
+TVB娱乐新闻,http://iptv.diyp.tech/iptv.php?key=gat1&id=186
+TVB娱乐新闻,http://iptv.diyp.tech/iptv.php?key=gat1&id=187
+TVB娱乐新闻,http://iptv.diyp.tech/iptv.php?key=gat1&id=188
+TVB娱乐新闻,http://iptv.diyp.tech/iptv.php?key=gat1&id=189
+TVB娱乐新闻,http://iptv.diyp.tech/iptv.php?key=gat1&id=190
+亚洲综合娱乐台,http://iptv.diyp.tech/iptv.php?key=gat1&id=191
+黃金華劇台,http://iptv.diyp.tech/iptv.php?key=gat1&id=192
+黃金華劇台,http://iptv.diyp.tech/iptv.php?key=gat1&id=193
+黃金華劇台,http://iptv.diyp.tech/iptv.php?key=gat1&id=194
+TVBSuperFree,http://iptv.diyp.tech/iptv.php?key=gat1&id=195
+TVBSuperFree,http://iptv.diyp.tech/iptv.php?key=gat1&id=196
+TVBSuperFree,http://iptv.diyp.tech/iptv.php?key=gat1&id=197
+TVBSuperFree,http://iptv.diyp.tech/iptv.php?key=gat1&id=198
+戏曲台,http://iptv.diyp.tech/iptv.php?key=gat1&id=199
+戏曲台,http://iptv.diyp.tech/iptv.php?key=gat1&id=200
+戏曲台,http://iptv.diyp.tech/iptv.php?key=gat1&id=201
+
+中天新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=13ab88021ceaf44b206cdd58abf15c9e
+东森新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=287cb9ad49a87d8f3d60d2eea995be43
+东森财经新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=dca98623b0a7f603f328073cd74d697d
+寰宇新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=28edce7a8df0c3e1ceebadc18e04a842
+寰宇新闻台湾台,http://iptv.diyp.tech/iptv.php?key=gat5&id=0a27da4d758d3f2fb9c3b73078765c71
+台视新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=39aef193cafcdc30d2b300c8729aba4b
+中视新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=a315144d5c81e77db2da7b8caf9f118a
+华视新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=f3dce3acce1315b298dde5877d467324
+TVBS新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=6bbfa82b6369dc734dc14f81e92c027b
+三立新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=db8e1e5ca873263badcb5fe80cf52d5f
+三立iNEWS,http://iptv.diyp.tech/iptv.php?key=gat5&id=e33696616f15fbec121f05d66fcb4eae
+镜电视新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=095ec941017d3715b90bef909fc1c349
+公视新闻,http://iptv.diyp.tech/iptv.php?key=gat5&id=67e335ff9e25eb3a406495ad8d85479b
+民视新闻台,http://iptv.diyp.tech/iptv.php?key=gat5&id=4df8b0c41f0da56f676b2684b52a5480
+民视第一台,http://iptv.diyp.tech/iptv.php?key=gat5&id=8bfd0e99b643785236eba6b4a4ad6428
+民视台湾台,http://iptv.diyp.tech/iptv.php?key=gat5&id=fba0106851541d6409e8b004e6f6e117
+民视影剧台,http://iptv.diyp.tech/iptv.php?key=gat5&id=06d9eb45af481c53330ecb20f5cabe6e
+民视旅游台,http://iptv.diyp.tech/iptv.php?key=gat5&id=672a598cb1f6f253257ffae3c9e02b71
+民视综艺台,http://iptv.diyp.tech/iptv.php?key=gat5&id=b8e2e9f069781b566cf996b65b7d23c1
+民视,http://iptv.diyp.tech/iptv.php?key=gat5&id=1f5cb7f8687ab60efbdb4cb4190d355b
+台视,http://iptv.diyp.tech/iptv.php?key=gat5&id=d1a92e4301097a73f284a279fcf4afbc
+中视,http://iptv.diyp.tech/iptv.php?key=gat5&id=8ce4f7f396a14b5f0d5489053ab6c535
+华视,http://iptv.diyp.tech/iptv.php?key=gat5&id=f1eae43af85dbf3e1983a93fbacaa83c
+TVBS HD,http://iptv.diyp.tech/iptv.php?key=gat5&id=a21908e985446569aa2f4c8671056d30
+TVBS欢乐台,http://iptv.diyp.tech/iptv.php?key=gat5&id=f4f352e4b1e4f87c282d92ffb0cb0eea
+中天亚洲台,http://iptv.diyp.tech/iptv.php?key=gat5&id=488cf5bc3258e5be1b302ddf9a54f4c4
+纬来体育台,http://iptv.diyp.tech/iptv.php?key=gat5&id=8d6457d1b6c00daea5b90e3c3cb2fde8
+纬来日本台,http://iptv.diyp.tech/iptv.php?key=gat5&id=fed5104e601890a571e4e4662deb039c
+纬来育乐台,http://iptv.diyp.tech/iptv.php?key=gat5&id=b42811cf86d52427b10f21ae97d5693c
+ELEVEN 1（DAZN 1）,http://iptv.diyp.tech/iptv.php?key=gat5&id=1dbdd5e71ed8b66c419546d692ae7332
+ELEVEN 2（DAZN 2）,http://iptv.diyp.tech/iptv.php?key=gat5&id=e00ea42495f90a2a4bc4f56137221a42
+爱尔达体育1台,http://iptv.diyp.tech/iptv.php?key=gat5&id=255902274560c201dc0da8ed817d7002
+爱尔达体育2台,http://iptv.diyp.tech/iptv.php?key=gat5&id=e4c61c912d631f69d37a7c6f2ebc84aa
+爱尔达体育3台,http://iptv.diyp.tech/iptv.php?key=gat5&id=ea382422f252efcaa53800db4f87a05a
+爱尔达体育4台,http://iptv.diyp.tech/iptv.php?key=gat5&id=65d7eb1c641215902ff195aaec98cff4
+MOMO综合台,http://iptv.diyp.tech/iptv.php?key=gat5&id=2dfa09fc0a4481dc72b0b379f25148ba
+东森超视,http://iptv.diyp.tech/iptv.php?key=gat5&id=163e6c3e3bd21f2beb6af46d4b6b9353
+CNN新闻频道,http://iptv.diyp.tech/iptv.php?key=gat5&id=2e5dbb1529620c364f4c565ec9399daa
+
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 星光视界台,http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
 凤凰资讯,https://ali.hlspull.yximgs.com/live/diyp_fh1.flv
