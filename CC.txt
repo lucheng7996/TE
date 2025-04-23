@@ -39232,6 +39232,8 @@ Eleven sports,https://stream1.freetv.fun/elevensport-4k-1.m3u8
 
 
 测试代理源,#genre#
+CCTV-1,http://8.138.7.223/tv/ptbtv.php?id=27
+CCTV-13,http://8.138.7.223/tv/ptbtv.php?id=28
 凤凰中文,http://122.117.71.103:8574/http/61.222.53.250:8078/hls/21/80/phoenixch.m3u8
 凤凰资讯,http://122.117.71.103:8573/http/61.222.53.250:8078/hls/20/80/phoenixif.m3u8
 HBO,http://122.117.71.103:8556/http/61.222.53.250:8081/hls/71/813/ch41.m3u8
