@@ -192,6 +192,29 @@ CGTN俄语,http://tvgslb.hn.chinamobile.com:8089/180000001002/000000010000000000
 湖南卫视超清,http://tvgslb.hn.chinamobile.com:8089/180000001002/00000001000000000064000000308827/main.m3u8?stbid=
 CCTV-16 4K,http://tvgslb.hn.chinamobile.com:8089/180000001001/00000001000000000085000000178450/main.m3u8?stbid=
 CCTV-4K,http://tvgslb.hn.chinamobile.com:8089/180000001002/32023092211020848462000290559536/main.m3u8?stbid=
+睛彩竞技,http://tvgslb.hn.chinamobile.com:8089/000000002000/1000000006000270001/1.m3u8
+睛彩篮球,http://tvgslb.hn.chinamobile.com:8089/000000002000/1000000006000270002/1.m3u8
+睛彩青少,http://tvgslb.hn.chinamobile.com:8089/000000002000/1000000006000270007/1.m3u8
+NewTV古装剧场,http://tvgslb.hn.chinamobile.com:8089/000000002000/6859053933687922163/1.m3u8
+NewTV动作电影,http://tvgslb.hn.chinamobile.com:8089/000000002000/8103864434730665389/1.m3u8
+NewTV军旅剧场,http://tvgslb.hn.chinamobile.com:8089/000000002000/7485075951068666323/1.m3u8
+NewTV家庭剧场,http://tvgslb.hn.chinamobile.com:8089/000000002000/6316377948248689070/1.m3u8
+NewTV惊悚悬疑,http://tvgslb.hn.chinamobile.com:8089/000000002000/7151256057701199617/1.m3u8
+NewTV热播精选,http://tvgslb.hn.chinamobile.com:8089/000000002000/7681593242002292003/1.m3u8
+NewTV精品综合,http://tvgslb.hn.chinamobile.com:8089/000000002000/5595720619887440144/1.m3u8
+NewTV爱情喜剧,http://tvgslb.hn.chinamobile.com:8089/000000002000/8393829412396288037/1.m3u8
+NewTV精品大剧,http://tvgslb.hn.chinamobile.com:8089/000000002000/7882297361445410858/1.m3u8
+NewTV中国功夫,http://tvgslb.hn.chinamobile.com:8089/000000002000/5897056882324761054/1.m3u8
+NewTV金牌综艺,http://tvgslb.hn.chinamobile.com:8089/000000002000/6399725674632152632/1.m3u8
+NewTV军事评论,http://tvgslb.hn.chinamobile.com:8089/000000002000/5822616274253344775/1.m3u8
+NewTV农业致富,http://tvgslb.hn.chinamobile.com:8089/000000002000/6193684637634073625/1.m3u8
+NewTV精品纪录,http://tvgslb.hn.chinamobile.com:8089/000000002000/6298506997017621594/1.m3u8
+NewTV怡伴健康,http://tvgslb.hn.chinamobile.com:8089/000000002000/7820874641606664941/1.m3u8
+NewTV精品体育,http://tvgslb.hn.chinamobile.com:8089/000000002000/6460382139625130259/1.m3u8
+NewTV潮妈辣婆,http://tvgslb.hn.chinamobile.com:8089/000000002000/6516734029835465177/1.m3u8
+NewTV精品萌宠,http://tvgslb.hn.chinamobile.com:8089/000000002000/1000000006000032328/1.m3u8
+NewTV炫舞未来,http://tvgslb.hn.chinamobile.com:8089/000000002000/1000000001000000515/1.m3u8
+NewTV武搏世界,http://tvgslb.hn.chinamobile.com:8089/000000002000/bokesen/1.m3u8
 
 
 移动(二),#genre#
